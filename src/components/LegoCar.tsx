@@ -10,13 +10,15 @@ interface LegoCarProps {
   position?: [number, number, number];
   rotationSpeed?: number;
   scale?: number;
+  isRotating?: boolean;
 }
 
 export default function LegoCar({ 
   modelUrl, 
   position = [0, -0.5, 0],
   rotationSpeed = 0.4,
-  scale = 8 // Increased scale to fill page
+  scale = 8,
+  isRotating = true
 }: LegoCarProps) {
   // Load the specific GLB file
   const { scene } = useGLTF(modelUrl);
@@ -25,11 +27,17 @@ export default function LegoCar({
   useFrame((state) => {
     if (!groupRef.current) return;
 
-    // Just continuous smooth rotation, no shattering
-    groupRef.current.rotation.y = state.clock.elapsedTime * rotationSpeed;
-    
-    // Slight bobbing effect for a cool hover feel
-    groupRef.current.position.y = position[1] + Math.sin(state.clock.elapsedTime * 2) * 0.2;
+    if (isRotating) {
+      // Continuous smooth rotation
+      groupRef.current.rotation.y = state.clock.elapsedTime * rotationSpeed;
+      // Slight bobbing effect
+      groupRef.current.position.y = position[1] + Math.sin(state.clock.elapsedTime * 2) * 0.2;
+    } else {
+      // Ensure it stays locked in its exact resting position and rotation
+      groupRef.current.position.set(...position);
+      // Give the resting cars a nice slight angle so we can see them well
+      groupRef.current.rotation.y = position[0] < 0 ? Math.PI / 6 : -Math.PI / 6;
+    }
   });
 
   return (
