@@ -94,16 +94,10 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
     // 1. Keep the car rotating continuously
     groupRef.current.rotation.y = state.clock.elapsedTime * 0.4;
 
-    // 2. Zoom in to the car on scroll
-    const startZ = 0;
-    const endZ = 6; // Move it much closer to the camera
-    
-    // Also move it down slightly so it stays centered while zooming
-    const startY = -0.5;
-    const endY = -1.5;
-
-    groupRef.current.position.y = THREE.MathUtils.lerp(startY, endY, offset);
-    groupRef.current.position.z = THREE.MathUtils.lerp(startZ, endZ, offset);
+    // We no longer zoom or move the base car group on scroll,
+    // so it stays perfectly in place and just shatters outward.
+    groupRef.current.position.y = -0.5;
+    groupRef.current.position.z = 0;
   });
 
   return (
