@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -40,9 +41,9 @@ export default function Footer() {
         <div className={styles.bottom}>
           <p className={styles.copyright}>&copy; 2026 Brick &amp; Throttle. All rights reserved.</p>
           <div className={styles.links}>
-            <a href="#" className={styles.link}>Privacy</a>
-            <a href="#" className={styles.link}>Terms</a>
-            <a href="#" className={styles.link}>Contact</a>
+            <Link href="/privacy" className={styles.link}>Privacy</Link>
+            <Link href="/terms" className={styles.link}>Terms</Link>
+            <Link href="/contact" className={styles.link}>Contact</Link>
           </div>
         </div>
       </div>
