@@ -1,0 +1,349 @@
+.pageContainer {
+  background-color: #0a0a0f;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  max-width: 900px;
+  width: 100%;
+  margin: 120px auto 60px;
+  padding: 0 24px;
+  flex: 1;
+}
+
+/* Hero Section */
+.heroSection {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 6px;
+  color: #8a8a9a;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 4px;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.accent {
+  width: 80px;
+  height: 3px;
+  background: #ff2d2d;
+  margin: 16px auto 24px;
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(255, 45, 45, 0.5), 0 0 30px rgba(255, 45, 45, 0.2);
+}
+
+.heroText {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  color: #8a8a9a;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Numbered Sections */
+.section {
+  margin-bottom: 70px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.sectionNumber {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  color: #ff2d2d;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.sectionTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.sectionBody p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: #9a9aaa;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.sectionBody em {
+  color: #ff2d2d;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Trust Badges Grid */
+.trustGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.trustCard {
+  background: rgba(18, 18, 26, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trustCard:hover {
+  border-color: rgba(255, 45, 45, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(255, 45, 45, 0.08);
+}
+
+.trustIcon {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.trustTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 0 10px;
+}
+
+.trustText {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: #7a7a8a;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.trustText strong {
+  color: #ff2d2d;
+}
+
+/* Shipping Grid */
+.shippingGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.shippingCard {
+  background: linear-gradient(135deg, rgba(255, 45, 45, 0.04) 0%, rgba(18, 18, 26, 0.6) 100%);
+  border: 1px solid rgba(255, 45, 45, 0.1);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.shippingLabel {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  color: #8a8a9a;
+  margin-bottom: 8px;
+}
+
+.shippingValue {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #ff2d2d;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(255, 45, 45, 0.3);
+}
+
+.shippingNote {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: #6a6a7a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* What's in the Box */
+.boxContents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.boxItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 18px 20px;
+  background: rgba(18, 18, 26, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.boxItem:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.boxCheck {
+  font-size: 1rem;
+  color: #00ff88;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.boxItem strong {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.boxItem p {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  color: #6a6a7a;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* FAQ */
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faqItem {
+  padding: 22px 24px;
+  background: rgba(18, 18, 26, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.faqItem:hover {
+  border-color: rgba(255, 45, 45, 0.15);
+}
+
+.faqQuestion {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.faqAnswer {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.88rem;
+  color: #7a7a8a;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.faqAnswer strong {
+  color: #ff2d2d;
+}
+
+/* CTA */
+.ctaSection {
+  text-align: center;
+  padding: 50px 30px;
+  background: linear-gradient(135deg, rgba(255, 45, 45, 0.06) 0%, rgba(18, 18, 26, 0.6) 100%);
+  border: 1px solid rgba(255, 45, 45, 0.12);
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.ctaTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin: 0 0 12px;
+}
+
+.ctaText {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.92rem;
+  color: #7a7a8a;
+  max-width: 500px;
+  margin: 0 auto 24px;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 14px 36px;
+  background: #ff2d2d;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 20px rgba(255, 45, 45, 0.3);
+}
+
+.ctaButton:hover {
+  background: #e02525;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 45, 45, 0.45);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .trustGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .shippingGrid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .mainContent {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .trustGrid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto 70px;
+  }
+}
