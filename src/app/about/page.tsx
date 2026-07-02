@@ -1,10 +1,19 @@
 'use client';
 
+import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import styles from './about.module.css';
 
 export default function AboutPage() {
+  const [showForm, setShowForm] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
   return (
     <div className={styles.pageContainer}>
       <Header />
@@ -224,9 +233,59 @@ export default function AboutPage() {
           <p className={styles.ctaText}>
             Our support team is here to help with orders, missing parts, build advice, and anything else you need.
           </p>
-          <a href="mailto:support@brickandthrottle.com" className={styles.ctaButton}>
-            CONTACT SUPPORT
-          </a>
+
+          {!showForm && !submitted && (
+            <button className={styles.ctaButton} onClick={() => setShowForm(true)}>
+              CONTACT SUPPORT
+            </button>
+          )}
+
+          {showForm && !submitted && (
+            <form className={styles.contactForm} onSubmit={handleSubmit}>
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel} htmlFor="contact-name">YOUR NAME</label>
+                <input
+                  id="contact-name"
+                  type="text"
+                  className={styles.formInput}
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel} htmlFor="contact-order">ORDER ID</label>
+                <input
+                  id="contact-order"
+                  type="text"
+                  className={styles.formInput}
+                  placeholder="e.g. #BT-20260703"
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label className={styles.formLabel} htmlFor="contact-message">EXPLAIN YOUR ISSUE</label>
+                <textarea
+                  id="contact-message"
+                  className={styles.formTextarea}
+                  placeholder="Describe what you need help with..."
+                  rows={5}
+                  required
+                />
+              </div>
+              <button type="submit" className={styles.ctaButton}>
+                SUBMIT REQUEST
+              </button>
+            </form>
+          )}
+
+          {submitted && (
+            <div className={styles.successMessage}>
+              <span className={styles.successIcon}>✓</span>
+              <p className={styles.successText}>
+                Thank you! Our pit crew has received your request and will get back to you within 24 hours.
+              </p>
+            </div>
+          )}
         </section>
       </main>
 
