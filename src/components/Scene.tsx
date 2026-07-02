@@ -13,7 +13,7 @@ export default function Scene({ scrollOffset }: SceneProps) {
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 0 }}>
       <Canvas
-        camera={{ position: [0, 2.5, 9.5], fov: 50 }}
+        camera={{ position: [0, 3.5, 14], fov: 40 }} // Zoomed out and repositioned to frame both cars cleanly
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: false }}
       >
@@ -34,13 +34,13 @@ export default function Scene({ scrollOffset }: SceneProps) {
         <spotLight position={[0, 8, 3]} angle={0.4} penumbra={1} intensity={2} color="#00ffff" />
 
         <Suspense fallback={null}>
-          <group position={[0, -0.4, 0]}>
+          <group position={[0, -0.2, 0]}>
             {/* 1. Pink Lamborghini Supercar (Background Left) */}
             <LegoCar 
               scrollOffset={scrollOffset} 
               carType="lamborghini" 
               emissiveColor="#ff33aa" 
-              position={[-1.8, 0.4, -1.8]} 
+              position={[-2.2, 0.4, -2.2]} // Moved slightly further left/back to fit camera view
             />
             
             {/* 2. Porsche 911 RSR Classic (Foreground Right) */}
@@ -48,7 +48,7 @@ export default function Scene({ scrollOffset }: SceneProps) {
               scrollOffset={scrollOffset} 
               carType="porsche" 
               emissiveColor="#ff2d2d" 
-              position={[1.6, -0.2, 1.2]} 
+              position={[2.0, -0.2, 1.2]} // Moved slightly further right/front for separation
             />
           </group>
         </Suspense>
