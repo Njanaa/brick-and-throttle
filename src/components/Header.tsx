@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -18,11 +19,22 @@ export default function Header() {
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
-        <a href="/" className={styles.logo}>BRICK &amp; THROTTLE</a>
+        <Link href="/" className={styles.logo}>
+          BRICK &amp; THROTTLE
+        </Link>
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>
-          <a href="#products" className={styles.navLink}>Shop</a>
-          <a href="#about" className={styles.navLink}>About</a>
-          <a href="#contact" className={styles.navLink}>Contact</a>
+          <Link href="/catalog" className={styles.navLink}>
+            Catalog
+          </Link>
+          <Link href="/#products" className={styles.navLink}>
+            Shop
+          </Link>
+          <Link href="/#about" className={styles.navLink}>
+            About
+          </Link>
+          <Link href="/#contact" className={styles.navLink}>
+            Contact
+          </Link>
         </nav>
         <button
           className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
