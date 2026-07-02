@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
 
       {/* 3D Scene - fixed behind everything */}
-      <Scene scrollOffset={scrollOffset} />
+      <Scene />
 
       {/* Scrollable content layered on top of the 3D canvas */}
       <div style={{ position: "relative", zIndex: 1, pointerEvents: "none" }}>
