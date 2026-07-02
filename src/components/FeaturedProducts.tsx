@@ -9,7 +9,7 @@ const products = [
     price: '$249.99',
     pieces: 1580,
     image: '/images/porsche-rsr.jpg',
-    variantId: 'YOUR_RSR_VARIANT_ID_HERE', // Replace with your actual Shopify Variant ID
+    variantId: '51939840950557', // Porsche 911 · Classic
     badge: 'BESTSELLER',
   },
   {
@@ -17,7 +17,7 @@ const products = [
     price: '$199.99',
     pieces: 1250,
     image: '/images/gulf-racing.jpg',
-    variantId: 'YOUR_GULF_VARIANT_ID_HERE', // Replace with your actual Shopify Variant ID
+    variantId: '51939839050013', // Porsche 911 · Gulf Blue
     badge: 'NEW',
   },
   {
@@ -25,7 +25,7 @@ const products = [
     price: '$279.99',
     pieces: 1890,
     image: '/images/turbo-s.jpg',
-    variantId: 'YOUR_TURBO_VARIANT_ID_HERE', // Replace with your actual Shopify Variant ID
+    variantId: '51939840819485', // Porsche cyber 911
   },
 ];
 
