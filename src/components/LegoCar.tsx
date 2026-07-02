@@ -1,17 +1,25 @@
 'use client';
 
-import { useRef, useMemo, useEffect } from 'react';
+import { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 
 interface LegoCarProps {
   scrollOffset: number;
+  modelUrl: string;
+  position?: [number, number, number];
+  rotationSpeed?: number;
 }
 
-export default function LegoCar({ scrollOffset }: LegoCarProps) {
-  // Load the user's uploaded GLB file
-  const { scene } = useGLTF('/models/reference-3D-911-BW.glb');
+export default function LegoCar({ 
+  scrollOffset, 
+  modelUrl, 
+  position = [0, -0.5, 0],
+  rotationSpeed = 0.4 
+}: LegoCarProps) {
+  // Load the specific GLB file
+  const { scene } = useGLTF(modelUrl);
   const groupRef = useRef<THREE.Group>(null!);
 
   // Collect all meshes and calculate an explosion target for each
@@ -92,21 +100,21 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
     });
 
     // 1. Keep the car rotating continuously
-    groupRef.current.rotation.y = state.clock.elapsedTime * 0.4;
+    groupRef.current.rotation.y = state.clock.elapsedTime * rotationSpeed;
 
-    // We no longer zoom or move the base car group on scroll,
-    // so it stays perfectly in place and just shatters outward.
-    groupRef.current.position.y = -0.5;
-    groupRef.current.position.z = 0;
+    // 2. Base position offset (no zooming or moving on scroll)
+    groupRef.current.position.set(...position);
   });
 
   return (
     <group ref={groupRef}>
-      {/* Set scale to 4.5 so it starts big, and it will zoom in further via position.z */}
-      <primitive object={parts.scene} scale={[4.5, 4.5, 4.5]} />
+      {/* Increased scale from 4.5 to 6 per user request */}
+      <primitive object={parts.scene} scale={[6, 6, 6]} />
     </group>
   );
 }
 
-// Preload the model so it loads faster
+// Preload the models
 useGLTF.preload('/models/reference-3D-911-BW.glb');
+useGLTF.preload('/models/3D-911-gulf.glb');
+useGLTF.preload('/models/3D-pink-lambo.glb');

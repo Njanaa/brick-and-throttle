@@ -13,7 +13,7 @@ export default function Scene({ scrollOffset }: SceneProps) {
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 0 }}>
       <Canvas
-        camera={{ position: [0, 2, 8], fov: 50 }}
+        camera={{ position: [0, 4, 25], fov: 45 }}
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: false }}
       >
@@ -27,7 +27,29 @@ export default function Scene({ scrollOffset }: SceneProps) {
         <directionalLight position={[5, 5, 5]} intensity={0.3} />
 
         <Suspense fallback={null}>
-          <LegoCar scrollOffset={scrollOffset} />
+          {/* Left: Gulf 911 */}
+          <LegoCar 
+            scrollOffset={scrollOffset} 
+            modelUrl="/models/3D-911-gulf.glb" 
+            position={[-14, -1, -5]} 
+            rotationSpeed={0.3}
+          />
+          
+          {/* Center: BW 911 */}
+          <LegoCar 
+            scrollOffset={scrollOffset} 
+            modelUrl="/models/reference-3D-911-BW.glb" 
+            position={[0, -1, 0]} 
+            rotationSpeed={0.4}
+          />
+
+          {/* Right: Pink Lambo */}
+          <LegoCar 
+            scrollOffset={scrollOffset} 
+            modelUrl="/models/3D-pink-lambo.glb" 
+            position={[14, -1, -5]} 
+            rotationSpeed={0.5}
+          />
         </Suspense>
 
         {/* Post-processing */}
