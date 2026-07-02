@@ -46,11 +46,11 @@ export default function Scene() {
 
         {/* Render the 3 huge cars staggered */}
         <Suspense fallback={null}>
-          {/* Left: Gulf 911 (Hovering above the floor, facing left) */}
+          {/* Left: Pink Lambo (Raised higher, facing the camera) */}
           <LegoCar 
-            modelUrl="/models/3D-911-gulf.glb" 
-            position={[-30, -1, -15]} 
-            rotation={[0, -Math.PI / 2, 0]}
+            modelUrl="/models/3D-pink-lambo.glb" 
+            position={[-30, 2, -15]} 
+            rotation={[0, 0, 0]} 
             scale={17}
             isRotating={false}
           />
@@ -64,11 +64,11 @@ export default function Scene() {
             isRotating={true}
           />
 
-          {/* Right: Pink Lambo (Hovering above the floor, turned all the way left) */}
+          {/* Right: Gulf 911 (Hovering above the floor, facing left) */}
           <LegoCar 
-            modelUrl="/models/3D-pink-lambo.glb" 
+            modelUrl="/models/3D-911-gulf.glb" 
             position={[30, -1, -15]} 
-            rotation={[0, Math.PI / 2, 0]}
+            rotation={[0, -Math.PI / 2, 0]}
             scale={17}
             isRotating={false}
           />

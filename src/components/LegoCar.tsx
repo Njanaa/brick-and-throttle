@@ -26,7 +26,7 @@ export default function LegoCar({
   const { scene } = useGLTF(modelUrl);
   const groupRef = useRef<THREE.Group>(null!);
 
-  // Enforce full opacity and vividness on the materials
+  // Enforce 95% opacity on the materials
   useMemo(() => {
     scene.traverse((child) => {
       if ((child as THREE.Mesh).isMesh) {
@@ -36,8 +36,8 @@ export default function LegoCar({
           const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
           materials.forEach((mat) => {
             if (mat instanceof THREE.MeshStandardMaterial || mat instanceof THREE.MeshPhysicalMaterial) {
-              mat.transparent = false;
-              mat.opacity = 1;
+              mat.transparent = true;
+              mat.opacity = 0.95;
               mat.needsUpdate = true;
             }
           });
