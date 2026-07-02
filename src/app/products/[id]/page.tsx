@@ -118,10 +118,11 @@ export default function ProductPage({ params }: ProductPageProps) {
               
               <a 
                 href={product.manualUrl} 
-                download="brick-and-throttle-manual.txt" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className={styles.downloadManualLink}
               >
-                DOWNLOAD USER MANUAL
+                VIEW ASSEMBLY GUIDE
               </a>
             </div>
 
