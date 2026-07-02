@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 100px;
+    background: repeating-conic-gradient(from 0deg, #FDD633 0deg 15deg, #FCE265 15deg 30deg);
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .card-wrapper {
+    position: relative;
+    width: 800px;
+  }
+  .card {
+    background-color: white;
+    border: 6px solid #111;
+    border-radius: 12px;
+    padding: 70px 50px 50px 50px;
+    box-shadow: 12px 12px 0px #e68a00;
+    position: relative;
+    z-index: 10;
+  }
+  .banner-container {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner {
+    background-color: #ffd700;
+    border: 5px solid #111;
+    border-radius: 40px;
+    padding: 15px 50px;
+    font-size: 42px;
+    font-weight: 900;
+    color: #e62e00;
+    white-space: nowrap;
+    text-align: center;
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.1);
+  }
+  .scroll-end {
+    width: 40px;
+    height: 40px;
+    background-color: #ffd700;
+    border: 5px solid #111;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+  .scroll-left {
+    left: -20px;
+  }
+  .scroll-right {
+    right: -20px;
+  }
+  
+  .content {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #222;
+  }
+  .item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #eee;
+  }
+  .item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .number {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  /* Cloud decor */
+  .cloud {
+    position: absolute;
+    background: white;
+    border: 5px solid #111;
+    border-radius: 50px;
+    z-index: 30;
+  }
+  .cloud::before, .cloud::after {
+    content: '';
+    position: absolute;
+    background: inherit;
+    border: 5px solid #111;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  /* Left cloud */
+  .cloud-left {
+    width: 120px;
+    height: 70px;
+    bottom: -40px;
+    left: -60px;
+  }
+  .cloud-left::before {
+    width: 70px; height: 70px; top: -35px; left: 15px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+  }
+  .cloud-left::after {
+    width: 50px; height: 50px; top: -20px; right: 15px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+  }
+  
+  /* Right cloud */
+  .cloud-right {
+    width: 130px;
+    height: 75px;
+    bottom: -50px;
+    right: -50px;
+  }
+  .cloud-right::before {
+    width: 80px; height: 80px; top: -40px; left: 20px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+  }
+  .cloud-right::after {
+    width: 60px; height: 60px; top: -15px; right: 10px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+  }
+  
+  /* Hack to cover inner cloud borders */
+  .cloud-cover {
+    position: absolute;
+    background: white;
+    border-radius: 40px;
+    z-index: 1;
+    top: 5px; bottom: 5px; left: 5px; right: 5px;
+  }
+</style>
+</head>
+<body>
+  <div class="card-wrapper">
+    <div class="banner-container">
+      <div class="scroll-end scroll-left"></div>
+      <div class="banner">Store Announcement</div>
+      <div class="scroll-end scroll-right"></div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <div class="item">
+          <span class="number">1.</span> Our company and the courier company are not the same entity, and the couriers are not under our control. Once our products are shipped, we cannot guarantee that the packaging box will be in perfect condition. We do not accept returns or exchanges for issues such as damaged color boxes. If you are buying this as a gift, you can contact customer service to have it packed in an extra reinforced cardboard box. Please do not place an order if you mind this.
+        </div>
+        <div class="item">
+          <span class="number">2. Courier Timeliness:</span> Our store cannot guarantee the delivery speed of the courier logistics. Please do not order if you need it urgently. Regarding delivery time, we can only provide an approximate estimate based on past experience. Please consult customer service for details.
+        </div>
+        <div class="item">
+          <span class="number">3.</span> Wholesale profits are low. Once a product is shipped out, any interceptions, returns, or exchanges that are not caused by product quality issues will be subject to a deduction of the outbound shipping fee. For returns, you will need to bear the return shipping cost yourself. (This also applies to items with free shipping.)
+        </div>
+        <div class="item">
+          <span class="number">4.</span> Titles with the words "Free Shipping" indicate free shipping nationwide except for remote areas (Xinjiang, Tibet, Inner Mongolia, Ningxia). Additional shipping fees are required for these remote areas. If you need to specify a particular courier, please contact customer service to pay the shipping cost difference.
+        </div>
+      </div>
+    </div>
+    
+    <div class="cloud cloud-left">
+      <div class="cloud-cover"></div>
+    </div>
+    <div class="cloud cloud-right">
+      <div class="cloud-cover"></div>
+    </div>
+  </div>
+</body>
+</html>

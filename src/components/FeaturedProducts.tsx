@@ -1,33 +1,8 @@
 'use client';
 
 import ProductCard from './ProductCard';
+import { products } from '@/data/products';
 import styles from './FeaturedProducts.module.css';
-
-const products = [
-  {
-    name: 'Porsche 911 RSR',
-    price: '$249.99',
-    pieces: 1580,
-    image: '/images/porsche-rsr.jpg',
-    variantId: '51939840950557', // Porsche 911 · Classic
-    badge: 'BESTSELLER',
-  },
-  {
-    name: 'Gulf Racing 911',
-    price: '$199.99',
-    pieces: 1250,
-    image: '/images/gulf-racing.jpg',
-    variantId: '51939839050013', // Porsche 911 · Gulf Blue
-    badge: 'NEW',
-  },
-  {
-    name: '911 Turbo S',
-    price: '$279.99',
-    pieces: 1890,
-    image: '/images/turbo-s.jpg',
-    variantId: '51939840819485', // Porsche cyber 911
-  },
-];
 
 export default function FeaturedProducts() {
   return (
@@ -37,7 +12,7 @@ export default function FeaturedProducts() {
       <p className={styles.subtitle}>Precision-engineered brick sets for true enthusiasts</p>
       <div className={styles.grid}>
         {products.map((product, index) => (
-          <ProductCard key={product.name} {...product} delay={index * 150} />
+          <ProductCard key={product.id} {...product} delay={index * 150} />
         ))}
       </div>
     </section>
