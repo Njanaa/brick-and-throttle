@@ -13,24 +13,47 @@ export default function Scene({ scrollOffset }: SceneProps) {
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 0 }}>
       <Canvas
-        camera={{ position: [0, 2, 8], fov: 50 }}
+        camera={{ position: [0, 2.5, 9.5], fov: 50 }}
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: false }}
       >
         <color attach="background" args={['#0a0a0f']} />
 
-        {/* Lighting */}
+        {/* Ambient & Directional Lighting */}
         <ambientLight intensity={0.15} />
-        <pointLight position={[-5, 3, -3]} color="#ff2d2d" intensity={2} distance={20} />
-        <pointLight position={[5, 3, 3]} color="#00ffff" intensity={1.5} distance={20} />
-        <spotLight position={[0, 10, 0]} angle={0.3} penumbra={1} intensity={1} />
-        <directionalLight position={[5, 5, 5]} intensity={0.3} />
+        <directionalLight position={[5, 10, 5]} intensity={0.4} />
+
+        {/* Cyberpunk Neon Lights */}
+        {/* Pink point light on the left side to illuminate the Pink Lamborghini */}
+        <pointLight position={[-6, 3, -2]} color="#ff33aa" intensity={2.5} distance={25} />
+        
+        {/* Red point light on the right side to illuminate the Porsche RSR */}
+        <pointLight position={[6, 2, 2]} color="#ff2d2d" intensity={2.5} distance={25} />
+        
+        {/* Cyan accent spotlight hitting from the center top */}
+        <spotLight position={[0, 8, 3]} angle={0.4} penumbra={1} intensity={2} color="#00ffff" />
 
         <Suspense fallback={null}>
-          <LegoCar scrollOffset={scrollOffset} />
+          <group position={[0, -0.4, 0]}>
+            {/* 1. Pink Lamborghini Supercar (Background Left) */}
+            <LegoCar 
+              scrollOffset={scrollOffset} 
+              carType="lamborghini" 
+              emissiveColor="#ff33aa" 
+              position={[-1.8, 0.4, -1.8]} 
+            />
+            
+            {/* 2. Porsche 911 RSR Classic (Foreground Right) */}
+            <LegoCar 
+              scrollOffset={scrollOffset} 
+              carType="porsche" 
+              emissiveColor="#ff2d2d" 
+              position={[1.6, -0.2, 1.2]} 
+            />
+          </group>
         </Suspense>
 
-        {/* Post-processing */}
+        {/* Post-processing Bloom */}
         <EffectComposer>
           <Bloom
             mipmapBlur

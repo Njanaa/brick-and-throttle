@@ -3,15 +3,26 @@
 import { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { generatePorsche911Bricks, BRICK_SIZE, BrickData } from '@/data/porsche911Shape';
+import { 
+  generatePorsche911Bricks, 
+  generateLamborghiniBricks, 
+  BRICK_SIZE, 
+  BrickData 
+} from '@/data/porsche911Shape';
 
 interface LegoCarProps {
   scrollOffset: number;
+  carType: 'porsche' | 'lamborghini';
+  emissiveColor: string;
+  position?: [number, number, number];
 }
 
-export default function LegoCar({ scrollOffset }: LegoCarProps) {
+export default function LegoCar({ scrollOffset, carType, emissiveColor, position = [0, 0, 0] }: LegoCarProps) {
   const { regularBricks, emissiveBricks } = useMemo(() => {
-    const allBricks = generatePorsche911Bricks();
+    const allBricks = carType === 'porsche' 
+      ? generatePorsche911Bricks() 
+      : generateLamborghiniBricks();
+      
     const regular: BrickData[] = [];
     const emissive: BrickData[] = [];
     for (const brick of allBricks) {
@@ -22,7 +33,7 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
       }
     }
     return { regularBricks: regular, emissiveBricks: emissive };
-  }, []);
+  }, [carType]);
 
   const groupRef = useRef<THREE.Group>(null!);
   const regularMeshRef = useRef<THREE.InstancedMesh>(null!);
@@ -31,7 +42,6 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
   const dummy = useMemo(() => new THREE.Object3D(), []);
   const tempColor = useMemo(() => new THREE.Color(), []);
 
-  // Set initial colors for regular bricks
   const regularColorsSet = useRef(false);
   const emissiveColorsSet = useRef(false);
 
@@ -65,7 +75,6 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
     const explodeStart = 0.15;
     const explodeEnd = 0.55;
 
-    // Calculate explode progress with easing
     const rawProgress = Math.max(0, Math.min(1, (offset - explodeStart) / (explodeEnd - explodeStart)));
     const easedProgress = Math.pow(rawProgress, 1.5);
 
@@ -118,7 +127,7 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
   });
 
   return (
-    <group ref={groupRef}>
+    <group ref={groupRef} position={position}>
       {/* Regular bricks */}
       {regularBricks.length > 0 && (
         <instancedMesh
@@ -140,7 +149,7 @@ export default function LegoCar({ scrollOffset }: LegoCarProps) {
           <boxGeometry args={[BRICK_SIZE.x, BRICK_SIZE.y, BRICK_SIZE.z]} />
           <meshStandardMaterial
             vertexColors
-            emissive="#ff2d2d"
+            emissive={emissiveColor}
             emissiveIntensity={2.5}
             toneMapped={false}
             roughness={0.2}
