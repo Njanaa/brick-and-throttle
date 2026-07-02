@@ -1,0 +1,192 @@
+.wrapper {
+  pointer-events: none;
+  width: 100%;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  pointer-events: auto;
+}
+
+.heroContent {
+  text-align: center;
+  z-index: 10;
+}
+
+.tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 6px;
+  color: #8a8a9a;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.05;
+  margin: 0;
+  text-shadow: 0 0 40px rgba(255, 45, 45, 0.4), 0 0 80px rgba(255, 45, 45, 0.2);
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.titleLine {
+  display: block;
+}
+
+.subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
+  color: #00ffff;
+  letter-spacing: 8px;
+  margin-top: 16px;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 40px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ff2d2d;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.cta:hover {
+  background: #ff2d2d;
+  box-shadow: 0 0 30px rgba(255, 45, 45, 0.5), 0 0 60px rgba(255, 45, 45, 0.2);
+  transform: scale(1.05);
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: fadeInUp 1s ease 1.5s both;
+}
+
+.scrollText {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 4px;
+  color: #8a8a9a;
+}
+
+.scrollArrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.scrollArrow span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid #ff2d2d;
+  border-bottom: 2px solid #ff2d2d;
+  transform: rotate(45deg);
+  opacity: 0.6;
+}
+
+.scrollArrow span:last-child {
+  opacity: 0.3;
+}
+
+/* Story Section */
+.storySection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150vh; /* Positioned at ~250vh scroll */
+}
+
+.storyText {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.storyText span {
+  display: block;
+  animation: fadeInUp 0.8s ease both;
+}
+
+.storyText span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.highlight {
+  color: #ff2d2d;
+  text-shadow: 0 0 30px rgba(255, 45, 45, 0.5);
+  animation-delay: 0.4s !important;
+}
+
+/* Animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 40px rgba(255, 45, 45, 0.4), 0 0 80px rgba(255, 45, 45, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 60px rgba(255, 45, 45, 0.6), 0 0 120px rgba(255, 45, 45, 0.3);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 0.6rem;
+    letter-spacing: 4px;
+  }
+  .subtitle {
+    letter-spacing: 4px;
+  }
+  .cta {
+    padding: 14px 30px;
+    font-size: 0.75rem;
+  }
+}
