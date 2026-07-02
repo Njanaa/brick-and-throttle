@@ -46,11 +46,11 @@ export default function Scene() {
 
         {/* Render the 3 huge cars staggered */}
         <Suspense fallback={null}>
-          {/* Left: Pink Lambo (Raised higher, facing the camera) */}
+          {/* Left: Pink Lambo (Raised higher, facing right) */}
           <LegoCar 
             modelUrl="/models/3D-pink-lambo.glb" 
             position={[-30, 2, -15]} 
-            rotation={[0, 0, 0]} 
+            rotation={[0, Math.PI / 2, 0]} 
             scale={17}
             isRotating={false}
           />
