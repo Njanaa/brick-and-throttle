@@ -1,69 +1,97 @@
 'use client';
 
-import { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { EffectComposer, Bloom } from '@react-three/postprocessing';
-import LegoCar from './LegoCar';
+import { useRef, useEffect } from 'react';
 
 interface SceneProps {
   scrollOffset: number;
 }
 
 export default function Scene({ scrollOffset }: SceneProps) {
+  const imageRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!imageRef.current || !containerRef.current) return;
+
+    // Scroll-driven parallax: zoom in + slight upward drift + fade out
+    const zoomStart = 0.0;
+    const zoomEnd = 0.5;
+    const progress = Math.max(0, Math.min(1, (scrollOffset - zoomStart) / (zoomEnd - zoomStart)));
+
+    // Scale from 1.0 to 1.4 as user scrolls
+    const scale = 1 + progress * 0.4;
+    // Slight upward drift
+    const translateY = -progress * 15;
+    // Fade out as user scrolls past
+    const opacity = 1 - Math.pow(progress, 2);
+
+    imageRef.current.style.transform = `scale(${scale}) translateY(${translateY}%)`;
+    imageRef.current.style.opacity = `${opacity}`;
+
+    // Vignette intensifies on scroll
+    containerRef.current.style.background = `
+      radial-gradient(
+        ellipse at 50% 60%,
+        transparent ${40 - progress * 20}%,
+        rgba(10, 10, 15, ${0.4 + progress * 0.5}) 70%,
+        rgba(10, 10, 15, 1) 100%
+      )
+    `;
+  }, [scrollOffset]);
+
   return (
-    <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 0 }}>
-      <Canvas
-        camera={{ position: [0, 3.5, 14], fov: 40 }} // Zoomed out and repositioned to frame both cars cleanly
-        dpr={[1, 2]}
-        gl={{ antialias: true, alpha: false }}
-      >
-        <color attach="background" args={['#0a0a0f']} />
+    <div
+      style={{
+        width: '100vw',
+        height: '100vh',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        zIndex: 0,
+        overflow: 'hidden',
+        backgroundColor: '#0a0a0f',
+      }}
+    >
+      {/* Real product image */}
+      <div
+        ref={imageRef}
+        style={{
+          width: '100%',
+          height: '100%',
+          backgroundImage: 'url(/images/hero-cars.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center 55%',
+          backgroundRepeat: 'no-repeat',
+          transformOrigin: 'center center',
+          willChange: 'transform, opacity',
+          transition: 'transform 0.05s linear',
+        }}
+      />
 
-        {/* Ambient & Directional Lighting */}
-        <ambientLight intensity={0.15} />
-        <directionalLight position={[5, 10, 5]} intensity={0.4} />
+      {/* Cinematic vignette overlay */}
+      <div
+        ref={containerRef}
+        style={{
+          position: 'absolute',
+          inset: 0,
+          pointerEvents: 'none',
+          zIndex: 1,
+        }}
+      />
 
-        {/* Cyberpunk Neon Lights */}
-        {/* Pink point light on the left side to illuminate the Pink Lamborghini */}
-        <pointLight position={[-6, 3, -2]} color="#ff33aa" intensity={2.5} distance={25} />
-        
-        {/* Red point light on the right side to illuminate the Porsche RSR */}
-        <pointLight position={[6, 2, 2]} color="#ff2d2d" intensity={2.5} distance={25} />
-        
-        {/* Cyan accent spotlight hitting from the center top */}
-        <spotLight position={[0, 8, 3]} angle={0.4} penumbra={1} intensity={2} color="#00ffff" />
-
-        <Suspense fallback={null}>
-          <group position={[0, -0.2, 0]}>
-            {/* 1. Pink Lamborghini Supercar (Background Left) */}
-            <LegoCar 
-              scrollOffset={scrollOffset} 
-              carType="lamborghini" 
-              emissiveColor="#ff33aa" 
-              position={[-2.2, 0.4, -2.2]} // Moved slightly further left/back to fit camera view
-            />
-            
-            {/* 2. Porsche 911 RSR Classic (Foreground Right) */}
-            <LegoCar 
-              scrollOffset={scrollOffset} 
-              carType="porsche" 
-              emissiveColor="#ff2d2d" 
-              position={[2.0, -0.2, 1.2]} // Moved slightly further right/front for separation
-            />
-          </group>
-        </Suspense>
-
-        {/* Post-processing Bloom */}
-        <EffectComposer>
-          <Bloom
-            mipmapBlur
-            luminanceThreshold={1}
-            luminanceSmoothing={0.3}
-            intensity={1.5}
-            radius={0.8}
-          />
-        </EffectComposer>
-      </Canvas>
+      {/* Bottom gradient fade to page background */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          height: '30%',
+          background: 'linear-gradient(to top, #0a0a0f 0%, transparent 100%)',
+          pointerEvents: 'none',
+          zIndex: 2,
+        }}
+      />
     </div>
   );
 }
