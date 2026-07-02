@@ -8,6 +8,7 @@ import * as THREE from 'three';
 interface LegoCarProps {
   modelUrl: string;
   position?: [number, number, number];
+  rotation?: [number, number, number];
   rotationSpeed?: number;
   scale?: number;
   isRotating?: boolean;
@@ -16,6 +17,7 @@ interface LegoCarProps {
 export default function LegoCar({ 
   modelUrl, 
   position = [0, -0.5, 0],
+  rotation = [0, 0, 0],
   rotationSpeed = 0.4,
   scale = 8,
   isRotating = true
@@ -35,13 +37,12 @@ export default function LegoCar({
     } else {
       // Ensure it stays locked in its exact resting position and rotation
       groupRef.current.position.set(...position);
-      // Give the resting cars a nice slight angle so we can see them well
-      groupRef.current.rotation.y = position[0] < 0 ? Math.PI / 6 : -Math.PI / 6;
+      groupRef.current.rotation.set(...rotation);
     }
   });
 
   return (
-    <group ref={groupRef} position={position}>
+    <group ref={groupRef}>
       <primitive object={scene} scale={[scale, scale, scale]} />
     </group>
   );
