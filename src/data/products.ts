@@ -42,7 +42,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "8 - 10 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "gulf-racing-911",
@@ -69,7 +69,7 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "6 - 8 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "911-turbo-s",
@@ -96,7 +96,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "12 - 15 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "cyber-v12-silver",
@@ -123,7 +123,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "14 - 16 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "cyber-v12-gold",
@@ -150,7 +150,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "14 - 16 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "blue-bolide",
@@ -176,7 +176,7 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "5 - 7 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "green-bull-hypercar",
@@ -203,7 +203,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "10 - 12 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "black-warrior-v12",
@@ -229,7 +229,7 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "11 - 13 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "pink-bull-edition",
@@ -255,7 +255,7 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "9 - 11 hours",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   },
   {
     id: "acrylic-display-box",
@@ -281,7 +281,7 @@ export const products: Product[] = [
     ],
     difficulty: "Medium",
     estimatedBuildTime: "15 minutes",
-    manualUrl: "/manuals/assembly-guide.html"
+    manualUrl: "/manuals/assembly-guide.txt"
   }
 ];
 
