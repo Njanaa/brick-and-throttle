@@ -8,11 +8,12 @@ interface ProductCardProps {
   price: string;
   pieces: number;
   image: string;
+  variantId: string;
   badge?: string;
   delay?: number;
 }
 
-export default function ProductCard({ name, price, pieces, image, badge, delay = 0 }: ProductCardProps) {
+export default function ProductCard({ name, price, pieces, image, variantId, badge, delay = 0 }: ProductCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
@@ -34,6 +35,12 @@ export default function ProductCard({ name, price, pieces, image, badge, delay =
     return () => observer.disconnect();
   }, [delay]);
 
+  const handleAddToCart = () => {
+    // Redirects directly to Shopify checkout with 1 unit of this variant
+    const checkoutUrl = `https://brick-and-throttle.myshopify.com/cart/${variantId}:1`;
+    window.open(checkoutUrl, '_blank');
+  };
+
   return (
     <div
       ref={cardRef}
@@ -47,7 +54,9 @@ export default function ProductCard({ name, price, pieces, image, badge, delay =
         <h3 className={styles.name}>{name}</h3>
         <p className={styles.pieces}>{pieces.toLocaleString()} pieces</p>
         <p className={styles.price}>{price}</p>
-        <button className={styles.addToCart}>ADD TO CART</button>
+        <button className={styles.addToCart} onClick={handleAddToCart}>
+          ADD TO CART
+        </button>
       </div>
     </div>
   );
