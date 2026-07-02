@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
@@ -25,6 +25,26 @@ export default function LegoCar({
   // Load the specific GLB file
   const { scene } = useGLTF(modelUrl);
   const groupRef = useRef<THREE.Group>(null!);
+
+  // Enforce full opacity and vividness on the materials
+  useMemo(() => {
+    scene.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        const mesh = child as THREE.Mesh;
+        if (mesh.material) {
+          // If it's an array of materials, handle all of them
+          const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+          materials.forEach((mat) => {
+            if (mat instanceof THREE.MeshStandardMaterial || mat instanceof THREE.MeshPhysicalMaterial) {
+              mat.transparent = false;
+              mat.opacity = 1;
+              mat.needsUpdate = true;
+            }
+          });
+        }
+      }
+    });
+  }, [scene]);
 
   useFrame((state) => {
     if (!groupRef.current) return;
