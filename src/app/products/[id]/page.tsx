@@ -1,6 +1,6 @@
 'use client';
 
-import { use } from 'react';
+import { use, useState } from 'react';
 import Link from 'next/link';
 import { getProductById } from '@/data/products';
 import Header from '@/components/Header';
@@ -14,6 +14,9 @@ interface ProductPageProps {
 export default function ProductPage({ params }: ProductPageProps) {
   const resolvedParams = use(params);
   const product = getProductById(resolvedParams.id);
+  
+  // Track selected image in gallery
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   if (!product) {
     return (
@@ -45,22 +48,48 @@ export default function ProductPage({ params }: ProductPageProps) {
         <div className={styles.breadcrumbs}>
           <Link href="/" className={styles.breadcrumbLink}>Garage</Link>
           <span className={styles.separator}>/</span>
+          <Link href="/catalog" className={styles.breadcrumbLink}>Catalog</Link>
+          <span className={styles.separator}>/</span>
           <span className={styles.currentBreadcrumb}>{product.name}</span>
         </div>
 
         {/* Dynamic Split Layout */}
         <div className={styles.productLayout}>
           
-          {/* Left Column: Image Showcase */}
+          {/* Left Column: Image Showcase & Gallery */}
           <div className={styles.galleryColumn}>
             <div className={styles.mainImageContainer}>
               {product.badge && <span className={styles.badge}>{product.badge}</span>}
-              <img src={product.image} alt={product.name} className={styles.mainImage} />
+              
+              {/* Main active image - dynamically class-transformed depending on active thumbnail */}
+              <div className={`${styles.imageWrapper} ${styles[`angle${activeImageIndex}`]}`}>
+                <img src={product.image} alt={product.name} className={styles.mainImage} />
+              </div>
             </div>
-            <div className={styles.techNote}>
-              <span className={styles.pulseIcon}></span>
-              <span>COMPATIBLE WITH RC MOTOR UPGRADES</span>
+            
+            {/* Gallery Thumbnails (4 angles simulated via CSS zooms/perspectives) */}
+            <div className={styles.thumbnailRow}>
+              {product.gallery.map((imgSrc, idx) => (
+                <button
+                  key={idx}
+                  className={`${styles.thumbnailButton} ${activeImageIndex === idx ? styles.activeThumbnail : ''}`}
+                  onClick={() => setActiveImageIndex(idx)}
+                  aria-label={`View angle ${idx + 1}`}
+                >
+                  <div className={`${styles.thumbnailWrapper} ${styles[`angleThumb${idx}`]}`}>
+                    <img src={imgSrc} alt={`${product.name} angle ${idx + 1}`} className={styles.thumbnailImage} />
+                  </div>
+                  <span className={styles.angleLabel}>ANGLE {idx + 1}</span>
+                </button>
+              ))}
             </div>
+
+            {product.id !== 'acrylic-display-box' && (
+              <div className={styles.techNote}>
+                <span className={styles.pulseIcon}></span>
+                <span>INTEGRATED RC MOTOR KIT INCLUDED IN BOX</span>
+              </div>
+            )}
           </div>
 
           {/* Right Column: Specs & Checkout */}
@@ -76,15 +105,25 @@ export default function ProductPage({ params }: ProductPageProps) {
             </div>
 
             <div className={styles.priceContainer}>
-              <span className={styles.priceLabel}>PRICE</span>
+              <span className={styles.priceLabel}>PRICE (INCLUDES FULL RC KIT)</span>
               <span className={styles.priceValue}>{product.price}</span>
             </div>
 
             <p className={styles.description}>{product.description}</p>
 
-            <button className={styles.buyNowButton} onClick={handleBuyNow}>
-              BUY NOW &bull; CHECKOUT
-            </button>
+            <div className={styles.buttonActionRow}>
+              <button className={styles.buyNowButton} onClick={handleBuyNow}>
+                BUY NOW &bull; CHECKOUT
+              </button>
+              
+              <a 
+                href={product.manualUrl} 
+                download="brick-and-throttle-manual.txt" 
+                className={styles.downloadManualLink}
+              >
+                DOWNLOAD USER MANUAL
+              </a>
+            </div>
 
             {/* Quick Specs Grid */}
             <div className={styles.specsGrid}>
@@ -104,7 +143,13 @@ export default function ProductPage({ params }: ProductPageProps) {
                 <span className={styles.specLabel}>BUILD TIME</span>
                 <span className={styles.specValueDetail}>{product.estimatedBuildTime}</span>
               </div>
-              <div className={styles.specBoxFull}>
+              <div className={styles.specBox}>
+                <span className={styles.specLabel}>RC MOTOR KIT</span>
+                <span className={`${styles.specValueDetail} ${styles.highlightCyan}`}>
+                  {product.id === 'acrylic-display-box' ? 'N/A' : 'INCLUDED'}
+                </span>
+              </div>
+              <div className={styles.specBox}>
                 <span className={styles.specLabel}>MODEL DIMENSIONS</span>
                 <span className={styles.specValueDetail}>{product.dimensions}</span>
               </div>

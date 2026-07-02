@@ -68,15 +68,37 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
 .mainImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
 }
 
-.mainImageContainer:hover .mainImage {
-  transform: scale(1.03);
+/* CSS simulated alternate angles */
+.angle0 {
+  transform: scale(1);
+}
+
+.angle1 {
+  /* Zoomed view on cockpit/engine details */
+  transform: scale(1.6) translate(-5%, -5%);
+}
+
+.angle2 {
+  /* Close-up on front suspension/wheels */
+  transform: scale(1.8) translate(10%, 10%);
+}
+
+.angle3 {
+  /* Profile/side crop */
+  transform: scale(1.4) translate(-10%, 5%);
 }
 
 .badge {
@@ -93,6 +115,70 @@
   border-radius: 6px;
   box-shadow: 0 0 20px rgba(255, 45, 45, 0.5);
   z-index: 10;
+}
+
+/* Gallery Thumbnails */
+.thumbnailRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.thumbnailButton {
+  background: rgba(18, 18, 26, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.thumbnailButton:hover {
+  border-color: rgba(255, 45, 45, 0.4);
+  background: rgba(18, 18, 26, 0.8);
+}
+
+.activeThumbnail {
+  border-color: #ff2d2d;
+  box-shadow: 0 0 15px rgba(255, 45, 45, 0.2);
+  background: rgba(18, 18, 26, 0.9);
+}
+
+.thumbnailWrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* CSS thumb previews */
+.angleThumb0 .thumbnailImage { transform: scale(1); }
+.angleThumb1 .thumbnailImage { transform: scale(1.6) translate(-5%, -5%); }
+.angleThumb2 .thumbnailImage { transform: scale(1.8) translate(10%, 10%); }
+.angleThumb3 .thumbnailImage { transform: scale(1.4) translate(-10%, 5%); }
+
+.angleLabel {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8a8a9a;
+}
+
+.activeThumbnail .angleLabel {
+  color: #ff2d2d;
 }
 
 .techNote {
@@ -178,6 +264,14 @@
   margin-bottom: 30px;
 }
 
+/* Button & Action Row */
+.buttonActionRow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
 .buyNowButton {
   width: 100%;
   padding: 18px;
@@ -192,13 +286,35 @@
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 20px rgba(255, 45, 45, 0.2);
-  margin-bottom: 40px;
 }
 
 .buyNowButton:hover {
   transform: translateY(-2px);
   box-shadow: 0 0 30px rgba(255, 45, 45, 0.5), 0 0 60px rgba(255, 45, 45, 0.2);
   filter: brightness(1.1);
+}
+
+.downloadManualLink {
+  width: 100%;
+  padding: 14px;
+  background: transparent;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 8px;
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.downloadManualLink:hover {
+  background: rgba(0, 255, 255, 0.08);
+  border-color: #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 /* Specs Grid */
@@ -209,17 +325,6 @@
 }
 
 .specBox {
-  background: rgba(18, 18, 26, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.specBoxFull {
-  grid-column: span 2;
   background: rgba(18, 18, 26, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 12px;
@@ -242,6 +347,11 @@
   font-size: 1.05rem;
   font-weight: 700;
   color: #ffffff;
+}
+
+.highlightCyan {
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
 
 /* Product Engineering Features Section */
@@ -386,9 +496,6 @@
 @media (max-width: 576px) {
   .specsGrid {
     grid-template-columns: 1fr;
-  }
-  .specBoxFull {
-    grid-column: span 1;
   }
   .featuresSection {
     padding: 24px;

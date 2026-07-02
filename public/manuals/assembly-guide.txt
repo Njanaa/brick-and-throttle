@@ -1,0 +1,63 @@
+========================================================================
+                      BRICK & THROTTLE ASSEMBLY MANUAL
+========================================================================
+Congratulations on purchasing your premium high-performance racing kit!
+
+This kit includes the full standard block assembly set PLUS the 
+integrated high-speed RC (Remote Control) motorization upgrade.
+
+------------------------------------------------------------------------
+SECTION 1: UNBOXING & INVENTORY
+------------------------------------------------------------------------
+1. Verify all parts bags (Numbered 1-12) are present.
+2. Check the RC Power kit box, which includes:
+   - 1x Rechargeable Lithium Smart Battery Box
+   - 1x 2.4GHz Wireless Remote Controller
+   - 2x High-Torque L-Motors (for driving)
+   - 1x Servo Motor (for steering)
+   - 1x USB Charging Cable
+3. Prepare a clean, wide workspace with containers to separate pins 
+   and gears.
+
+------------------------------------------------------------------------
+SECTION 2: CHASSIS & RC INTEGRATION
+------------------------------------------------------------------------
+*IMPORTANT: The RC motors must be built directly INTO the chassis during 
+Steps 12-45. Do not finish the model before inserting the motors.*
+
+1. Begin build with the central differential axle.
+2. Mount the steering Servo Motor in the front compartment, linking 
+   the gear drive to the steering rack.
+3. Place the dual L-Motors in the rear engine bay, connecting them to 
+   the rear differential gear system.
+4. Route power cables along the guide channels toward the center of 
+   the chassis.
+5. Install the Smart Battery Box in the cockpit area where it will be 
+   protected yet accessible for charging.
+
+------------------------------------------------------------------------
+SECTION 3: PAIRING & TESTING
+------------------------------------------------------------------------
+Before mounting the body panels, test the electronics:
+1. Turn on the Smart Battery Box (green indicator light turns on).
+2. Switch on the 2.4GHz remote controller.
+3. Test steering (left/right on left joystick).
+4. Test drive (forward/backward on right joystick).
+5. If movement is reversed, flip the toggle switch on the battery box.
+
+------------------------------------------------------------------------
+SECTION 4: BODY PANELS & RACING AESTHETICS
+------------------------------------------------------------------------
+1. Build and snap-fit the side panels and doors.
+2. Attach the front splitter and hood cover.
+3. Complete the build with the rear wing assembly.
+4. Apply decals precisely using tweezers.
+
+------------------------------------------------------------------------
+SUPPORT & UPGRADES
+------------------------------------------------------------------------
+For video assembly tutorials or technical support, contact the pit crew 
+at support@brickandthrottle.com.
+
+Build. Race. Repeat.
+========================================================================
