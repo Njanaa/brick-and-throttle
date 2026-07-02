@@ -5,6 +5,7 @@ import { Canvas } from '@react-three/fiber';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
 import { Sparkles, Grid, Float } from '@react-three/drei';
 import LegoCar from './LegoCar';
+import Comets from './Comets';
 
 export default function Scene() {
   return (
@@ -46,11 +47,13 @@ export default function Scene() {
 
         {/* Render the 3 huge cars staggered */}
         <Suspense fallback={null}>
-          {/* Left: Pink Lambo (Raised higher, facing right) */}
+          <Comets count={25} />
+          
+          {/* Left: Pink Lambo (Raised higher, turned further left, moved forward) */}
           <LegoCar 
             modelUrl="/models/3D-pink-lambo.glb" 
-            position={[-30, 2, -15]} 
-            rotation={[0, Math.PI / 2, 0]} 
+            position={[-30, 2, 5]} 
+            rotation={[0, -Math.PI * 0.69, 0]} 
             scale={17}
             isRotating={false}
           />
@@ -64,11 +67,11 @@ export default function Scene() {
             isRotating={true}
           />
 
-          {/* Right: Gulf 911 (Hovering above the floor, facing left) */}
+          {/* Right: Gulf 911 (Hovering above the floor, turned 30deg right, moved forward) */}
           <LegoCar 
             modelUrl="/models/3D-911-gulf.glb" 
-            position={[30, -1, -15]} 
-            rotation={[0, -Math.PI / 2, 0]}
+            position={[30, -1, 5]} 
+            rotation={[0, -Math.PI * 0.33, 0]}
             scale={17}
             isRotating={false}
           />
