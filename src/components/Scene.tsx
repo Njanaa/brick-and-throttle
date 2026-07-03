@@ -7,7 +7,26 @@ import { Sparkles, Float, Environment } from '@react-three/drei';
 import LegoCar from './LegoCar';
 import Comets from './Comets';
 
-export default function Scene() {
+import { useFrame } from '@react-three/fiber';
+import * as THREE from 'three';
+
+function CameraRig({ scrollOffset }: { scrollOffset: number }) {
+  useFrame((state) => {
+    // When scrollOffset is 0, z is 55, y is 8.
+    // When scrollOffset is 1, z is 20, y is 2.
+    // However, the hero section is only a fraction of the total scroll height,
+    // so we can multiply scrollOffset to zoom in faster.
+    const normalizedScroll = Math.min(scrollOffset * 2, 1);
+    const targetZ = THREE.MathUtils.lerp(55, 20, normalizedScroll);
+    const targetY = THREE.MathUtils.lerp(8, 2, normalizedScroll);
+    
+    state.camera.position.lerp(new THREE.Vector3(0, targetY, targetZ), 0.1);
+    state.camera.lookAt(0, 0, 0);
+  });
+  return null;
+}
+
+export default function Scene({ scrollOffset = 0 }: { scrollOffset?: number }) {
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 0 }}>
       <Canvas
@@ -15,6 +34,7 @@ export default function Scene() {
         dpr={[1, 2]}
         gl={{ antialias: true, alpha: false }}
       >
+        <CameraRig scrollOffset={scrollOffset} />
         <color attach="background" args={['#0a0a0f']} />
         
         {/* Fog to blend the grid into the distance */}
