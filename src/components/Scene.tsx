@@ -49,7 +49,8 @@ export default function Scene() {
           />
         </Suspense>
 
-        {/* Post-processing - Intense Neon Glow */}
+        {/* Post-processing disabled temporarily to fix crash */}
+        {/*
         <EffectComposer>
           <Bloom
             mipmapBlur
@@ -59,6 +60,7 @@ export default function Scene() {
             radius={0.8}
           />
         </EffectComposer>
+        */}
       </Canvas>
     </div>
   );
