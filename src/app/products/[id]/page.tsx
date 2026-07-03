@@ -234,6 +234,12 @@ export default function ProductPage({ params }: ProductPageProps) {
                       <label>Review</label>
                       <textarea required placeholder="What did you think of this build?" rows={4}></textarea>
                     </div>
+                    <div className={styles.formGroup}>
+                      <label>Attach Photo/Video (Optional)</label>
+                      <div className={styles.fileUploadWrapper}>
+                        <input type="file" accept="image/*,video/*" className={styles.fileInput} />
+                      </div>
+                    </div>
                     <button type="submit" className={styles.submitReviewButton}>SUBMIT REVIEW</button>
                   </form>
                 )}
