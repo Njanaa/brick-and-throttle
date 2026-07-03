@@ -59,6 +59,24 @@ export const products: Product[] = [
         date: "October 12, 2025",
         text: "Absolutely stunning replica. The RC motors are surprisingly torquey and the steering is very responsive. Took me about 9 hours to complete.",
         reviewImage: "/images/reviews/rev_porsche_1.jpg"
+      },
+      {
+        authorName: "Greg P.",
+        rating: 5,
+        date: "January 8, 2026",
+        text: "For the price, you cannot beat this. The clutch mechanism is a bit tight during assembly, but if you follow the manual closely it works perfectly. Highly recommend!"
+      },
+      {
+        authorName: "Samuel H.",
+        rating: 4,
+        date: "February 22, 2026",
+        text: "Great build! I was missing one small black pin, but I had spares from old sets so it wasn't a big deal. Looks amazing on the shelf."
+      },
+      {
+        authorName: "Derek L.",
+        rating: 5,
+        date: "April 15, 2026",
+        text: "The independent suspension works exactly like the real thing. Putting together the boxer engine was extremely satisfying."
       }
     ]
   },
@@ -102,6 +120,25 @@ export const products: Product[] = [
         date: "August 22, 2025",
         text: "Great build! The colors are vibrant. The only issue was the rear spoiler took a bit of adjusting to sit perfectly flat.",
         reviewImage: "/images/reviews/rev_gulf_3.jpg"
+      },
+      {
+        authorName: "Andrew B.",
+        rating: 5,
+        date: "December 11, 2025",
+        text: "Honestly better than expected. The orange and blue contrast is spot on. RC motor is decent for indoor driving.",
+        reviewImage: "/images/reviews/rev_gulf_2.jpg"
+      },
+      {
+        authorName: "Tim W.",
+        rating: 5,
+        date: "March 5, 2026",
+        text: "Bought this as a gift for my teenage son and he spent the whole weekend building it. He loves the working steering."
+      },
+      {
+        authorName: "Chris N.",
+        rating: 4,
+        date: "May 19, 2026",
+        text: "Awesome set. Box arrived a little dented from shipping but the bags inside were totally fine."
       }
     ]
   },
@@ -138,6 +175,24 @@ export const products: Product[] = [
         date: "November 2, 2025",
         text: "The gold accents on this black body are gorgeous. The gearbox is complex but works flawlessly if you take your time.",
         reviewImage: "/images/reviews/rev_porsche_1.jpg"
+      },
+      {
+        authorName: "Steven C.",
+        rating: 5,
+        date: "January 28, 2026",
+        text: "This is a massive set. Took me almost 15 hours. The active aero wing mechanism is genius."
+      },
+      {
+        authorName: "Marcus G.",
+        rating: 4,
+        date: "April 3, 2026",
+        text: "Loved the build. The instructions are very dense in some steps, so you really have to pay attention to where the pins go. End result is totally worth it."
+      },
+      {
+        authorName: "Jonathan E.",
+        rating: 5,
+        date: "June 14, 2026",
+        text: "The best 1:8 scale car I've built so far. The metallic rims make it pop!"
       }
     ]
   },
@@ -174,6 +229,24 @@ export const products: Product[] = [
         date: "January 14, 2026",
         text: "A truly massive set! The cyber details look awesome in low light, and the scissor doors mechanism is very well engineered.",
         reviewImage: "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        authorName: "Paul M.",
+        rating: 5,
+        date: "March 9, 2026",
+        text: "My fingers hurt but it was worth every minute. The V12 engine block with moving pistons is incredible to watch when the RC motor runs."
+      },
+      {
+        authorName: "Aaron T.",
+        rating: 4,
+        date: "April 25, 2026",
+        text: "Beautiful display model. The suspension is extremely stiff which makes it great for driving around the living room without sagging."
+      },
+      {
+        authorName: "Leo S.",
+        rating: 5,
+        date: "July 1, 2026",
+        text: "Fast shipping to the US (about 8 days). Everything was organized in numbered bags. Flawless experience."
       }
     ]
   },
@@ -209,6 +282,18 @@ export const products: Product[] = [
         rating: 5,
         date: "December 5, 2025",
         text: "Bought this for my husband and he loved it. The gold chrome bricks are very high quality, no scratches out of the box."
+      },
+      {
+        authorName: "Rich V.",
+        rating: 5,
+        date: "February 12, 2026",
+        text: "Usually gold bricks look cheap but these actually look premium. The neon purple contrasts perfectly."
+      },
+      {
+        authorName: "Nathan P.",
+        rating: 4,
+        date: "May 8, 2026",
+        text: "Incredible model. Was a bit challenging around the rear gearbox assembly, just make sure the gears aren't pressed too tight against each other!"
       }
     ]
   },
@@ -244,6 +329,18 @@ export const products: Product[] = [
         date: "February 18, 2026",
         text: "Fun weekend project. The W16 engine is neat, though I wish the doors opened a bit wider. Still a 9/10 for the price.",
         reviewImage: "/images/reviews/rev_bolide_1.jpg"
+      },
+      {
+        authorName: "Victor R.",
+        rating: 5,
+        date: "April 2, 2026",
+        text: "The blue color pops beautifully. Fits right in with my other 1:12 scale sets. The RC motor is surprisingly quick!"
+      },
+      {
+        authorName: "Dennis G.",
+        rating: 5,
+        date: "June 27, 2026",
+        text: "Very aerodynamic shape. The build techniques for the front grill were super unique."
       }
     ]
   },
@@ -280,6 +377,24 @@ export const products: Product[] = [
         date: "March 30, 2026",
         text: "Incredible value compared to the official brand. The lime green color is super vibrant and the suspension is surprisingly bouncy.",
         reviewImage: "/images/reviews/rev_lambo_1.jpg"
+      },
+      {
+        authorName: "Jared D.",
+        rating: 5,
+        date: "May 14, 2026",
+        text: "The scissor doors mechanism is addictive to play with. Everything clicks together just like the name brand."
+      },
+      {
+        authorName: "Philip K.",
+        rating: 4,
+        date: "July 2, 2026",
+        text: "Really fun build. Only giving 4 stars because the delivery took about 12 days, but the product itself is flawless."
+      },
+      {
+        authorName: "Ethan B.",
+        rating: 5,
+        date: "August 11, 2026",
+        text: "The gold wheels are a nice touch. RC controls work great out of the box."
       }
     ]
   },
@@ -315,6 +430,18 @@ export const products: Product[] = [
         date: "April 12, 2026",
         text: "The matte black finish looks incredibly stealthy. It's huge when completed. RC features are a nice bonus.",
         reviewImage: "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        authorName: "Justin M.",
+        rating: 5,
+        date: "June 8, 2026",
+        text: "Looks like the Batmobile. The neon red edge lights really make the angles stand out on the shelf."
+      },
+      {
+        authorName: "Bradley W.",
+        rating: 4,
+        date: "August 20, 2026",
+        text: "Some of the black pieces are hard to distinguish in the manual, you need good lighting while building this. But the end result is menacing."
       }
     ]
   },
@@ -349,6 +476,18 @@ export const products: Product[] = [
         rating: 4,
         date: "May 5, 2026",
         text: "Love the unique color! The build was slightly repetitive around the chassis, but the final bodywork looks stunning."
+      },
+      {
+        authorName: "Ryan T.",
+        rating: 5,
+        date: "July 17, 2026",
+        text: "Bought this for my girlfriend and we built it together. The pink is very glossy and doesn't look cheap at all."
+      },
+      {
+        authorName: "Amanda S.",
+        rating: 5,
+        date: "September 1, 2026",
+        text: "Finally a supercar in a cute color! The RC motor works great and the wheels roll very smoothly."
       }
     ]
   },
@@ -383,6 +522,18 @@ export const products: Product[] = [
         rating: 5,
         date: "June 20, 2026",
         text: "Crystal clear and sturdy. Fits my 1:12 scale models perfectly with room to spare."
+      },
+      {
+        authorName: "Dan H.",
+        rating: 5,
+        date: "July 5, 2026",
+        text: "The acrylic is very thick. Snaps together easily. Peeling off the protective film took longer than assembling it!"
+      },
+      {
+        authorName: "Gregory F.",
+        rating: 4,
+        date: "August 30, 2026",
+        text: "Does exactly what it says. Keeps the dust off my kits. Wish they made a slightly taller version for the 1:8 scales though."
       }
     ]
   }
