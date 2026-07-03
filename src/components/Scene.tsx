@@ -3,7 +3,7 @@
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
-import { Sparkles, Grid, Float } from '@react-three/drei';
+import { Sparkles, Float } from '@react-three/drei';
 import LegoCar from './LegoCar';
 import Comets from './Comets';
 
@@ -30,20 +30,6 @@ export default function Scene() {
         {/* Floating Neon Dust/Particles */}
         <Sparkles count={400} scale={80} size={5} speed={0.4} color="#00ffff" opacity={0.6} />
         <Sparkles count={300} scale={80} size={4} speed={0.6} color="#ff2d2d" opacity={0.6} />
-
-        {/* Synthwave Neon Grid Floor */}
-        <Grid
-          position={[0, -4, 0]}
-          args={[160, 160]}
-          cellSize={2.5}
-          cellThickness={1.2}
-          cellColor="#ff2d2d"
-          sectionSize={10}
-          sectionThickness={1.5}
-          sectionColor="#00ffff"
-          fadeDistance={90}
-          fadeStrength={1.5}
-        />
 
         {/* Render the hero car */}
         <Suspense fallback={null}>
