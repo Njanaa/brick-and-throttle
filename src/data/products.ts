@@ -20,7 +20,7 @@ export const products: Product[] = [
   {
     id: "porsche-911-rsr",
     name: "Porsche 911 RSR",
-    price: "$249.99",
+    price: "$179.99",
     pieces: 1580,
     image: "/images/porsche-rsr.jpg",
     gallery: [
@@ -47,7 +47,7 @@ export const products: Product[] = [
   {
     id: "gulf-racing-911",
     name: "Gulf Racing 911",
-    price: "$199.99",
+    price: "$149.99",
     pieces: 1250,
     image: "/images/gulf-racing.jpg",
     gallery: [
@@ -74,7 +74,7 @@ export const products: Product[] = [
   {
     id: "911-turbo-s",
     name: "911 Turbo S",
-    price: "$279.99",
+    price: "$219.99",
     pieces: 1890,
     image: "/images/turbo-s.jpg",
     gallery: [
@@ -101,7 +101,7 @@ export const products: Product[] = [
   {
     id: "cyber-v12-silver",
     name: "Cyber V12 (Silver)",
-    price: "$289.99",
+    price: "$229.99",
     pieces: 2100,
     image: "/images/cyber-v12.jpg",
     gallery: [
@@ -128,7 +128,7 @@ export const products: Product[] = [
   {
     id: "cyber-v12-gold",
     name: "Cyber V12 (Gold)",
-    price: "$299.99",
+    price: "$239.99",
     pieces: 2150,
     image: "/images/cyber-v12-gold.jpg",
     gallery: [
@@ -155,7 +155,7 @@ export const products: Product[] = [
   {
     id: "blue-bolide",
     name: "Blue Bolide Hypercar",
-    price: "$189.99",
+    price: "$139.99",
     pieces: 1100,
     image: "/images/blue-bo.jpg",
     gallery: [
@@ -181,7 +181,7 @@ export const products: Product[] = [
   {
     id: "green-bull-hypercar",
     name: "Green Bull Hypercar",
-    price: "$269.99",
+    price: "$189.99",
     pieces: 1720,
     image: "/images/green-bull.jpg",
     gallery: [
@@ -208,7 +208,7 @@ export const products: Product[] = [
   {
     id: "black-warrior-v12",
     name: "Black Warrior V12",
-    price: "$279.99",
+    price: "$199.99",
     pieces: 1850,
     image: "/images/black-warrior.jpg",
     gallery: [
@@ -234,7 +234,7 @@ export const products: Product[] = [
   {
     id: "pink-bull-edition",
     name: "Pink Bull Edition",
-    price: "$259.99",
+    price: "$179.99",
     pieces: 1650,
     image: "/images/pink-bull.jpg",
     gallery: [
@@ -260,7 +260,7 @@ export const products: Product[] = [
   {
     id: "acrylic-display-box",
     name: "Premium Display Case",
-    price: "$49.99",
+    price: "$59.99",
     pieces: 8,
     image: "/images/display-box.jpg",
     gallery: [
