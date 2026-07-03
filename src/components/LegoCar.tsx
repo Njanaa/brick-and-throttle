@@ -31,25 +31,7 @@ export default function LegoCar({
   const { scene: floorScene } = useGLTF('/models/pbr_sci-fi_modular_flooring.glb');
   const groupRef = useRef<THREE.Group>(null!);
 
-  // Enforce 95% opacity on the materials
-  useMemo(() => {
-    scene.traverse((child) => {
-      if ((child as THREE.Mesh).isMesh) {
-        const mesh = child as THREE.Mesh;
-        if (mesh.material) {
-          // If it's an array of materials, handle all of them
-          const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
-          materials.forEach((mat) => {
-            if (mat instanceof THREE.MeshStandardMaterial || mat instanceof THREE.MeshPhysicalMaterial) {
-              mat.transparent = true;
-              mat.opacity = 0.95;
-              mat.needsUpdate = true;
-            }
-          });
-        }
-      }
-    });
-  }, [scene]);
+  // Original materials are kept exactly as imported
 
   useFrame((state) => {
     if (!groupRef.current) return;

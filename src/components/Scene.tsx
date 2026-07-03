@@ -3,7 +3,7 @@
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';
-import { Sparkles, Float } from '@react-three/drei';
+import { Sparkles, Float, Environment } from '@react-three/drei';
 import LegoCar from './LegoCar';
 import Comets from './Comets';
 
@@ -21,10 +21,14 @@ export default function Scene() {
         <fog attach="fog" args={['#0a0a0f', 35, 90]} />
 
         {/* Lighting */}
-        <ambientLight intensity={0.2} />
-        <pointLight position={[-20, 5, -5]} color="#ff2d2d" intensity={4} distance={50} />
-        <pointLight position={[20, 5, 5]} color="#00ffff" intensity={4} distance={50} />
-        <pointLight position={[0, 10, 15]} color="#f0f0f0" intensity={2} distance={40} />
+        <ambientLight intensity={0.8} />
+        {/* Realistic Environment Reflections (crucial for car materials) */}
+        <Environment preset="city" />
+        
+        {/* Subtle Neon Accents (turned down so they don't overpower original colors) */}
+        <pointLight position={[-20, 5, -5]} color="#ff2d2d" intensity={1} distance={50} />
+        <pointLight position={[20, 5, 5]} color="#00ffff" intensity={1} distance={50} />
+        <directionalLight position={[10, 10, 10]} color="#ffffff" intensity={1.5} />
 
         {/* Cool Neon Background Elements */}
         {/* Floating Neon Dust/Particles */}
