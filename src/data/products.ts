@@ -1,3 +1,11 @@
+export interface Review {
+  authorName: string;
+  rating: number;
+  date: string;
+  text: string;
+  reviewImage?: string;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -14,6 +22,7 @@ export interface Product {
   difficulty: "Medium" | "Hard" | "Expert";
   estimatedBuildTime: string;
   manualUrl: string;
+  reviews: Review[];
 }
 
 export const products: Product[] = [
@@ -42,7 +51,16 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "8 - 10 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Michael T.",
+        rating: 5,
+        date: "October 12, 2025",
+        text: "Absolutely stunning replica. The RC motors are surprisingly torquey and the steering is very responsive. Took me about 9 hours to complete.",
+        reviewImage: "/images/reviews/rev_porsche_1.jpg"
+      }
+    ]
   },
   {
     id: "gulf-racing-911",
@@ -69,7 +87,23 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "6 - 8 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Jason M.",
+        rating: 5,
+        date: "September 4, 2025",
+        text: "The Gulf livery looks incredible on the shelf. The build process was smooth, instructions were clear, and the final model is sturdy.",
+        reviewImage: "/images/reviews/rev_gulf_1.jpg"
+      },
+      {
+        authorName: "David K.",
+        rating: 4,
+        date: "August 22, 2025",
+        text: "Great build! The colors are vibrant. The only issue was the rear spoiler took a bit of adjusting to sit perfectly flat.",
+        reviewImage: "/images/reviews/rev_gulf_3.jpg"
+      }
+    ]
   },
   {
     id: "911-turbo-s",
@@ -96,7 +130,16 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "12 - 15 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Alex R.",
+        rating: 5,
+        date: "November 2, 2025",
+        text: "The gold accents on this black body are gorgeous. The gearbox is complex but works flawlessly if you take your time.",
+        reviewImage: "/images/reviews/rev_porsche_1.jpg"
+      }
+    ]
   },
   {
     id: "cyber-v12-silver",
@@ -123,7 +166,16 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "14 - 16 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Chris B.",
+        rating: 5,
+        date: "January 14, 2026",
+        text: "A truly massive set! The cyber details look awesome in low light, and the scissor doors mechanism is very well engineered.",
+        reviewImage: "/images/reviews/rev_lambo_2.jpg"
+      }
+    ]
   },
   {
     id: "cyber-v12-gold",
@@ -150,7 +202,15 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "14 - 16 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Sarah J.",
+        rating: 5,
+        date: "December 5, 2025",
+        text: "Bought this for my husband and he loved it. The gold chrome bricks are very high quality, no scratches out of the box."
+      }
+    ]
   },
   {
     id: "blue-bolide",
@@ -176,7 +236,16 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "5 - 7 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Tom H.",
+        rating: 4,
+        date: "February 18, 2026",
+        text: "Fun weekend project. The W16 engine is neat, though I wish the doors opened a bit wider. Still a 9/10 for the price.",
+        reviewImage: "/images/reviews/rev_bolide_1.jpg"
+      }
+    ]
   },
   {
     id: "green-bull-hypercar",
@@ -203,7 +272,16 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "10 - 12 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Mark L.",
+        rating: 5,
+        date: "March 30, 2026",
+        text: "Incredible value compared to the official brand. The lime green color is super vibrant and the suspension is surprisingly bouncy.",
+        reviewImage: "/images/reviews/rev_lambo_1.jpg"
+      }
+    ]
   },
   {
     id: "black-warrior-v12",
@@ -229,7 +307,16 @@ export const products: Product[] = [
     ],
     difficulty: "Expert",
     estimatedBuildTime: "11 - 13 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Kevin P.",
+        rating: 5,
+        date: "April 12, 2026",
+        text: "The matte black finish looks incredibly stealthy. It's huge when completed. RC features are a nice bonus.",
+        reviewImage: "/images/reviews/rev_lambo_2.jpg"
+      }
+    ]
   },
   {
     id: "pink-bull-edition",
@@ -255,7 +342,15 @@ export const products: Product[] = [
     ],
     difficulty: "Hard",
     estimatedBuildTime: "9 - 11 hours",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Emily W.",
+        rating: 4,
+        date: "May 5, 2026",
+        text: "Love the unique color! The build was slightly repetitive around the chassis, but the final bodywork looks stunning."
+      }
+    ]
   },
   {
     id: "acrylic-display-box",
@@ -281,7 +376,15 @@ export const products: Product[] = [
     ],
     difficulty: "Medium",
     estimatedBuildTime: "15 minutes",
-    manualUrl: "/manuals/assembly-guide.txt"
+    manualUrl: "/manuals/assembly-guide.txt",
+    reviews: [
+      {
+        authorName: "Robert C.",
+        rating: 5,
+        date: "June 20, 2026",
+        text: "Crystal clear and sturdy. Fits my 1:12 scale models perfectly with room to spare."
+      }
+    ]
   }
 ];
 

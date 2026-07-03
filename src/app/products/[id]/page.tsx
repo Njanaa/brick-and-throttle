@@ -173,6 +173,43 @@ export default function ProductPage({ params }: ProductPageProps) {
         </section>
       </main>
 
+      {/* Customer Reviews Section */}
+      {product.reviews && product.reviews.length > 0 && (
+        <section className={styles.reviewsSection}>
+          <div className={styles.reviewsContainer}>
+            <h2 className={styles.sectionTitle}>CUSTOMER REVIEWS</h2>
+            <div className={styles.sectionAccent}></div>
+            
+            <div className={styles.reviewsGrid}>
+              {product.reviews.map((review, index) => (
+                <div key={index} className={styles.reviewCard}>
+                  <div className={styles.reviewHeader}>
+                    <div className={styles.reviewAuthor}>
+                      <span className={styles.authorAvatar}>{review.authorName.charAt(0)}</span>
+                      <div>
+                        <h4 className={styles.authorName}>{review.authorName}</h4>
+                        <span className={styles.reviewDate}>{review.date}</span>
+                      </div>
+                    </div>
+                    <div className={styles.starRating}>
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <span key={i} className={i < review.rating ? styles.starFilled : styles.starEmpty}>★</span>
+                      ))}
+                    </div>
+                  </div>
+                  <p className={styles.reviewText}>{review.text}</p>
+                  {review.reviewImage && (
+                    <div className={styles.reviewImageContainer}>
+                      <img src={review.reviewImage} alt={`Review photo by ${review.authorName}`} className={styles.reviewImage} />
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       <Footer />
     </div>
   );

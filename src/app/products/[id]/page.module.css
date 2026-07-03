@@ -501,3 +501,119 @@
     padding: 24px;
   }
 }
+
+/* ==========================================================================
+   CUSTOMER REVIEWS
+   ========================================================================== */
+
+.reviewsSection {
+  background-color: var(--color-background);
+  padding: 4rem 2rem 6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.reviewsContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.reviewCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.reviewCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.reviewAuthor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.authorAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.authorName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 0.2rem 0;
+}
+
+.reviewDate {
+  font-size: 0.8rem;
+  color: var(--color-text-dim);
+}
+
+.starRating {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.starFilled {
+  color: #ffaa00;
+  font-size: 1.2rem;
+}
+
+.starEmpty {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 1.2rem;
+}
+
+.reviewText {
+  color: var(--color-text-dim);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.reviewImageContainer {
+  margin-top: auto;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.reviewImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.reviewImageContainer:hover .reviewImage {
+  transform: scale(1.05);
+}
