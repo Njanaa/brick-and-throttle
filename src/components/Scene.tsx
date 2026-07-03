@@ -37,7 +37,7 @@ export default function Scene() {
           
           {/* Center: BW 911 (Hero position, rotating and hovering well above the floor) */}
           <LegoCar 
-            modelUrl="/models/reference-3D-911-BW.glb" 
+            modelUrl="/models/reference-3D-911-BW-optimized.glb" 
             position={[0, 0, 0]} 
             rotationSpeed={0.4}
             scale={17.5} 

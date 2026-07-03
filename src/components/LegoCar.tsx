@@ -114,6 +114,6 @@ export default function LegoCar({
 }
 
 // Preload the models
-useGLTF.preload('/models/reference-3D-911-BW.glb');
+useGLTF.preload('/models/reference-3D-911-BW-optimized.glb');
 useGLTF.preload('/models/3D-911-gulf.glb');
 useGLTF.preload('/models/3D-pink-lambo.glb');
