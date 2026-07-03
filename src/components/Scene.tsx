@@ -45,18 +45,9 @@ export default function Scene() {
           fadeStrength={1.5}
         />
 
-        {/* Render the 3 huge cars staggered */}
+        {/* Render the hero car */}
         <Suspense fallback={null}>
           <Comets count={25} />
-          
-          {/* Left: Pink Lambo (Raised higher, turned further left, moved forward) */}
-          <LegoCar 
-            modelUrl="/models/3D-pink-lambo.glb" 
-            position={[-30, 2, 5]} 
-            rotation={[0, -Math.PI * 0.69, 0]} 
-            scale={17}
-            isRotating={false}
-          />
           
           {/* Center: BW 911 (Hero position, rotating and hovering well above the floor) */}
           <LegoCar 
@@ -65,15 +56,6 @@ export default function Scene() {
             rotationSpeed={0.4}
             scale={17.5} 
             isRotating={true}
-          />
-
-          {/* Right: Gulf 911 (Hovering above the floor, turned 30deg right, moved forward) */}
-          <LegoCar 
-            modelUrl="/models/3D-911-gulf.glb" 
-            position={[30, -1, 5]} 
-            rotation={[0, -Math.PI * 0.33, 0]}
-            scale={17}
-            isRotating={false}
           />
         </Suspense>
 
