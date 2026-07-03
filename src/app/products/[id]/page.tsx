@@ -34,10 +34,7 @@ export default function ProductPage({ params }: ProductPageProps) {
     );
   }
 
-  const handleBuyNow = () => {
-    const checkoutUrl = `https://brick-and-throttle.myshopify.com/cart/${product.variantId}:1`;
-    window.open(checkoutUrl, '_blank');
-  };
+
 
   return (
     <div className={styles.pageContainer}>
@@ -112,9 +109,12 @@ export default function ProductPage({ params }: ProductPageProps) {
             <p className={styles.description}>{product.description}</p>
 
             <div className={styles.buttonActionRow}>
-              <button className={styles.buyNowButton} onClick={handleBuyNow}>
+              <a 
+                className={styles.buyNowButton} 
+                href={`https://brick-and-throttle.myshopify.com/cart/${product.variantId}:1`}
+              >
                 BUY NOW &bull; CHECKOUT
-              </button>
+              </a>
               
               <a 
                 href={product.manualUrl} 
