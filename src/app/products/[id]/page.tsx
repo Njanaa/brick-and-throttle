@@ -22,6 +22,8 @@ export default function ProductPage({ params }: ProductPageProps) {
   const [showReviewForm, setShowReviewForm] = useState(false);
   const [reviewSubmitted, setReviewSubmitted] = useState(false);
   const [ratingInput, setRatingInput] = useState(5);
+
+  if (!product) {
     return (
       <div className={styles.notFoundPage}>
         <Header />
