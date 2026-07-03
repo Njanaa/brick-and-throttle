@@ -31,8 +31,28 @@ export default function LegoCar({
   const { scene: floorScene } = useGLTF('/models/pbr_sci-fi_modular_flooring.glb');
   const groupRef = useRef<THREE.Group>(null!);
 
-  // Original materials are kept exactly as imported
-
+  // Tweak materials so they look good under basic directional lights instead of requiring an HDRI map (which hangs Suspense)
+  useMemo(() => {
+    [scene, floorScene].forEach((s) => {
+      s.traverse((child) => {
+        if ((child as THREE.Mesh).isMesh) {
+          const mesh = child as THREE.Mesh;
+          if (mesh.material) {
+            const materials = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+            materials.forEach((mat) => {
+              if (mat instanceof THREE.MeshStandardMaterial || mat instanceof THREE.MeshPhysicalMaterial) {
+                // Reduce metalness so it doesn't reflect the black void
+                mat.metalness = Math.min(mat.metalness, 0.4);
+                // Ensure some roughness so it catches standard lights
+                mat.roughness = Math.max(mat.roughness, 0.5);
+                mat.needsUpdate = true;
+              }
+            });
+          }
+        }
+      });
+    });
+  }, [scene, floorScene]);
   useFrame((state) => {
     if (!groupRef.current) return;
 

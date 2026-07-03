@@ -21,9 +21,10 @@ export default function Scene() {
         <fog attach="fog" args={['#0a0a0f', 35, 90]} />
 
         {/* Lighting */}
-        <ambientLight intensity={0.8} />
-        {/* Realistic Environment Reflections (crucial for car materials) */}
-        <Environment preset="city" />
+        {/* Lighting - Strong ambient and directional lights since HDRI download might hang Suspense */}
+        <ambientLight intensity={1.5} />
+        <directionalLight position={[10, 10, 10]} color="#ffffff" intensity={3} />
+        <directionalLight position={[-10, 10, -10]} color="#ffffff" intensity={1} />
         
         {/* Subtle Neon Accents (turned down so they don't overpower original colors) */}
         <pointLight position={[-20, 5, -5]} color="#ff2d2d" intensity={1} distance={50} />
