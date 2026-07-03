@@ -82,7 +82,33 @@ export default function LegoCar({
         document.body.style.cursor = 'auto';
       }}
     >
-      <primitive object={scene} scale={hovered ? [scale * 1.05, scale * 1.05, scale * 1.05] : [scale, scale, scale]} />
+      {/* The Car Model - Raised slightly to hover higher above the podium */}
+      <group position={[0, 1.5, 0]}>
+        <primitive object={scene} scale={hovered ? [scale * 1.05, scale * 1.05, scale * 1.05] : [scale, scale, scale]} />
+      </group>
+      
+      {/* Rotating Round Podium */}
+      <group position={[0, -1.0, 0]}>
+        {/* Main dark metal cylinder */}
+        <mesh receiveShadow>
+          <cylinderGeometry args={[scale * 0.6, scale * 0.65, 0.4, 64]} />
+          <meshStandardMaterial color="#050508" metalness={0.8} roughness={0.2} />
+        </mesh>
+        
+        {/* Neon cyan rim */}
+        <mesh position={[0, 0, 0]}>
+          <cylinderGeometry args={[scale * 0.61, scale * 0.61, 0.1, 64]} />
+          <meshBasicMaterial color="#00ffff" toneMapped={false} />
+        </mesh>
+
+        {/* Neon accent strips on the surface to make rotation visible */}
+        {[0, 1, 2, 3].map((i) => (
+          <mesh key={i} position={[0, 0.21, 0]} rotation={[0, (i * Math.PI) / 4, 0]}>
+            <boxGeometry args={[0.1, 0.02, scale * 1.15]} />
+            <meshBasicMaterial color={i % 2 === 0 ? '#ff2d2d' : '#00ffff'} toneMapped={false} />
+          </mesh>
+        ))}
+      </group>
     </group>
   );
 }
