@@ -29,7 +29,7 @@ export default function ContactPage() {
           <div className={styles.contactCard}>
             <div className={styles.contactIcon}>📧</div>
             <p className={styles.contactLabel}>EMAIL</p>
-            <p className={styles.contactValue}>support@brickandthrottle.com</p>
+            <p className={styles.contactValue}>support.brickandthrottle@gmail.com</p>
           </div>
           <div className={styles.contactCard}>
             <div className={styles.contactIcon}>⏱️</div>
