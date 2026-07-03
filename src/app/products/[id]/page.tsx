@@ -17,8 +17,11 @@ export default function ProductPage({ params }: ProductPageProps) {
   
   // Track selected image in gallery
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-
-  if (!product) {
+  
+  // Review form state
+  const [showReviewForm, setShowReviewForm] = useState(false);
+  const [reviewSubmitted, setReviewSubmitted] = useState(false);
+  const [ratingInput, setRatingInput] = useState(5);
     return (
       <div className={styles.notFoundPage}>
         <Header />
@@ -177,8 +180,63 @@ export default function ProductPage({ params }: ProductPageProps) {
       {product.reviews && product.reviews.length > 0 && (
         <section className={styles.reviewsSection}>
           <div className={styles.reviewsContainer}>
-            <h2 className={styles.sectionTitle}>CUSTOMER REVIEWS</h2>
-            <div className={styles.sectionAccent}></div>
+            <div className={styles.reviewsHeaderSection}>
+              <div>
+                <h2 className={styles.sectionTitle}>CUSTOMER REVIEWS</h2>
+                <div className={styles.sectionAccent}></div>
+              </div>
+              <button 
+                className={styles.writeReviewButton}
+                onClick={() => setShowReviewForm(!showReviewForm)}
+              >
+                {showReviewForm ? 'CANCEL' : 'WRITE A REVIEW'}
+              </button>
+            </div>
+            
+            {showReviewForm && (
+              <div className={styles.reviewFormContainer}>
+                {reviewSubmitted ? (
+                  <div className={styles.reviewSuccessMsg}>
+                    Thank you! Your review has been submitted and will appear after moderation.
+                  </div>
+                ) : (
+                  <form 
+                    className={styles.reviewForm}
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                      setReviewSubmitted(true);
+                    }}
+                  >
+                    <div className={styles.formRow}>
+                      <div className={styles.formGroup}>
+                        <label>Your Name</label>
+                        <input type="text" required placeholder="John D." />
+                      </div>
+                      <div className={styles.formGroup}>
+                        <label>Rating</label>
+                        <div className={styles.ratingSelector}>
+                          {[1, 2, 3, 4, 5].map((star) => (
+                            <span 
+                              key={star} 
+                              className={star <= ratingInput ? styles.starFilled : styles.starEmpty}
+                              onClick={() => setRatingInput(star)}
+                              style={{ cursor: 'pointer' }}
+                            >
+                              ★
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.formGroup}>
+                      <label>Review</label>
+                      <textarea required placeholder="What did you think of this build?" rows={4}></textarea>
+                    </div>
+                    <button type="submit" className={styles.submitReviewButton}>SUBMIT REVIEW</button>
+                  </form>
+                )}
+              </div>
+            )}
             
             <div className={styles.reviewsGrid}>
               {product.reviews.map((review, index) => (

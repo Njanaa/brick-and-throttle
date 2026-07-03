@@ -51,226 +51,238 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Larry F.",
-        "rating": 3,
-        "date": "November 6, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "Ronald H.",
+        "authorName": "Thomas F.",
         "rating": 5,
-        "date": "July 24, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "February 13, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_3.jpg"
       },
       {
-        "authorName": "Jennifer K.",
+        "authorName": "Patricia R.",
         "rating": 5,
-        "date": "December 28, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
+        "date": "July 20, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_2.jpg"
       },
       {
-        "authorName": "Matthew D.",
+        "authorName": "Margaret V.",
+        "rating": 5,
+        "date": "March 29, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_1.jpg"
+      },
+      {
+        "authorName": "Mary R.",
+        "rating": 5,
+        "date": "June 29, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Diane K.",
         "rating": 4,
-        "date": "September 6, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Matthew P.",
-        "rating": 5,
-        "date": "December 23, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/low_real_porsche-911-rsr_3.jpg"
-      },
-      {
-        "authorName": "Martha R.",
-        "rating": 5,
-        "date": "November 4, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/real_porsche-911-rsr_3.jpg"
-      },
-      {
-        "authorName": "Lisa Z.",
-        "rating": 5,
-        "date": "July 24, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Carol B.",
-        "rating": 5,
-        "date": "November 8, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/real_porsche-911-rsr_2.jpg"
-      },
-      {
-        "authorName": "Paul H.",
-        "rating": 4,
-        "date": "April 20, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "George E.",
-        "rating": 5,
-        "date": "June 3, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Linda L.",
-        "rating": 3,
-        "date": "June 10, 2026",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "George V.",
-        "rating": 5,
-        "date": "February 24, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/low_real_porsche-911-rsr_1.jpg"
-      },
-      {
-        "authorName": "Kevin E.",
-        "rating": 5,
-        "date": "May 25, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Anna J.",
-        "rating": 5,
-        "date": "March 20, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/real_porsche-911-rsr_1.jpg"
-      },
-      {
-        "authorName": "Henry Z.",
-        "rating": 4,
-        "date": "October 16, 2025",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Laura K.",
-        "rating": 5,
-        "date": "April 18, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/low_real_porsche-911-rsr_2.jpg"
-      },
-      {
-        "authorName": "Jeffrey P.",
-        "rating": 5,
-        "date": "May 25, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Sarah S.",
-        "rating": 5,
-        "date": "April 9, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Arthur V.",
-        "rating": 2,
-        "date": "April 7, 2026",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
-      },
-      {
-        "authorName": "Joyce F.",
-        "rating": 5,
-        "date": "March 11, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "John C.",
-        "rating": 4,
-        "date": "January 15, 2026",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Amanda S.",
-        "rating": 5,
-        "date": "September 6, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Marie J.",
-        "rating": 5,
         "date": "October 26, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
       },
       {
-        "authorName": "Linda M.",
+        "authorName": "Susan R.",
         "rating": 5,
-        "date": "March 1, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "date": "January 17, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_2.jpg"
       },
       {
-        "authorName": "Kathleen B.",
+        "authorName": "Elizabeth C.",
         "rating": 5,
-        "date": "May 21, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Daniel C.",
-        "rating": 5,
-        "date": "January 15, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "David J.",
-        "rating": 5,
-        "date": "October 9, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "June 28, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
         "authorName": "Jennifer N.",
         "rating": 5,
-        "date": "February 1, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "December 4, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_1.jpg"
       },
       {
-        "authorName": "Debra W.",
-        "rating": 4,
-        "date": "July 1, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though."
-      },
-      {
-        "authorName": "Timothy D.",
+        "authorName": "Christine T.",
         "rating": 5,
-        "date": "August 4, 2025",
+        "date": "May 16, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_3.jpg"
+      },
+      {
+        "authorName": "Sharon J.",
+        "rating": 5,
+        "date": "June 30, 2025",
         "text": "Looks stunning on my shelf. I'll be buying more from this site."
       },
       {
-        "authorName": "Stephanie F.",
+        "authorName": "Daniel B.",
         "rating": 5,
-        "date": "August 20, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "January 15, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Diane N.",
+        "authorName": "George V.",
         "rating": 5,
-        "date": "March 4, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "January 2, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Cynthia A.",
+        "authorName": "Dorothy P.",
         "rating": 5,
-        "date": "March 16, 2025",
+        "date": "July 5, 2025",
         "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Nancy B.",
+        "authorName": "Jessica D.",
+        "rating": 3,
+        "date": "February 1, 2026",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
+      },
+      {
+        "authorName": "Karen S.",
         "rating": 5,
-        "date": "January 1, 2026",
+        "date": "March 19, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Frances D.",
+        "rating": 5,
+        "date": "December 3, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Sarah J.",
+        "rating": 3,
+        "date": "September 17, 2025",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
+      },
+      {
+        "authorName": "Jose K.",
+        "rating": 5,
+        "date": "May 8, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Elizabeth J.",
+        "rating": 5,
+        "date": "December 28, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Kevin S.",
+        "rating": 5,
+        "date": "April 24, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Larry N.",
+        "rating": 5,
+        "date": "February 8, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Walter T.",
+        "rating": 3,
+        "date": "June 7, 2026",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection."
+      },
+      {
+        "authorName": "Debra H.",
+        "rating": 4,
+        "date": "July 21, 2026",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Jessica N.",
+        "rating": 5,
+        "date": "February 17, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Steven P.",
+        "rating": 5,
+        "date": "July 28, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Sharon N.",
+        "rating": 5,
+        "date": "October 10, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Mary J.",
+        "rating": 5,
+        "date": "January 10, 2026",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Maria Z.",
+        "authorName": "Daniel T.",
         "rating": 5,
-        "date": "June 13, 2026",
+        "date": "May 9, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Diane A.",
+        "rating": 5,
+        "date": "December 20, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Carolyn Z.",
+        "rating": 5,
+        "date": "October 3, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Harold B.",
+        "rating": 4,
+        "date": "December 27, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "Kathleen C.",
+        "rating": 5,
+        "date": "May 7, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Lisa R.",
+        "rating": 4,
+        "date": "January 19, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Gary P.",
+        "rating": 5,
+        "date": "May 17, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Betty J.",
+        "rating": 5,
+        "date": "November 7, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Carolyn D.",
+        "rating": 4,
+        "date": "December 19, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Barbara D.",
+        "rating": 5,
+        "date": "November 25, 2025",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Patricia A.",
+        "authorName": "Michael C.",
         "rating": 5,
-        "date": "December 25, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+        "date": "April 24, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       }
     ]
   },
@@ -299,196 +311,226 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "George V.",
-        "rating": 3,
-        "date": "March 13, 2026",
-        "text": "The gearbox is very stiff and sometimes gets stuck.",
-        "reviewImage": "/images/reviews/real_gulf-racing-911_3.jpg"
-      },
-      {
-        "authorName": "Kathleen K.",
-        "rating": 4,
-        "date": "October 2, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though."
-      },
-      {
-        "authorName": "Walter A.",
+        "authorName": "Scott N.",
         "rating": 5,
-        "date": "March 9, 2026",
+        "date": "September 10, 2025",
         "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/real_gulf-racing-911_1.jpg"
+        "reviewImage": "/images/reviews/real_gulf-racing_1.jpg"
       },
       {
-        "authorName": "Scott A.",
+        "authorName": "Karen L.",
+        "rating": 2,
+        "date": "February 21, 2026",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "Donna V.",
         "rating": 5,
-        "date": "November 12, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
+        "date": "April 7, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/low_real_gulf-racing_2.jpg"
       },
       {
-        "authorName": "Laura W.",
+        "authorName": "Anthony S.",
         "rating": 5,
-        "date": "April 9, 2026",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "January 11, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Jeffrey P.",
-        "rating": 4,
-        "date": "September 6, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly.",
-        "reviewImage": "/images/reviews/low_real_gulf-racing-911_2.jpg"
-      },
-      {
-        "authorName": "Scott S.",
+        "authorName": "Stephanie E.",
         "rating": 5,
-        "date": "July 22, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Jose D.",
-        "rating": 5,
-        "date": "August 22, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Amy T.",
-        "rating": 5,
-        "date": "July 7, 2025",
+        "date": "December 11, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Matthew N.",
+        "authorName": "Patrick M.",
         "rating": 5,
-        "date": "December 30, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Ronald R.",
-        "rating": 3,
-        "date": "March 21, 2026",
-        "text": "Customer service was slow to respond when I asked for a replacement part.",
-        "reviewImage": "/images/reviews/real_gulf-racing-911_2.jpg"
-      },
-      {
-        "authorName": "Kimberly M.",
-        "rating": 5,
-        "date": "January 30, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Charles B.",
-        "rating": 5,
-        "date": "October 26, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Amy H.",
-        "rating": 5,
-        "date": "February 16, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Andrew H.",
-        "rating": 5,
-        "date": "February 3, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Rebecca A.",
-        "rating": 5,
-        "date": "June 16, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/low_real_gulf-racing-911_1.jpg"
-      },
-      {
-        "authorName": "Robert C.",
-        "rating": 5,
-        "date": "March 5, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Nancy L.",
-        "rating": 5,
-        "date": "May 18, 2026",
+        "date": "June 19, 2025",
         "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Karen E.",
+        "authorName": "Harold S.",
         "rating": 5,
-        "date": "March 5, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "January 4, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Anna T.",
+        "authorName": "Jennifer V.",
         "rating": 5,
-        "date": "November 14, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/low_real_gulf-racing-911_3.jpg"
+        "date": "December 1, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Douglas K.",
-        "rating": 5,
-        "date": "June 1, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+        "authorName": "Jeffrey F.",
+        "rating": 4,
+        "date": "March 22, 2025",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual.",
+        "reviewImage": "/images/reviews/low_real_gulf-racing_1.jpg"
       },
       {
-        "authorName": "Linda Z.",
+        "authorName": "Ryan W.",
+        "rating": 4,
+        "date": "June 28, 2026",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
+        "reviewImage": "/images/reviews/real_gulf-racing_3.jpg"
+      },
+      {
+        "authorName": "Karen B.",
         "rating": 5,
-        "date": "June 2, 2026",
+        "date": "July 5, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/low_real_gulf-racing_3.jpg"
+      },
+      {
+        "authorName": "Kathleen A.",
+        "rating": 5,
+        "date": "April 24, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/real_gulf-racing_2.jpg"
+      },
+      {
+        "authorName": "Maria D.",
+        "rating": 4,
+        "date": "April 20, 2026",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Steven T.",
+        "rating": 3,
+        "date": "September 26, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Walter W.",
+        "rating": 5,
+        "date": "June 5, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Donald V.",
+        "rating": 5,
+        "date": "September 14, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Michael G.",
+        "rating": 4,
+        "date": "December 26, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Thomas H.",
+        "rating": 5,
+        "date": "March 8, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Michael V.",
+        "rating": 5,
+        "date": "April 19, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Donald Z.",
+        "rating": 3,
+        "date": "June 29, 2026",
+        "text": "The RC motor works but it's very loud and squeaky."
+      },
+      {
+        "authorName": "Sarah N.",
+        "rating": 5,
+        "date": "June 11, 2026",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Frank E.",
-        "rating": 4,
-        "date": "February 11, 2026",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Jason G.",
+        "authorName": "Stephen T.",
         "rating": 5,
-        "date": "February 17, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "May 25, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Patricia A.",
-        "rating": 2,
-        "date": "October 23, 2025",
-        "text": "Customer service was slow to respond when I asked for a replacement part."
+        "authorName": "Lisa E.",
+        "rating": 5,
+        "date": "July 22, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Patrick D.",
+        "authorName": "Joyce V.",
+        "rating": 5,
+        "date": "November 9, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Virginia V.",
+        "rating": 5,
+        "date": "March 16, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Andrew Z.",
         "rating": 4,
-        "date": "February 24, 2025",
+        "date": "June 12, 2026",
         "text": "Shipping was okay, took about a week and a half."
       },
       {
-        "authorName": "Henry K.",
+        "authorName": "Dorothy A.",
         "rating": 5,
-        "date": "May 30, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "July 23, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Henry R.",
+        "authorName": "Maria H.",
         "rating": 5,
-        "date": "April 17, 2025",
+        "date": "January 3, 2025",
         "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Jennifer F.",
+        "authorName": "Kenneth B.",
         "rating": 5,
-        "date": "January 9, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "September 20, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Rebecca W.",
+        "authorName": "Stephen E.",
         "rating": 5,
-        "date": "February 22, 2025",
+        "date": "September 29, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "James T.",
+        "rating": 5,
+        "date": "January 3, 2026",
         "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Lisa C.",
+        "rating": 5,
+        "date": "March 8, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
         "authorName": "Edward S.",
         "rating": 5,
-        "date": "February 12, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "March 20, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Joseph A.",
+        "rating": 5,
+        "date": "June 6, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Helen K.",
+        "rating": 5,
+        "date": "March 2, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Carl S.",
+        "rating": 5,
+        "date": "March 26, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
       }
     ]
   },
@@ -517,220 +559,280 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Anna E.",
+        "authorName": "Dennis W.",
         "rating": 5,
-        "date": "May 6, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "April 18, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Betty P.",
-        "rating": 5,
-        "date": "January 7, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "authorName": "William F.",
+        "rating": 3,
+        "date": "April 1, 2025",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
       },
       {
-        "authorName": "Andrew M.",
-        "rating": 4,
-        "date": "December 19, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
-        "reviewImage": "/images/reviews/low_real_911-turbo-s_2.jpg"
-      },
-      {
-        "authorName": "Steven G.",
+        "authorName": "Brian H.",
         "rating": 5,
-        "date": "March 19, 2025",
+        "date": "July 21, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Jennifer H.",
+        "authorName": "Kimberly B.",
         "rating": 5,
-        "date": "June 10, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "date": "February 27, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Michelle P.",
-        "rating": 4,
-        "date": "February 3, 2025",
-        "text": "Good set, but a bit repetitive during the chassis assembly.",
-        "reviewImage": "/images/reviews/low_real_911-turbo-s_3.jpg"
-      },
-      {
-        "authorName": "Kenneth V.",
-        "rating": 2,
-        "date": "September 28, 2025",
-        "text": "Customer service was slow to respond when I asked for a replacement part."
-      },
-      {
-        "authorName": "Jason F.",
+        "authorName": "Patricia P.",
         "rating": 5,
-        "date": "February 6, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Shirley P.",
-        "rating": 5,
-        "date": "October 28, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Virginia V.",
-        "rating": 5,
-        "date": "October 20, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_real_911-turbo-s_1.jpg"
-      },
-      {
-        "authorName": "Ryan T.",
-        "rating": 4,
-        "date": "May 24, 2026",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "George E.",
-        "rating": 5,
-        "date": "April 3, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Andrew K.",
-        "rating": 5,
-        "date": "May 30, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/real_911-turbo-s_1.jpg"
-      },
-      {
-        "authorName": "Martha R.",
-        "rating": 5,
-        "date": "March 22, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/real_911-turbo-s_2.jpg"
-      },
-      {
-        "authorName": "Charles P.",
-        "rating": 4,
-        "date": "September 1, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly.",
-        "reviewImage": "/images/reviews/real_911-turbo-s_3.jpg"
-      },
-      {
-        "authorName": "Barbara G.",
-        "rating": 5,
-        "date": "May 14, 2026",
+        "date": "September 11, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Gregory H.",
+        "authorName": "Stephen E.",
         "rating": 5,
-        "date": "June 24, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "July 12, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Scott M.",
-        "rating": 5,
-        "date": "June 18, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "George W.",
-        "rating": 5,
-        "date": "March 29, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Jason S.",
+        "authorName": "Frank R.",
         "rating": 4,
-        "date": "December 24, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
+        "date": "January 25, 2026",
+        "text": "Solid build. Wish the steering angle was a bit sharper though.",
+        "reviewImage": "/images/reviews/real_turbo-s_1.jpg"
       },
       {
-        "authorName": "Joyce T.",
+        "authorName": "Ryan K.",
         "rating": 5,
-        "date": "August 24, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
+        "date": "July 14, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/low_real_turbo-s_2.jpg"
       },
       {
         "authorName": "Daniel E.",
         "rating": 5,
-        "date": "September 28, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "date": "September 6, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Susan Z.",
-        "rating": 5,
-        "date": "September 18, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Maria T.",
-        "rating": 5,
-        "date": "March 23, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Karen G.",
-        "rating": 5,
-        "date": "May 25, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Jerry H.",
-        "rating": 2,
-        "date": "December 15, 2025",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection."
-      },
-      {
-        "authorName": "Susan V.",
-        "rating": 5,
-        "date": "July 2, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Diane B.",
+        "authorName": "Karen M.",
         "rating": 5,
         "date": "July 5, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Christopher K.",
-        "rating": 5,
-        "date": "June 28, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Virginia K.",
-        "rating": 2,
-        "date": "December 16, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "Christine K.",
-        "rating": 5,
-        "date": "September 8, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Nancy L.",
-        "rating": 5,
-        "date": "April 19, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Betty A.",
-        "rating": 5,
-        "date": "January 5, 2025",
         "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Mary C.",
+        "authorName": "Elizabeth H.",
         "rating": 5,
-        "date": "May 18, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "September 13, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Janet J.",
+        "authorName": "Brian W.",
         "rating": 5,
-        "date": "July 25, 2026",
+        "date": "May 29, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Karen A.",
+        "rating": 5,
+        "date": "May 30, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Brian G.",
+        "rating": 5,
+        "date": "February 1, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/real_turbo-s_2.jpg"
+      },
+      {
+        "authorName": "Betty K.",
+        "rating": 5,
+        "date": "April 8, 2026",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Amy G.",
+        "rating": 5,
+        "date": "August 19, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Carol W.",
+        "rating": 4,
+        "date": "July 31, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Joyce L.",
+        "rating": 5,
+        "date": "July 4, 2026",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/low_real_turbo-s_3.jpg"
+      },
+      {
+        "authorName": "Harold D.",
+        "rating": 5,
+        "date": "July 15, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Kimberly A.",
+        "rating": 5,
+        "date": "June 10, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/real_turbo-s_3.jpg"
+      },
+      {
+        "authorName": "Brenda G.",
+        "rating": 5,
+        "date": "July 10, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Lisa B.",
+        "rating": 4,
+        "date": "March 26, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
+        "reviewImage": "/images/reviews/low_real_turbo-s_1.jpg"
+      },
+      {
+        "authorName": "Melissa J.",
+        "rating": 2,
+        "date": "August 27, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Jeffrey S.",
+        "rating": 5,
+        "date": "December 27, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "George P.",
+        "rating": 5,
+        "date": "February 24, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Pamela T.",
+        "rating": 4,
+        "date": "February 15, 2026",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Jessica N.",
+        "rating": 5,
+        "date": "March 26, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "David V.",
+        "rating": 5,
+        "date": "June 4, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "George P.",
+        "rating": 5,
+        "date": "December 11, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Jessica T.",
+        "rating": 5,
+        "date": "September 19, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Sandra M.",
+        "rating": 5,
+        "date": "January 24, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Dorothy E.",
+        "rating": 5,
+        "date": "September 21, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Harold P.",
+        "rating": 5,
+        "date": "October 25, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Gregory V.",
+        "rating": 5,
+        "date": "April 25, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Frances G.",
+        "rating": 2,
+        "date": "February 7, 2025",
+        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
+      },
+      {
+        "authorName": "Kevin A.",
+        "rating": 3,
+        "date": "December 21, 2025",
+        "text": "The front suspension sags a bit under the weight of the model."
+      },
+      {
+        "authorName": "Joshua H.",
+        "rating": 4,
+        "date": "June 19, 2026",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
+      },
+      {
+        "authorName": "Donald W.",
+        "rating": 5,
+        "date": "February 13, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Virginia K.",
+        "rating": 5,
+        "date": "August 5, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Carol L.",
+        "rating": 5,
+        "date": "November 21, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Scott F.",
+        "rating": 4,
+        "date": "April 6, 2026",
+        "text": "Shipping was okay, took about a week and a half."
+      },
+      {
+        "authorName": "Deborah L.",
+        "rating": 5,
+        "date": "September 24, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Carl V.",
+        "rating": 5,
+        "date": "June 9, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Elizabeth R.",
+        "rating": 5,
+        "date": "February 16, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Thomas N.",
+        "rating": 5,
+        "date": "March 19, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
       }
     ]
   },
@@ -759,220 +861,262 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Cynthia B.",
+        "authorName": "Raymond E.",
         "rating": 5,
-        "date": "July 1, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/real_cyber-v12-silver_1.jpg"
+        "date": "December 14, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_2.jpg"
       },
       {
-        "authorName": "Richard J.",
+        "authorName": "Matthew P.",
         "rating": 5,
-        "date": "July 24, 2025",
+        "date": "August 26, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/real_cyber-v12_1.jpg"
+      },
+      {
+        "authorName": "Brian G.",
+        "rating": 5,
+        "date": "March 27, 2026",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "John M.",
+        "authorName": "Sandra L.",
         "rating": 5,
-        "date": "July 13, 2025",
+        "date": "February 4, 2026",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Matthew H.",
+        "authorName": "Debra N.",
+        "rating": 5,
+        "date": "May 8, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Ann R.",
+        "rating": 3,
+        "date": "August 11, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Rebecca N.",
+        "rating": 2,
+        "date": "February 7, 2025",
+        "text": "The RC motor works but it's very loud and squeaky."
+      },
+      {
+        "authorName": "Henry F.",
+        "rating": 5,
+        "date": "July 11, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Eric H.",
+        "rating": 5,
+        "date": "April 6, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Andrew C.",
+        "rating": 5,
+        "date": "August 31, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/real_cyber-v12_2.jpg"
+      },
+      {
+        "authorName": "Scott T.",
+        "rating": 5,
+        "date": "July 22, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Joyce T.",
+        "rating": 5,
+        "date": "April 25, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Henry C.",
         "rating": 4,
-        "date": "May 27, 2025",
+        "date": "June 18, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "Roger B.",
+        "rating": 5,
+        "date": "January 26, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "John C.",
+        "rating": 5,
+        "date": "August 18, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "James D.",
+        "rating": 5,
+        "date": "April 14, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Pamela B.",
+        "rating": 5,
+        "date": "December 30, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_3.jpg"
+      },
+      {
+        "authorName": "Anthony Z.",
+        "rating": 5,
+        "date": "July 19, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Robert Z.",
+        "rating": 5,
+        "date": "April 30, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Frances V.",
+        "rating": 3,
+        "date": "December 24, 2025",
+        "text": "The RC motor works but it's very loud and squeaky.",
+        "reviewImage": "/images/reviews/real_cyber-v12_3.jpg"
+      },
+      {
+        "authorName": "Douglas L.",
+        "rating": 5,
+        "date": "May 20, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_1.jpg"
+      },
+      {
+        "authorName": "Jason N.",
+        "rating": 4,
+        "date": "April 25, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Walter P.",
+        "rating": 5,
+        "date": "January 15, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Harold S.",
+        "rating": 4,
+        "date": "March 20, 2026",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
+      },
+      {
+        "authorName": "Patrick V.",
+        "rating": 5,
+        "date": "January 8, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Michael S.",
+        "rating": 5,
+        "date": "May 14, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Jose V.",
+        "rating": 3,
+        "date": "May 26, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
+      },
+      {
+        "authorName": "Christopher W.",
+        "rating": 4,
+        "date": "May 30, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
+      },
+      {
+        "authorName": "Mark M.",
+        "rating": 5,
+        "date": "June 3, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Jerry P.",
+        "rating": 5,
+        "date": "January 31, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Thomas A.",
+        "rating": 4,
+        "date": "September 9, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Scott L.",
+        "rating": 5,
+        "date": "December 14, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Thomas T.",
+        "rating": 5,
+        "date": "November 26, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Marie D.",
+        "rating": 5,
+        "date": "February 1, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Nancy N.",
+        "rating": 5,
+        "date": "April 14, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Frank J.",
+        "rating": 4,
+        "date": "March 30, 2025",
         "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
       },
       {
-        "authorName": "Cynthia P.",
-        "rating": 2,
-        "date": "July 14, 2025",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
-      },
-      {
-        "authorName": "Janet T.",
-        "rating": 4,
-        "date": "February 7, 2026",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-silver_3.jpg"
-      },
-      {
-        "authorName": "David M.",
+        "authorName": "Larry P.",
         "rating": 5,
-        "date": "June 26, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+        "date": "January 21, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Robert W.",
+        "authorName": "Susan V.",
         "rating": 5,
-        "date": "July 6, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/real_cyber-v12-silver_2.jpg"
-      },
-      {
-        "authorName": "Ruth R.",
-        "rating": 2,
-        "date": "July 5, 2026",
-        "text": "The RC motor works but it's very loud and squeaky.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-silver_2.jpg"
-      },
-      {
-        "authorName": "Kimberly T.",
-        "rating": 2,
-        "date": "October 28, 2025",
-        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
+        "date": "March 5, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
         "authorName": "Kenneth M.",
         "rating": 5,
-        "date": "May 30, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/real_cyber-v12-silver_3.jpg"
-      },
-      {
-        "authorName": "Virginia H.",
-        "rating": 4,
-        "date": "July 27, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-silver_1.jpg"
-      },
-      {
-        "authorName": "Jennifer E.",
-        "rating": 5,
-        "date": "February 16, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Shirley A.",
-        "rating": 5,
-        "date": "July 6, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Maria B.",
-        "rating": 5,
-        "date": "January 3, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Raymond Z.",
-        "rating": 5,
-        "date": "March 5, 2025",
+        "date": "April 12, 2025",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Carl T.",
+        "authorName": "Andrew S.",
         "rating": 5,
-        "date": "June 16, 2025",
+        "date": "June 28, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Scott F.",
+        "rating": 5,
+        "date": "May 22, 2026",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Helen L.",
+        "authorName": "Timothy T.",
         "rating": 5,
-        "date": "May 5, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Virginia D.",
-        "rating": 5,
-        "date": "May 5, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Donald N.",
-        "rating": 5,
-        "date": "February 1, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Angela P.",
-        "rating": 5,
-        "date": "April 28, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Jessica Z.",
-        "rating": 4,
-        "date": "March 24, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Dorothy D.",
-        "rating": 5,
-        "date": "May 29, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Richard C.",
-        "rating": 5,
-        "date": "February 6, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Harold V.",
-        "rating": 5,
-        "date": "March 2, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Eric T.",
-        "rating": 5,
-        "date": "December 21, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Arthur H.",
-        "rating": 5,
-        "date": "April 2, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Marie Z.",
-        "rating": 4,
-        "date": "September 19, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Shirley C.",
-        "rating": 5,
-        "date": "May 31, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Jeffrey C.",
-        "rating": 5,
-        "date": "June 25, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Michelle R.",
-        "rating": 5,
-        "date": "January 11, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Daniel G.",
-        "rating": 5,
-        "date": "May 10, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "George M.",
-        "rating": 5,
-        "date": "January 10, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Stephanie Z.",
-        "rating": 5,
-        "date": "December 7, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Sarah W.",
-        "rating": 5,
-        "date": "October 22, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "May 3, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
       }
     ]
   },
@@ -1001,208 +1145,214 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Sandra B.",
+        "authorName": "Patricia S.",
         "rating": 5,
-        "date": "April 9, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/real_cyber-v12-gold_3.jpg"
+        "date": "December 11, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Michelle T.",
+        "authorName": "William W.",
         "rating": 5,
-        "date": "July 6, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "date": "May 19, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/real_cyber-v12_1.jpg"
       },
       {
-        "authorName": "Sharon W.",
+        "authorName": "Nancy D.",
+        "rating": 3,
+        "date": "March 3, 2026",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
+      },
+      {
+        "authorName": "Arthur C.",
         "rating": 4,
-        "date": "February 15, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-gold_3.jpg"
+        "date": "March 19, 2026",
+        "text": "Shipping was okay, took about a week and a half."
       },
       {
-        "authorName": "Stephen W.",
+        "authorName": "Andrew E.",
         "rating": 3,
-        "date": "April 15, 2026",
-        "text": "The RC motor works but it's very loud and squeaky."
+        "date": "July 12, 2025",
+        "text": "The RC motor works but it's very loud and squeaky.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_3.jpg"
       },
       {
-        "authorName": "Amy F.",
-        "rating": 3,
-        "date": "December 4, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "Christopher R.",
+        "authorName": "Ann M.",
         "rating": 5,
-        "date": "June 10, 2025",
+        "date": "September 4, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/real_cyber-v12_2.jpg"
+      },
+      {
+        "authorName": "William V.",
+        "rating": 5,
+        "date": "February 12, 2026",
         "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Jeffrey J.",
+        "authorName": "Donna B.",
         "rating": 5,
-        "date": "November 12, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/real_cyber-v12-gold_1.jpg"
+        "date": "April 22, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Donna N.",
+        "authorName": "Pamela C.",
         "rating": 5,
-        "date": "July 27, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-gold_2.jpg"
+        "date": "August 5, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Carl S.",
-        "rating": 5,
-        "date": "November 22, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/real_cyber-v12-gold_2.jpg"
+        "authorName": "Paul J.",
+        "rating": 4,
+        "date": "July 12, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
       },
       {
-        "authorName": "Gregory Z.",
+        "authorName": "John F.",
         "rating": 5,
-        "date": "August 27, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "March 5, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Debra T.",
+        "authorName": "Angela H.",
         "rating": 5,
-        "date": "August 25, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "date": "May 18, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Jeffrey N.",
+        "authorName": "Peter G.",
         "rating": 5,
-        "date": "November 17, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "August 10, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Rebecca M.",
-        "rating": 5,
-        "date": "December 20, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
-        "reviewImage": "/images/reviews/low_real_cyber-v12-gold_1.jpg"
-      },
-      {
-        "authorName": "Pamela J.",
-        "rating": 3,
-        "date": "September 26, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
+        "authorName": "Janet B.",
+        "rating": 4,
+        "date": "October 10, 2025",
+        "text": "Good quality bricks, but the stickers were a bit tricky to align."
       },
       {
         "authorName": "Kenneth W.",
         "rating": 5,
-        "date": "February 1, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "date": "February 26, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Cynthia M.",
-        "rating": 5,
-        "date": "October 17, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Brian E.",
-        "rating": 5,
-        "date": "November 1, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Dennis S.",
-        "rating": 5,
-        "date": "June 19, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Susan V.",
-        "rating": 5,
-        "date": "December 6, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Janet W.",
-        "rating": 5,
-        "date": "January 2, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Laura W.",
-        "rating": 4,
-        "date": "February 6, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though."
-      },
-      {
-        "authorName": "Donald M.",
-        "rating": 5,
-        "date": "August 13, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Donna V.",
-        "rating": 4,
-        "date": "June 8, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Debra T.",
+        "authorName": "Frances S.",
         "rating": 5,
         "date": "February 24, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Janet D.",
+        "rating": 5,
+        "date": "April 1, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/real_cyber-v12_3.jpg"
+      },
+      {
+        "authorName": "David R.",
+        "rating": 5,
+        "date": "March 21, 2025",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Karen N.",
+        "authorName": "Thomas V.",
         "rating": 5,
-        "date": "December 30, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "August 28, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_1.jpg"
       },
       {
-        "authorName": "Anna A.",
-        "rating": 5,
-        "date": "August 11, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+        "authorName": "Kevin K.",
+        "rating": 3,
+        "date": "May 19, 2026",
+        "text": "The RC motor works but it's very loud and squeaky."
       },
       {
-        "authorName": "Maria E.",
+        "authorName": "Dorothy E.",
         "rating": 5,
-        "date": "April 22, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "April 28, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Raymond R.",
+        "authorName": "Carol G.",
         "rating": 5,
-        "date": "February 27, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Dennis M.",
-        "rating": 5,
-        "date": "July 28, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Karen N.",
-        "rating": 5,
-        "date": "January 16, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Virginia J.",
-        "rating": 5,
-        "date": "June 3, 2026",
+        "date": "February 2, 2026",
         "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Amanda T.",
+        "authorName": "Jason C.",
         "rating": 5,
-        "date": "February 11, 2026",
+        "date": "December 14, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/low_real_cyber-v12_2.jpg"
+      },
+      {
+        "authorName": "Joshua K.",
+        "rating": 5,
+        "date": "November 17, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Steven J.",
+        "rating": 4,
+        "date": "April 23, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open."
+      },
+      {
+        "authorName": "Brenda V.",
+        "rating": 5,
+        "date": "April 22, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Ruth D.",
+        "rating": 5,
+        "date": "June 2, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Stephen G.",
+        "rating": 5,
+        "date": "November 21, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Amanda D.",
+        "rating": 5,
+        "date": "June 17, 2026",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Carl A.",
+        "authorName": "Daniel D.",
         "rating": 4,
-        "date": "April 20, 2025",
-        "text": "Good set, but a bit repetitive during the chassis assembly."
+        "date": "May 30, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Kathleen H.",
+        "rating": 5,
+        "date": "May 1, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Patricia P.",
+        "rating": 5,
+        "date": "July 15, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Elizabeth R.",
+        "rating": 5,
+        "date": "November 27, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Joseph G.",
+        "rating": 5,
+        "date": "September 10, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
       }
     ]
   },
@@ -1230,274 +1380,232 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Nancy N.",
+        "authorName": "Michael D.",
         "rating": 5,
-        "date": "August 26, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "date": "January 23, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Margaret M.",
+        "authorName": "Angela H.",
         "rating": 5,
-        "date": "October 1, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "March 31, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Christine M.",
+        "authorName": "Eric F.",
         "rating": 5,
-        "date": "August 14, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/low_real_blue-bolide_3.jpg"
-      },
-      {
-        "authorName": "Ronald G.",
-        "rating": 4,
-        "date": "March 30, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "Mark W.",
-        "rating": 5,
-        "date": "January 22, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Dennis J.",
-        "rating": 5,
-        "date": "July 3, 2026",
-        "text": "Five stars! The finished model is huge and very heavy.",
+        "date": "March 14, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition.",
         "reviewImage": "/images/reviews/low_real_blue-bolide_2.jpg"
       },
       {
-        "authorName": "Cynthia G.",
+        "authorName": "Virginia A.",
         "rating": 5,
-        "date": "September 11, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "January 24, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Christine P.",
-        "rating": 5,
-        "date": "February 8, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/low_real_blue-bolide_1.jpg"
-      },
-      {
-        "authorName": "Donna F.",
-        "rating": 5,
-        "date": "June 6, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
+        "authorName": "Stephanie E.",
+        "rating": 4,
+        "date": "February 16, 2026",
+        "text": "Solid build. Wish the steering angle was a bit sharper though.",
         "reviewImage": "/images/reviews/real_blue-bolide_3.jpg"
       },
       {
-        "authorName": "John G.",
+        "authorName": "Patrick S.",
         "rating": 5,
-        "date": "April 6, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "April 1, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Ruth V.",
-        "rating": 5,
-        "date": "November 11, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Brenda K.",
-        "rating": 5,
-        "date": "June 27, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/real_blue-bolide_2.jpg"
-      },
-      {
-        "authorName": "Michael Z.",
-        "rating": 5,
-        "date": "April 15, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Daniel L.",
-        "rating": 5,
-        "date": "December 27, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/real_blue-bolide_1.jpg"
-      },
-      {
-        "authorName": "Elizabeth E.",
-        "rating": 5,
-        "date": "September 5, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Joshua R.",
-        "rating": 5,
-        "date": "April 18, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Michael P.",
-        "rating": 2,
-        "date": "May 11, 2026",
-        "text": "The front suspension sags a bit under the weight of the model."
-      },
-      {
-        "authorName": "Anna N.",
-        "rating": 5,
-        "date": "March 27, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Sandra B.",
+        "authorName": "Jeffrey E.",
         "rating": 4,
-        "date": "June 7, 2026",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
+        "date": "May 3, 2026",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
       },
       {
-        "authorName": "John S.",
+        "authorName": "Timothy D.",
         "rating": 5,
-        "date": "May 2, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "July 2, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Daniel C.",
+        "authorName": "Larry H.",
         "rating": 4,
-        "date": "May 2, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Lisa A.",
-        "rating": 4,
-        "date": "June 23, 2026",
-        "text": "Overall satisfied, but the box arrived slightly dented."
-      },
-      {
-        "authorName": "Eric M.",
-        "rating": 2,
-        "date": "January 14, 2025",
-        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
-      },
-      {
-        "authorName": "Laura F.",
-        "rating": 5,
-        "date": "March 11, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Janet G.",
-        "rating": 4,
-        "date": "March 30, 2026",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Walter F.",
-        "rating": 3,
-        "date": "March 21, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "Elizabeth E.",
-        "rating": 5,
-        "date": "May 15, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Amanda L.",
-        "rating": 4,
-        "date": "July 14, 2026",
+        "date": "January 5, 2026",
         "text": "Looks great, but the doors are a bit stiff to open."
       },
       {
-        "authorName": "Douglas S.",
+        "authorName": "Nancy H.",
         "rating": 5,
-        "date": "May 6, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "June 24, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Jessica W.",
+        "rating": 4,
+        "date": "March 13, 2026",
+        "text": "Overall satisfied, but the box arrived slightly dented.",
+        "reviewImage": "/images/reviews/low_real_blue-bolide_1.jpg"
+      },
+      {
+        "authorName": "Stephen N.",
+        "rating": 5,
+        "date": "June 12, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Marie R.",
+        "rating": 5,
+        "date": "August 13, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/low_real_blue-bolide_3.jpg"
+      },
+      {
+        "authorName": "Paul C.",
+        "rating": 5,
+        "date": "April 14, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/real_blue-bolide_2.jpg"
       },
       {
         "authorName": "Carolyn Z.",
         "rating": 5,
-        "date": "August 1, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "July 24, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/real_blue-bolide_1.jpg"
       },
       {
-        "authorName": "Brenda Z.",
+        "authorName": "Sharon E.",
         "rating": 5,
-        "date": "December 4, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Walter Z.",
-        "rating": 5,
-        "date": "September 22, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Margaret E.",
-        "rating": 5,
-        "date": "July 11, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Mary L.",
-        "rating": 5,
-        "date": "January 6, 2026",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Daniel V.",
-        "rating": 5,
-        "date": "January 19, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Thomas T.",
-        "rating": 2,
-        "date": "March 10, 2025",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
-      },
-      {
-        "authorName": "Matthew N.",
-        "rating": 5,
-        "date": "March 21, 2025",
+        "date": "June 25, 2026",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Harold P.",
+        "authorName": "Jeffrey E.",
         "rating": 5,
-        "date": "May 11, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "June 11, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Angela P.",
+        "authorName": "Richard V.",
         "rating": 5,
-        "date": "April 24, 2026",
+        "date": "November 4, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Henry S.",
+        "rating": 5,
+        "date": "March 26, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Jason J.",
+        "rating": 5,
+        "date": "March 27, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Kimberly R.",
+        "rating": 5,
+        "date": "June 14, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Jennifer K.",
+        "rating": 5,
+        "date": "August 15, 2025",
         "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Nancy C.",
+        "authorName": "Harold R.",
         "rating": 5,
-        "date": "December 9, 2025",
+        "date": "January 5, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Brian K.",
+        "rating": 5,
+        "date": "February 15, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Ryan P.",
+        "rating": 5,
+        "date": "January 6, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Gregory K.",
+        "rating": 5,
+        "date": "September 19, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Anna G.",
+        "rating": 5,
+        "date": "July 11, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Arthur V.",
+        "rating": 5,
+        "date": "April 23, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Donald A.",
+        "rating": 5,
+        "date": "October 29, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Barbara J.",
+        "rating": 4,
+        "date": "January 25, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Patricia Z.",
+        "rating": 5,
+        "date": "May 30, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "John A.",
+        "rating": 2,
+        "date": "October 17, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Larry E.",
+        "rating": 3,
+        "date": "November 29, 2025",
+        "text": "The gearbox is very stiff and sometimes gets stuck."
+      },
+      {
+        "authorName": "Dennis T.",
+        "rating": 5,
+        "date": "August 3, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Christopher P.",
+        "rating": 5,
+        "date": "September 16, 2025",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Angela W.",
-        "rating": 5,
-        "date": "June 16, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "authorName": "Robert T.",
+        "rating": 3,
+        "date": "October 29, 2025",
+        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
       },
       {
-        "authorName": "Douglas G.",
+        "authorName": "Robert S.",
         "rating": 5,
-        "date": "March 14, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Helen F.",
-        "rating": 5,
-        "date": "October 27, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Carol H.",
-        "rating": 5,
-        "date": "September 26, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "June 29, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
       }
     ]
   },
@@ -1526,238 +1634,256 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Frank S.",
-        "rating": 4,
-        "date": "July 30, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Jerry M.",
+        "authorName": "Patricia G.",
         "rating": 5,
-        "date": "March 21, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "May 11, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/low_real_green-bull_3.jpg"
       },
       {
-        "authorName": "Janet J.",
-        "rating": 4,
-        "date": "March 30, 2025",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Rebecca R.",
+        "authorName": "Thomas M.",
         "rating": 5,
-        "date": "March 21, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/low_real_green-bull-hypercar_3.jpg"
-      },
-      {
-        "authorName": "Patricia P.",
-        "rating": 4,
-        "date": "June 5, 2025",
-        "text": "Shipping was okay, took about a week and a half.",
-        "reviewImage": "/images/reviews/low_real_green-bull-hypercar_2.jpg"
-      },
-      {
-        "authorName": "Sharon R.",
-        "rating": 5,
-        "date": "June 19, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Cynthia M.",
-        "rating": 5,
-        "date": "June 20, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/real_green-bull-hypercar_1.jpg"
-      },
-      {
-        "authorName": "Joshua S.",
-        "rating": 5,
-        "date": "July 23, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/real_green-bull-hypercar_2.jpg"
-      },
-      {
-        "authorName": "George N.",
-        "rating": 5,
-        "date": "November 30, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/real_green-bull-hypercar_3.jpg"
-      },
-      {
-        "authorName": "Joshua P.",
-        "rating": 5,
-        "date": "April 23, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "George D.",
-        "rating": 5,
-        "date": "April 16, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Ruth C.",
-        "rating": 5,
-        "date": "May 4, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Sharon T.",
-        "rating": 5,
-        "date": "April 17, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Paul J.",
-        "rating": 5,
-        "date": "January 18, 2026",
+        "date": "March 5, 2026",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "William L.",
-        "rating": 2,
-        "date": "June 2, 2026",
-        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
-      },
-      {
-        "authorName": "Joshua L.",
+        "authorName": "Helen B.",
         "rating": 4,
-        "date": "November 17, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+        "date": "March 16, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
       },
       {
-        "authorName": "Walter L.",
+        "authorName": "Ruth Z.",
         "rating": 5,
-        "date": "February 4, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/low_real_green-bull-hypercar_1.jpg"
-      },
-      {
-        "authorName": "Patrick P.",
-        "rating": 3,
-        "date": "October 17, 2025",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
-      },
-      {
-        "authorName": "Larry E.",
-        "rating": 5,
-        "date": "September 28, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Sarah W.",
-        "rating": 5,
-        "date": "March 29, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Harold D.",
-        "rating": 5,
-        "date": "June 11, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Sharon K.",
-        "rating": 5,
-        "date": "February 4, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Jose B.",
-        "rating": 5,
-        "date": "July 12, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Jeffrey S.",
-        "rating": 2,
-        "date": "June 15, 2026",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
-      },
-      {
-        "authorName": "Jessica R.",
-        "rating": 5,
-        "date": "January 31, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Carl Z.",
-        "rating": 5,
-        "date": "December 20, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Steven D.",
-        "rating": 5,
-        "date": "April 11, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Kimberly R.",
-        "rating": 4,
-        "date": "January 20, 2026",
-        "text": "Overall satisfied, but the box arrived slightly dented."
-      },
-      {
-        "authorName": "Janet B.",
-        "rating": 5,
-        "date": "March 13, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Sandra E.",
-        "rating": 5,
-        "date": "April 9, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Jerry R.",
-        "rating": 5,
-        "date": "August 18, 2025",
+        "date": "May 12, 2025",
         "text": "My son loved building this over the weekend. Great alternative to the name brand."
       },
       {
-        "authorName": "Mary D.",
+        "authorName": "Shirley A.",
         "rating": 5,
-        "date": "August 17, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Janet H.",
-        "rating": 5,
-        "date": "September 17, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Martha S.",
-        "rating": 5,
-        "date": "April 30, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Donna J.",
-        "rating": 5,
-        "date": "July 1, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Lisa W.",
-        "rating": 5,
-        "date": "March 8, 2026",
+        "date": "March 21, 2025",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Mark P.",
-        "rating": 5,
-        "date": "December 4, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "authorName": "Anthony W.",
+        "rating": 2,
+        "date": "September 17, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
       },
       {
-        "authorName": "Kathleen K.",
+        "authorName": "Sandra T.",
         "rating": 5,
-        "date": "April 1, 2026",
+        "date": "June 9, 2025",
         "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "William J.",
+        "rating": 3,
+        "date": "February 12, 2026",
+        "text": "The RC motor works but it's very loud and squeaky.",
+        "reviewImage": "/images/reviews/real_green-bull_2.jpg"
+      },
+      {
+        "authorName": "Kevin H.",
+        "rating": 4,
+        "date": "April 10, 2025",
+        "text": "Good quality bricks, but the stickers were a bit tricky to align.",
+        "reviewImage": "/images/reviews/low_real_green-bull_1.jpg"
+      },
+      {
+        "authorName": "Edward W.",
+        "rating": 5,
+        "date": "July 20, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_real_green-bull_2.jpg"
+      },
+      {
+        "authorName": "Donna N.",
+        "rating": 5,
+        "date": "November 22, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Pamela G.",
+        "rating": 3,
+        "date": "December 5, 2025",
+        "text": "The gearbox is very stiff and sometimes gets stuck."
+      },
+      {
+        "authorName": "Eric T.",
+        "rating": 5,
+        "date": "December 31, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Ronald H.",
+        "rating": 5,
+        "date": "April 1, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Maria H.",
+        "rating": 5,
+        "date": "September 30, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Maria J.",
+        "rating": 5,
+        "date": "July 31, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Robert P.",
+        "rating": 5,
+        "date": "January 28, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Peter R.",
+        "rating": 5,
+        "date": "May 18, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "John F.",
+        "rating": 4,
+        "date": "September 24, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
+        "reviewImage": "/images/reviews/real_green-bull_3.jpg"
+      },
+      {
+        "authorName": "Betty Z.",
+        "rating": 5,
+        "date": "July 21, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Brian R.",
+        "rating": 5,
+        "date": "May 28, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Susan D.",
+        "rating": 5,
+        "date": "May 9, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Christine Z.",
+        "rating": 5,
+        "date": "June 23, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Raymond V.",
+        "rating": 5,
+        "date": "June 24, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Douglas Z.",
+        "rating": 5,
+        "date": "January 29, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Michael Z.",
+        "rating": 5,
+        "date": "July 9, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/real_green-bull_1.jpg"
+      },
+      {
+        "authorName": "Deborah L.",
+        "rating": 4,
+        "date": "March 2, 2026",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Matthew A.",
+        "rating": 5,
+        "date": "January 17, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Carl M.",
+        "rating": 5,
+        "date": "July 9, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Larry S.",
+        "rating": 5,
+        "date": "October 30, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Brian T.",
+        "rating": 5,
+        "date": "April 4, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Joseph F.",
+        "rating": 5,
+        "date": "July 17, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Susan S.",
+        "rating": 5,
+        "date": "April 2, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Amanda H.",
+        "rating": 5,
+        "date": "November 4, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Jeffrey B.",
+        "rating": 5,
+        "date": "June 29, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Steven F.",
+        "rating": 4,
+        "date": "February 28, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Ruth N.",
+        "rating": 3,
+        "date": "September 3, 2025",
+        "text": "The gearbox is very stiff and sometimes gets stuck."
+      },
+      {
+        "authorName": "Raymond E.",
+        "rating": 5,
+        "date": "June 1, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Frank K.",
+        "rating": 4,
+        "date": "January 5, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Debra K.",
+        "rating": 5,
+        "date": "October 26, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Shirley Z.",
+        "rating": 5,
+        "date": "May 21, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
       }
     ]
   },
@@ -1785,256 +1911,238 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Ryan M.",
-        "rating": 4,
-        "date": "February 3, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Ronald F.",
-        "rating": 5,
-        "date": "April 15, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Carolyn N.",
-        "rating": 5,
-        "date": "December 26, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Amanda N.",
-        "rating": 5,
-        "date": "August 27, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Jason G.",
-        "rating": 5,
-        "date": "June 20, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/real_black-warrior-v12_3.jpg"
-      },
-      {
-        "authorName": "Helen G.",
+        "authorName": "Matthew A.",
         "rating": 3,
-        "date": "January 6, 2025",
+        "date": "April 30, 2025",
         "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine.",
-        "reviewImage": "/images/reviews/low_real_black-warrior-v12_1.jpg"
+        "reviewImage": "/images/reviews/real_black-warrior_3.jpg"
       },
       {
-        "authorName": "Arthur N.",
-        "rating": 3,
-        "date": "July 29, 2025",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating.",
-        "reviewImage": "/images/reviews/real_black-warrior-v12_1.jpg"
-      },
-      {
-        "authorName": "Richard P.",
+        "authorName": "Andrew V.",
         "rating": 5,
-        "date": "February 23, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "June 27, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_real_black-warrior_2.jpg"
       },
       {
-        "authorName": "Carol P.",
-        "rating": 5,
-        "date": "January 11, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Karen H.",
-        "rating": 5,
-        "date": "May 14, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Robert S.",
+        "authorName": "Sarah R.",
         "rating": 4,
-        "date": "April 21, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+        "date": "February 14, 2026",
+        "text": "Shipping was okay, took about a week and a half."
       },
       {
-        "authorName": "Sarah T.",
-        "rating": 5,
-        "date": "October 10, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/low_real_black-warrior-v12_3.jpg"
-      },
-      {
-        "authorName": "Joshua H.",
-        "rating": 3,
-        "date": "July 8, 2026",
-        "text": "The gearbox is very stiff and sometimes gets stuck.",
-        "reviewImage": "/images/reviews/low_real_black-warrior-v12_2.jpg"
-      },
-      {
-        "authorName": "Edward J.",
-        "rating": 5,
-        "date": "September 25, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/real_black-warrior-v12_2.jpg"
-      },
-      {
-        "authorName": "Amanda V.",
-        "rating": 5,
-        "date": "August 2, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Brenda D.",
-        "rating": 4,
-        "date": "August 30, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "Brenda V.",
-        "rating": 5,
-        "date": "March 16, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Jennifer W.",
-        "rating": 5,
-        "date": "May 2, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Cynthia N.",
-        "rating": 5,
-        "date": "April 18, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Raymond T.",
-        "rating": 4,
-        "date": "January 21, 2025",
-        "text": "Overall satisfied, but the box arrived slightly dented."
-      },
-      {
-        "authorName": "Larry E.",
-        "rating": 5,
-        "date": "July 21, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "William T.",
-        "rating": 4,
-        "date": "June 2, 2026",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Joshua N.",
-        "rating": 5,
-        "date": "September 12, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Karen W.",
+        "authorName": "Sharon T.",
         "rating": 2,
-        "date": "December 20, 2025",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
+        "date": "February 21, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build.",
+        "reviewImage": "/images/reviews/low_real_black-warrior_1.jpg"
       },
       {
-        "authorName": "Susan V.",
+        "authorName": "Jason A.",
         "rating": 5,
-        "date": "January 6, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Stephanie N.",
-        "rating": 5,
-        "date": "March 19, 2025",
+        "date": "July 6, 2026",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Elizabeth G.",
+        "authorName": "Henry H.",
         "rating": 5,
-        "date": "April 15, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "November 18, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/real_black-warrior_2.jpg"
       },
       {
-        "authorName": "Dorothy S.",
+        "authorName": "Kevin G.",
         "rating": 5,
-        "date": "March 24, 2026",
+        "date": "March 19, 2026",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Eric A.",
+        "authorName": "Amy E.",
         "rating": 5,
-        "date": "April 20, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "October 8, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Linda N.",
+        "authorName": "Arthur P.",
         "rating": 5,
-        "date": "April 26, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+        "date": "November 10, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Roger W.",
+        "authorName": "Donald Z.",
         "rating": 5,
-        "date": "June 2, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "date": "August 1, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/real_black-warrior_1.jpg"
       },
       {
-        "authorName": "Edward J.",
+        "authorName": "George R.",
         "rating": 5,
-        "date": "December 17, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Joseph M.",
-        "rating": 5,
-        "date": "March 16, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Dorothy C.",
-        "rating": 5,
-        "date": "February 9, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "John G.",
-        "rating": 5,
-        "date": "June 19, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Helen V.",
-        "rating": 5,
-        "date": "April 29, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Sarah G.",
-        "rating": 5,
-        "date": "May 6, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Anthony C.",
-        "rating": 4,
-        "date": "July 29, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Jose G.",
-        "rating": 5,
-        "date": "December 19, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Douglas S.",
-        "rating": 5,
-        "date": "March 26, 2025",
+        "date": "April 26, 2026",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Maria K.",
+        "authorName": "Scott N.",
         "rating": 5,
-        "date": "June 12, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "date": "May 8, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/low_real_black-warrior_3.jpg"
+      },
+      {
+        "authorName": "Jason F.",
+        "rating": 5,
+        "date": "July 20, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Kevin P.",
+        "rating": 4,
+        "date": "March 23, 2026",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Timothy P.",
+        "rating": 5,
+        "date": "November 4, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Melissa Z.",
+        "rating": 4,
+        "date": "May 29, 2026",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Karen V.",
+        "rating": 2,
+        "date": "January 17, 2025",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
+      },
+      {
+        "authorName": "Charles V.",
+        "rating": 5,
+        "date": "June 10, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "William V.",
+        "rating": 5,
+        "date": "August 27, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Carl K.",
+        "rating": 5,
+        "date": "August 7, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Michael T.",
+        "rating": 5,
+        "date": "February 4, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Frank D.",
+        "rating": 5,
+        "date": "May 22, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Edward L.",
+        "rating": 5,
+        "date": "December 22, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Mary J.",
+        "rating": 5,
+        "date": "February 8, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Patricia Z.",
+        "rating": 5,
+        "date": "June 10, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Jose W.",
+        "rating": 5,
+        "date": "February 12, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Brenda Z.",
+        "rating": 5,
+        "date": "May 4, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Gregory P.",
+        "rating": 4,
+        "date": "February 8, 2025",
+        "text": "Good quality bricks, but the stickers were a bit tricky to align."
+      },
+      {
+        "authorName": "Walter C.",
+        "rating": 5,
+        "date": "August 25, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Debra D.",
+        "rating": 5,
+        "date": "June 7, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Ruth L.",
+        "rating": 5,
+        "date": "May 14, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Charles C.",
+        "rating": 5,
+        "date": "February 26, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Peter N.",
+        "rating": 5,
+        "date": "April 9, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Sandra A.",
+        "rating": 5,
+        "date": "May 1, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Lisa L.",
+        "rating": 5,
+        "date": "April 21, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Jose L.",
+        "rating": 4,
+        "date": "September 18, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Carol W.",
+        "rating": 5,
+        "date": "October 14, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Mark H.",
+        "rating": 5,
+        "date": "March 14, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
       }
     ]
   },
@@ -2062,238 +2170,190 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Virginia T.",
-        "rating": 4,
-        "date": "January 1, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Kathleen A.",
-        "rating": 4,
-        "date": "May 14, 2026",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Margaret L.",
+        "authorName": "Virginia C.",
         "rating": 5,
-        "date": "June 27, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Richard W.",
-        "rating": 5,
-        "date": "April 4, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Brenda V.",
-        "rating": 4,
-        "date": "April 13, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing.",
-        "reviewImage": "/images/reviews/low_real_pink-bull-edition_2.jpg"
-      },
-      {
-        "authorName": "Joshua E.",
-        "rating": 5,
-        "date": "July 12, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Joseph T.",
-        "rating": 2,
-        "date": "June 9, 2025",
-        "text": "The front suspension sags a bit under the weight of the model."
-      },
-      {
-        "authorName": "Robert W.",
-        "rating": 5,
-        "date": "July 8, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Ruth V.",
-        "rating": 5,
-        "date": "August 29, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/real_pink-bull-edition_1.jpg"
-      },
-      {
-        "authorName": "Nancy H.",
-        "rating": 5,
-        "date": "August 22, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/low_real_pink-bull-edition_3.jpg"
-      },
-      {
-        "authorName": "Peter C.",
-        "rating": 5,
-        "date": "January 9, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Carol N.",
-        "rating": 5,
-        "date": "February 10, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Henry H.",
-        "rating": 5,
-        "date": "September 28, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Michelle D.",
-        "rating": 5,
-        "date": "July 24, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Susan N.",
-        "rating": 5,
-        "date": "January 18, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/real_pink-bull-edition_2.jpg"
-      },
-      {
-        "authorName": "Karen C.",
-        "rating": 5,
-        "date": "July 17, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Brenda L.",
-        "rating": 2,
-        "date": "July 28, 2025",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine.",
-        "reviewImage": "/images/reviews/real_pink-bull-edition_3.jpg"
-      },
-      {
-        "authorName": "Matthew E.",
-        "rating": 5,
-        "date": "April 21, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Kenneth B.",
-        "rating": 5,
-        "date": "October 14, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/low_real_pink-bull-edition_1.jpg"
-      },
-      {
-        "authorName": "Sandra G.",
-        "rating": 5,
-        "date": "May 19, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Pamela B.",
-        "rating": 4,
-        "date": "April 6, 2026",
-        "text": "Looks great, but the doors are a bit stiff to open."
-      },
-      {
-        "authorName": "Daniel B.",
-        "rating": 5,
-        "date": "December 27, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Jerry G.",
-        "rating": 5,
-        "date": "January 31, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "William W.",
-        "rating": 5,
-        "date": "June 16, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Debra M.",
-        "rating": 5,
-        "date": "January 3, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "James S.",
-        "rating": 5,
-        "date": "November 21, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Gary R.",
-        "rating": 5,
-        "date": "January 3, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Diane F.",
-        "rating": 5,
-        "date": "January 8, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Gary V.",
-        "rating": 5,
-        "date": "February 19, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Sandra C.",
-        "rating": 5,
-        "date": "March 9, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Jose R.",
-        "rating": 5,
-        "date": "August 6, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Jerry G.",
-        "rating": 5,
-        "date": "January 1, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Sharon Z.",
-        "rating": 5,
-        "date": "April 30, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Donald G.",
-        "rating": 5,
-        "date": "August 25, 2025",
+        "date": "January 22, 2025",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Brian H.",
-        "rating": 2,
-        "date": "April 26, 2025",
-        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
-      },
-      {
-        "authorName": "Margaret K.",
+        "authorName": "Harold C.",
         "rating": 5,
-        "date": "September 11, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "July 28, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Mary L.",
+        "authorName": "Paul L.",
+        "rating": 3,
+        "date": "November 16, 2025",
+        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine.",
+        "reviewImage": "/images/reviews/low_real_pink-bull_2.jpg"
+      },
+      {
+        "authorName": "Martha W.",
         "rating": 4,
-        "date": "December 8, 2025",
-        "text": "Overall satisfied, but the box arrived slightly dented."
+        "date": "August 27, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
       },
       {
-        "authorName": "Donald B.",
+        "authorName": "Brian M.",
+        "rating": 4,
+        "date": "October 24, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Brenda T.",
         "rating": 5,
-        "date": "November 8, 2025",
+        "date": "January 12, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/real_pink-bull_1.jpg"
+      },
+      {
+        "authorName": "Shirley K.",
+        "rating": 5,
+        "date": "July 7, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Walter S.",
+        "rating": 5,
+        "date": "June 19, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Nancy A.",
+        "rating": 5,
+        "date": "September 19, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_real_pink-bull_3.jpg"
+      },
+      {
+        "authorName": "Joshua C.",
+        "rating": 5,
+        "date": "June 2, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Donna P.",
+        "rating": 4,
+        "date": "August 6, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Jessica P.",
+        "rating": 3,
+        "date": "December 10, 2025",
+        "text": "The RC motor works but it's very loud and squeaky.",
+        "reviewImage": "/images/reviews/real_pink-bull_2.jpg"
+      },
+      {
+        "authorName": "Stephanie H.",
+        "rating": 5,
+        "date": "September 24, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/real_pink-bull_3.jpg"
+      },
+      {
+        "authorName": "Stephen E.",
+        "rating": 2,
+        "date": "July 13, 2026",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection."
+      },
+      {
+        "authorName": "Stephanie T.",
+        "rating": 5,
+        "date": "April 18, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Deborah W.",
+        "rating": 5,
+        "date": "June 28, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/low_real_pink-bull_1.jpg"
+      },
+      {
+        "authorName": "David G.",
+        "rating": 4,
+        "date": "June 9, 2026",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
+      },
+      {
+        "authorName": "Amy P.",
+        "rating": 5,
+        "date": "May 3, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Barbara P.",
+        "rating": 5,
+        "date": "November 5, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Diane A.",
+        "rating": 5,
+        "date": "January 18, 2026",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Nancy D.",
+        "rating": 5,
+        "date": "June 1, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Eric E.",
+        "rating": 5,
+        "date": "December 22, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Jerry N.",
+        "rating": 5,
+        "date": "May 17, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "David E.",
+        "rating": 5,
+        "date": "May 6, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Douglas G.",
+        "rating": 5,
+        "date": "April 28, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Joseph J.",
+        "rating": 5,
+        "date": "March 11, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Joyce P.",
+        "rating": 5,
+        "date": "July 5, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Kimberly L.",
+        "rating": 5,
+        "date": "June 6, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Cynthia L.",
+        "rating": 5,
+        "date": "October 20, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Brian W.",
+        "rating": 5,
+        "date": "January 24, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       }
     ]
   },
@@ -2321,208 +2381,238 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Walter E.",
-        "rating": 2,
-        "date": "January 4, 2025",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection."
-      },
-      {
-        "authorName": "Christopher P.",
-        "rating": 3,
-        "date": "May 19, 2026",
-        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy.",
-        "reviewImage": "/images/reviews/real_acrylic-display-box_3.jpg"
-      },
-      {
-        "authorName": "Kenneth G.",
+        "authorName": "Jeffrey M.",
         "rating": 5,
-        "date": "April 21, 2025",
+        "date": "April 3, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_3.jpg"
+      },
+      {
+        "authorName": "Paul T.",
+        "rating": 4,
+        "date": "February 20, 2026",
+        "text": "Solid build. Wish the steering angle was a bit sharper though.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_3.jpg"
+      },
+      {
+        "authorName": "Jason Z.",
+        "rating": 5,
+        "date": "April 27, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Maria V.",
+        "rating": 5,
+        "date": "May 14, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Brenda K.",
+        "rating": 5,
+        "date": "December 28, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Christopher D.",
+        "rating": 5,
+        "date": "April 24, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_2.jpg"
+      },
+      {
+        "authorName": "Linda A.",
+        "rating": 5,
+        "date": "July 26, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Margaret E.",
+        "rating": 5,
+        "date": "July 8, 2026",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Helen G.",
-        "rating": 5,
-        "date": "May 14, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+        "authorName": "Harold S.",
+        "rating": 4,
+        "date": "March 23, 2026",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
       },
       {
-        "authorName": "Elizabeth M.",
+        "authorName": "David M.",
         "rating": 5,
-        "date": "August 15, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/real_acrylic-display-box_1.jpg"
+        "date": "April 15, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_1.jpg"
       },
       {
-        "authorName": "Rebecca P.",
+        "authorName": "Brenda A.",
+        "rating": 5,
+        "date": "December 26, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Virginia Z.",
+        "rating": 5,
+        "date": "May 9, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Angela Z.",
         "rating": 5,
         "date": "August 16, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Patrick T.",
-        "rating": 4,
-        "date": "February 2, 2026",
-        "text": "Overall satisfied, but the box arrived slightly dented."
+        "authorName": "Sarah B.",
+        "rating": 3,
+        "date": "March 16, 2026",
+        "text": "The gearbox is very stiff and sometimes gets stuck.",
+        "reviewImage": "/images/reviews/real_porsche-rsr_2.jpg"
       },
       {
-        "authorName": "Amy D.",
+        "authorName": "James B.",
         "rating": 5,
-        "date": "August 7, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Mark W.",
-        "rating": 5,
-        "date": "January 7, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_real_acrylic-display-box_2.jpg"
-      },
-      {
-        "authorName": "Jeffrey T.",
-        "rating": 5,
-        "date": "May 20, 2025",
+        "date": "May 5, 2025",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Carl S.",
+        "authorName": "Kathleen B.",
         "rating": 5,
-        "date": "June 14, 2025",
+        "date": "May 25, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Larry L.",
+        "rating": 5,
+        "date": "September 7, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Scott M.",
+        "rating": 2,
+        "date": "January 28, 2025",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection."
+      },
+      {
+        "authorName": "Rebecca J.",
+        "rating": 4,
+        "date": "March 30, 2026",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "George Z.",
+        "rating": 2,
+        "date": "May 29, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Mary Z.",
+        "rating": 5,
+        "date": "November 26, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Betty K.",
+        "rating": 5,
+        "date": "November 13, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Sandra B.",
+        "rating": 5,
+        "date": "June 24, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Edward S.",
+        "rating": 5,
+        "date": "January 16, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "David E.",
+        "rating": 5,
+        "date": "January 30, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Kenneth L.",
+        "rating": 4,
+        "date": "July 23, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "Joyce M.",
+        "rating": 5,
+        "date": "March 25, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Joshua H.",
+        "rating": 4,
+        "date": "November 28, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
+      },
+      {
+        "authorName": "Maria G.",
+        "rating": 5,
+        "date": "March 13, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Martha R.",
+        "rating": 5,
+        "date": "November 13, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Sharon B.",
+        "rating": 5,
+        "date": "April 18, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Donna A.",
+        "rating": 5,
+        "date": "August 7, 2025",
         "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
         "authorName": "Jose Z.",
         "rating": 5,
-        "date": "July 24, 2025",
+        "date": "April 24, 2026",
         "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Thomas W.",
+        "authorName": "Michael M.",
         "rating": 5,
-        "date": "March 7, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_real_acrylic-display-box_3.jpg"
+        "date": "April 24, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Scott H.",
+        "authorName": "Harold T.",
         "rating": 5,
-        "date": "August 27, 2025",
+        "date": "November 4, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_real_porsche-rsr_1.jpg"
+      },
+      {
+        "authorName": "Deborah V.",
+        "rating": 5,
+        "date": "June 28, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "James K.",
+        "authorName": "Jason C.",
         "rating": 5,
-        "date": "July 2, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "October 19, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Stephen G.",
+        "authorName": "John R.",
         "rating": 5,
-        "date": "May 15, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/real_acrylic-display-box_2.jpg"
-      },
-      {
-        "authorName": "Charles R.",
-        "rating": 5,
-        "date": "January 11, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Charles J.",
-        "rating": 5,
-        "date": "March 17, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/low_real_acrylic-display-box_1.jpg"
-      },
-      {
-        "authorName": "Marie Z.",
-        "rating": 5,
-        "date": "May 15, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Donald J.",
-        "rating": 5,
-        "date": "December 19, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Christopher L.",
-        "rating": 5,
-        "date": "November 21, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Amy Z.",
-        "rating": 5,
-        "date": "May 28, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "James E.",
-        "rating": 2,
-        "date": "October 29, 2025",
-        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
-      },
-      {
-        "authorName": "Martha K.",
-        "rating": 4,
-        "date": "May 8, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "Carl A.",
-        "rating": 5,
-        "date": "May 6, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Kimberly W.",
-        "rating": 5,
-        "date": "July 20, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Thomas L.",
-        "rating": 5,
-        "date": "January 8, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Brenda L.",
-        "rating": 4,
-        "date": "March 13, 2026",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Jennifer B.",
-        "rating": 4,
-        "date": "July 31, 2026",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Roger L.",
-        "rating": 5,
-        "date": "February 19, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Betty H.",
-        "rating": 5,
-        "date": "April 5, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Diane M.",
-        "rating": 5,
-        "date": "September 8, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Joshua B.",
-        "rating": 5,
-        "date": "April 8, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "August 20, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       }
     ]
   }
