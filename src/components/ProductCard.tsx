@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useCart } from '@/context/CartContext';
 import styles from './ProductCard.module.css';
 
 interface ProductCardProps {
@@ -18,6 +19,8 @@ interface ProductCardProps {
 export default function ProductCard({ id, name, price, pieces, image, variantId, badge, delay = 0 }: ProductCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
+  const { addToCart, isLoading } = useCart();
+  const [isAdding, setIsAdding] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,11 +40,12 @@ export default function ProductCard({ id, name, price, pieces, image, variantId,
     return () => observer.disconnect();
   }, [delay]);
 
-  const handleAddToCart = (e: React.MouseEvent) => {
+  const handleAddToCart = async (e: React.MouseEvent) => {
     e.preventDefault(); // Stop click from bubbling up to Link
     e.stopPropagation();
-    const checkoutUrl = `https://brick-and-throttle.myshopify.com/cart/${variantId}:1`;
-    window.open(checkoutUrl, '_blank');
+    setIsAdding(true);
+    await addToCart(variantId, 1);
+    setIsAdding(false);
   };
 
   return (
@@ -58,8 +62,8 @@ export default function ProductCard({ id, name, price, pieces, image, variantId,
           <h3 className={styles.name}>{name}</h3>
           <p className={styles.pieces}>{pieces.toLocaleString()} pieces</p>
           <p className={styles.price}>{price}</p>
-          <button className={styles.addToCart} onClick={handleAddToCart}>
-            ADD TO CART
+          <button className={styles.addToCart} onClick={handleAddToCart} disabled={isAdding || isLoading}>
+            {isAdding ? 'ADDING...' : 'ADD TO CART'}
           </button>
         </div>
       </div>
