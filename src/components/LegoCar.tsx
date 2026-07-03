@@ -28,6 +28,7 @@ export default function LegoCar({
   
   // Load the specific GLB file
   const { scene } = useGLTF(modelUrl);
+  const { scene: floorScene } = useGLTF('/models/pbr_sci-fi_modular_flooring.glb');
   const groupRef = useRef<THREE.Group>(null!);
 
   // Enforce 95% opacity on the materials
@@ -89,25 +90,7 @@ export default function LegoCar({
       
       {/* Rotating Round Podium */}
       <group position={[0, -1.0, 0]}>
-        {/* Main dark metal cylinder */}
-        <mesh receiveShadow>
-          <cylinderGeometry args={[scale * 0.6, scale * 0.65, 0.4, 64]} />
-          <meshStandardMaterial color="#050508" metalness={0.8} roughness={0.2} />
-        </mesh>
-        
-        {/* Neon cyan rim */}
-        <mesh position={[0, 0, 0]}>
-          <cylinderGeometry args={[scale * 0.61, scale * 0.61, 0.1, 64]} />
-          <meshBasicMaterial color="#00ffff" toneMapped={false} />
-        </mesh>
-
-        {/* Neon accent strips on the surface to make rotation visible */}
-        {[0, 1, 2, 3].map((i) => (
-          <mesh key={i} position={[0, 0.21, 0]} rotation={[0, (i * Math.PI) / 4, 0]}>
-            <boxGeometry args={[0.1, 0.02, scale * 1.15]} />
-            <meshBasicMaterial color={i % 2 === 0 ? '#ff2d2d' : '#00ffff'} toneMapped={false} />
-          </mesh>
-        ))}
+        <primitive object={floorScene} scale={[scale * 0.2, scale * 0.2, scale * 0.2]} />
       </group>
     </group>
   );
@@ -117,3 +100,4 @@ export default function LegoCar({
 useGLTF.preload('/models/reference-3D-911-BW-optimized.glb');
 useGLTF.preload('/models/3D-911-gulf.glb');
 useGLTF.preload('/models/3D-pink-lambo.glb');
+useGLTF.preload('/models/pbr_sci-fi_modular_flooring.glb');
