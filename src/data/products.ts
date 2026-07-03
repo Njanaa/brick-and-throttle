@@ -33,9 +33,6 @@ export const products: Product[] = [
     "pieces": 1580,
     "image": "/images/porsche-rsr.jpg",
     "gallery": [
-      "/images/porsche-rsr.jpg",
-      "/images/porsche-rsr.jpg",
-      "/images/porsche-rsr.jpg",
       "/images/porsche-rsr.jpg"
     ],
     "variantId": "51946708861213",
@@ -54,209 +51,219 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Christine L.",
+        "authorName": "Maria T.",
         "rating": 5,
-        "date": "January 14, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+        "date": "March 28, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Ronald H.",
-        "rating": 5,
-        "date": "February 19, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "authorName": "Dennis M.",
+        "rating": 4,
+        "date": "January 25, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Kimberly B.",
-        "rating": 3,
-        "date": "May 29, 2026",
-        "text": "The front suspension sags a bit under the weight of the model.",
+        "authorName": "Timothy Z.",
+        "rating": 5,
+        "date": "May 22, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
         "reviewImage": "/images/reviews/rev_lambo_2.jpg"
       },
       {
-        "authorName": "Virginia V.",
+        "authorName": "Kenneth Z.",
         "rating": 5,
-        "date": "October 2, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
+        "date": "March 1, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Stephen L.",
-        "rating": 4,
-        "date": "October 23, 2025",
-        "text": "Shipping was okay, took about a week and a half."
-      },
-      {
-        "authorName": "Raymond B.",
+        "authorName": "Helen W.",
         "rating": 5,
-        "date": "March 31, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Margaret W.",
-        "rating": 5,
-        "date": "April 1, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Karen J.",
-        "rating": 4,
-        "date": "May 8, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Brenda M.",
-        "rating": 5,
-        "date": "March 5, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Martha J.",
-        "rating": 5,
-        "date": "April 7, 2025",
+        "date": "May 12, 2025",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Catherine M.",
+        "authorName": "Donald B.",
+        "rating": 5,
+        "date": "December 14, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "David G.",
+        "rating": 5,
+        "date": "March 30, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Joseph B.",
         "rating": 2,
-        "date": "August 24, 2025",
-        "text": "The RC motor works but it's very loud and squeaky.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+        "date": "May 24, 2025",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
       },
       {
-        "authorName": "Jessica R.",
+        "authorName": "Virginia J.",
         "rating": 5,
-        "date": "May 13, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+        "date": "October 18, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Michael M.",
-        "rating": 3,
-        "date": "March 23, 2025",
-        "text": "The front suspension sags a bit under the weight of the model."
-      },
-      {
-        "authorName": "Frances E.",
+        "authorName": "Gregory M.",
         "rating": 5,
-        "date": "May 31, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "February 24, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Jerry L.",
+        "authorName": "Ann R.",
         "rating": 5,
-        "date": "May 15, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+        "date": "August 9, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Raymond V.",
-        "rating": 4,
-        "date": "May 30, 2026",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Ruth S.",
+        "authorName": "Ruth G.",
         "rating": 5,
-        "date": "July 16, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Matthew A.",
-        "rating": 5,
-        "date": "January 12, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Ann H.",
-        "rating": 5,
-        "date": "September 3, 2025",
-        "text": "Five stars! The finished model is huge and very heavy.",
+        "date": "May 10, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition.",
         "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       },
       {
-        "authorName": "Douglas B.",
+        "authorName": "Jessica C.",
         "rating": 5,
-        "date": "September 9, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
+        "date": "January 5, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
       },
       {
-        "authorName": "Peter H.",
+        "authorName": "Eric J.",
         "rating": 5,
-        "date": "September 18, 2025",
-        "text": "Five stars! The finished model is huge and very heavy.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+        "date": "February 16, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Eric V.",
+        "authorName": "Laura W.",
+        "rating": 5,
+        "date": "February 5, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Larry G.",
+        "rating": 5,
+        "date": "January 10, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "John N.",
+        "rating": 5,
+        "date": "July 7, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Timothy H.",
+        "rating": 5,
+        "date": "January 19, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Carolyn T.",
+        "rating": 5,
+        "date": "March 27, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Jerry S.",
         "rating": 4,
-        "date": "June 12, 2026",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
+        "date": "June 21, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
       },
       {
-        "authorName": "Elizabeth G.",
-        "rating": 5,
-        "date": "April 25, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "authorName": "Raymond R.",
+        "rating": 4,
+        "date": "November 25, 2025",
+        "text": "Shipping was okay, took about a week and a half."
       },
       {
-        "authorName": "Donald C.",
+        "authorName": "Roger N.",
         "rating": 5,
-        "date": "December 15, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+        "date": "August 7, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Sandra Z.",
+        "authorName": "Edward T.",
         "rating": 5,
-        "date": "October 22, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
-        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Gregory G.",
-        "rating": 5,
-        "date": "April 27, 2026",
+        "date": "January 11, 2026",
         "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Robert W.",
+        "authorName": "Brian W.",
         "rating": 5,
-        "date": "July 21, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+        "date": "May 1, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Paul S.",
+        "authorName": "Raymond P.",
         "rating": 5,
-        "date": "August 31, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Robert L.",
-        "rating": 5,
-        "date": "May 18, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Gregory H.",
-        "rating": 5,
-        "date": "June 3, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Sandra G.",
-        "rating": 5,
-        "date": "May 16, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Thomas D.",
-        "rating": 5,
-        "date": "September 5, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
+        "date": "January 21, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
         "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Donald R.",
+        "rating": 4,
+        "date": "October 25, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Janet A.",
+        "rating": 2,
+        "date": "June 17, 2025",
+        "text": "The RC motor works but it's very loud and squeaky."
+      },
+      {
+        "authorName": "Mary C.",
+        "rating": 5,
+        "date": "July 14, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Jason D.",
+        "rating": 5,
+        "date": "October 1, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Elizabeth E.",
+        "rating": 5,
+        "date": "July 1, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Maria E.",
+        "rating": 5,
+        "date": "June 30, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Joshua A.",
+        "rating": 2,
+        "date": "August 10, 2025",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection."
+      },
+      {
+        "authorName": "Matthew A.",
+        "rating": 4,
+        "date": "August 24, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented."
+      },
+      {
+        "authorName": "Virginia K.",
+        "rating": 5,
+        "date": "June 12, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       }
     ]
   },
@@ -267,9 +274,6 @@ export const products: Product[] = [
     "pieces": 1250,
     "image": "/images/gulf-racing.jpg",
     "gallery": [
-      "/images/gulf-racing.jpg",
-      "/images/gulf-racing.jpg",
-      "/images/gulf-racing.jpg",
       "/images/gulf-racing.jpg"
     ],
     "variantId": "51946614423837",
@@ -288,274 +292,219 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Barbara T.",
+        "authorName": "Betty F.",
+        "rating": 5,
+        "date": "June 20, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Mark W.",
+        "rating": 4,
+        "date": "October 30, 2025",
+        "text": "Shipping was okay, took about a week and a half.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Nancy E.",
         "rating": 3,
-        "date": "November 7, 2025",
+        "date": "February 7, 2026",
         "text": "I was missing two small technic pins. Had to use spares from my own collection."
       },
       {
-        "authorName": "Roger T.",
-        "rating": 5,
-        "date": "April 12, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
+        "authorName": "Ruth D.",
+        "rating": 4,
+        "date": "May 15, 2025",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
       },
       {
-        "authorName": "Brenda F.",
+        "authorName": "Susan F.",
         "rating": 5,
-        "date": "July 16, 2025",
+        "date": "July 4, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Donna Z.",
+        "rating": 5,
+        "date": "March 7, 2026",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Christine P.",
+        "rating": 5,
+        "date": "December 17, 2025",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Larry D.",
-        "rating": 5,
-        "date": "April 16, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
+        "authorName": "Paul S.",
+        "rating": 4,
+        "date": "February 17, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
       },
       {
-        "authorName": "John V.",
+        "authorName": "Brian Z.",
         "rating": 5,
-        "date": "February 23, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Donald L.",
-        "rating": 5,
-        "date": "October 28, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Daniel W.",
-        "rating": 5,
-        "date": "February 18, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Ryan S.",
-        "rating": 5,
-        "date": "March 22, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Matthew B.",
-        "rating": 5,
-        "date": "April 14, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Scott A.",
-        "rating": 5,
-        "date": "October 21, 2025",
+        "date": "June 13, 2026",
         "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Anthony Z.",
+        "authorName": "Shirley B.",
         "rating": 5,
-        "date": "May 7, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+        "date": "May 19, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Barbara L.",
+        "authorName": "Nancy S.",
         "rating": 5,
-        "date": "January 16, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
+        "date": "February 25, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Gregory A.",
+        "authorName": "Anna F.",
         "rating": 5,
-        "date": "April 20, 2026",
+        "date": "January 20, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Jessica J.",
+        "rating": 5,
+        "date": "July 11, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Debra E.",
+        "rating": 5,
+        "date": "October 17, 2025",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Joyce E.",
+        "authorName": "Donna P.",
+        "rating": 2,
+        "date": "January 21, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
+      },
+      {
+        "authorName": "Andrew G.",
         "rating": 5,
-        "date": "December 23, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "date": "July 29, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
         "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
       },
       {
-        "authorName": "Amanda A.",
-        "rating": 3,
-        "date": "August 21, 2025",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection.",
+        "authorName": "Marie S.",
+        "rating": 5,
+        "date": "January 10, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Christopher W.",
+        "rating": 5,
+        "date": "January 23, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Gregory C.",
+        "rating": 5,
+        "date": "February 20, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Jerry J.",
+        "rating": 5,
+        "date": "June 14, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Jason F.",
+        "rating": 5,
+        "date": "June 10, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Henry V.",
+        "rating": 4,
+        "date": "June 15, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly.",
         "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Brenda Z.",
+        "authorName": "Douglas N.",
         "rating": 5,
-        "date": "February 4, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
+        "date": "June 23, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Carl W.",
-        "rating": 5,
-        "date": "March 2, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
+        "authorName": "Elizabeth R.",
+        "rating": 3,
+        "date": "July 19, 2025",
+        "text": "The front suspension sags a bit under the weight of the model."
       },
       {
-        "authorName": "Ronald A.",
-        "rating": 4,
-        "date": "May 17, 2026",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Nancy H.",
+        "authorName": "Gary H.",
         "rating": 5,
-        "date": "May 6, 2026",
+        "date": "February 1, 2026",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Patrick V.",
-        "rating": 4,
-        "date": "January 7, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "Mary G.",
-        "rating": 4,
-        "date": "March 24, 2025",
-        "text": "Overall satisfied, but the box arrived slightly dented."
-      },
-      {
-        "authorName": "Pamela E.",
+        "authorName": "Daniel F.",
         "rating": 5,
-        "date": "June 1, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "July 8, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Daniel W.",
+        "authorName": "Thomas F.",
+        "rating": 5,
+        "date": "January 15, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Robert S.",
+        "rating": 5,
+        "date": "July 21, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Marie P.",
+        "rating": 5,
+        "date": "September 29, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Angela P.",
+        "rating": 5,
+        "date": "April 8, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Brenda L.",
+        "rating": 5,
+        "date": "October 5, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Catherine V.",
+        "rating": 5,
+        "date": "March 7, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Karen W.",
         "rating": 4,
-        "date": "September 7, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+        "date": "July 5, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly.",
+        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
       },
       {
         "authorName": "Christopher H.",
         "rating": 5,
-        "date": "January 24, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Jessica P.",
-        "rating": 5,
-        "date": "July 26, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Steven H.",
-        "rating": 5,
-        "date": "January 22, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Donna H.",
-        "rating": 5,
-        "date": "June 7, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Laura T.",
-        "rating": 4,
-        "date": "June 5, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "George H.",
-        "rating": 5,
-        "date": "December 25, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Marie H.",
-        "rating": 5,
-        "date": "May 23, 2026",
+        "date": "December 2, 2025",
         "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Melissa S.",
-        "rating": 4,
-        "date": "June 4, 2025",
-        "text": "Good set, but a bit repetitive during the chassis assembly.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "George Z.",
-        "rating": 5,
-        "date": "July 14, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Anthony V.",
-        "rating": 5,
-        "date": "January 23, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Jeffrey W.",
-        "rating": 2,
-        "date": "June 17, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
-      },
-      {
-        "authorName": "Linda K.",
-        "rating": 5,
-        "date": "April 10, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Edward L.",
-        "rating": 5,
-        "date": "December 28, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Pamela F.",
-        "rating": 2,
-        "date": "August 17, 2025",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Rebecca Z.",
-        "rating": 5,
-        "date": "May 29, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Mark K.",
-        "rating": 5,
-        "date": "January 7, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Steven F.",
-        "rating": 5,
-        "date": "November 22, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Mary A.",
-        "rating": 5,
-        "date": "June 10, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Raymond F.",
-        "rating": 5,
-        "date": "April 14, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       }
     ]
   },
@@ -566,9 +515,6 @@ export const products: Product[] = [
     "pieces": 1890,
     "image": "/images/turbo-s.jpg",
     "gallery": [
-      "/images/turbo-s.jpg",
-      "/images/turbo-s.jpg",
-      "/images/turbo-s.jpg",
       "/images/turbo-s.jpg"
     ],
     "variantId": "51946704568605",
@@ -587,271 +533,290 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Angela H.",
+        "authorName": "Sandra G.",
         "rating": 2,
-        "date": "April 19, 2025",
-        "text": "The front suspension sags a bit under the weight of the model."
+        "date": "April 14, 2025",
+        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine.",
+        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
       },
       {
-        "authorName": "Marie P.",
-        "rating": 2,
-        "date": "February 1, 2025",
-        "text": "The gearbox is very stiff and sometimes gets stuck."
-      },
-      {
-        "authorName": "Nancy V.",
+        "authorName": "Elizabeth W.",
         "rating": 5,
-        "date": "January 5, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+        "date": "August 18, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Mary S.",
+        "authorName": "Kimberly W.",
         "rating": 5,
-        "date": "December 12, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "September 30, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Raymond E.",
+        "authorName": "Joshua K.",
         "rating": 5,
-        "date": "May 20, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
+        "date": "December 25, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Paul L.",
+        "authorName": "Timothy F.",
+        "rating": 4,
+        "date": "August 25, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Helen Z.",
         "rating": 5,
-        "date": "September 11, 2025",
+        "date": "January 21, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Larry N.",
+        "rating": 4,
+        "date": "February 3, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "Kathleen J.",
+        "rating": 5,
+        "date": "April 14, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Jerry H.",
+        "rating": 5,
+        "date": "May 6, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Cynthia L.",
+        "rating": 5,
+        "date": "July 2, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Angela D.",
+        "rating": 5,
+        "date": "January 21, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Marie C.",
+        "rating": 5,
+        "date": "September 25, 2025",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Amanda B.",
+        "rating": 5,
+        "date": "October 6, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Jason J.",
+        "rating": 5,
+        "date": "March 18, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Martha N.",
+        "rating": 5,
+        "date": "May 22, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Melissa C.",
+        "rating": 5,
+        "date": "August 23, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Dorothy B.",
+        "rating": 5,
+        "date": "January 8, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
         "authorName": "Diane B.",
         "rating": 5,
-        "date": "June 14, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "date": "August 3, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition.",
+        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
       },
       {
-        "authorName": "Anthony G.",
+        "authorName": "Raymond L.",
         "rating": 4,
-        "date": "April 10, 2026",
-        "text": "Looks great, but the doors are a bit stiff to open.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+        "date": "March 9, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
       },
       {
-        "authorName": "Maria Z.",
-        "rating": 4,
-        "date": "November 5, 2025",
-        "text": "Shipping was okay, took about a week and a half."
-      },
-      {
-        "authorName": "Arthur F.",
+        "authorName": "Christine C.",
         "rating": 5,
-        "date": "October 6, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Roger F.",
-        "rating": 5,
-        "date": "June 13, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Roger A.",
-        "rating": 5,
-        "date": "November 9, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Rebecca C.",
-        "rating": 3,
-        "date": "January 6, 2026",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection."
-      },
-      {
-        "authorName": "Scott N.",
-        "rating": 2,
-        "date": "February 4, 2025",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Debra M.",
-        "rating": 5,
-        "date": "January 2, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Stephen A.",
-        "rating": 5,
-        "date": "January 18, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Edward M.",
-        "rating": 4,
-        "date": "June 16, 2026",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Virginia Z.",
-        "rating": 5,
-        "date": "August 7, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Sharon E.",
-        "rating": 5,
-        "date": "July 19, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Susan K.",
-        "rating": 5,
-        "date": "February 9, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Stephen K.",
-        "rating": 5,
-        "date": "August 1, 2025",
+        "date": "July 15, 2025",
         "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Margaret F.",
-        "rating": 5,
-        "date": "August 24, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Anthony W.",
-        "rating": 4,
-        "date": "September 7, 2025",
-        "text": "Shipping was okay, took about a week and a half.",
-        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Michael G.",
-        "rating": 5,
-        "date": "April 21, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Richard T.",
-        "rating": 4,
-        "date": "August 22, 2025",
-        "text": "Looks great, but the doors are a bit stiff to open.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Sarah V.",
-        "rating": 5,
-        "date": "April 17, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Kevin Z.",
-        "rating": 5,
-        "date": "July 13, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "George W.",
+        "authorName": "Kathleen B.",
         "rating": 5,
         "date": "July 14, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Maria Z.",
+        "authorName": "Scott R.",
+        "rating": 3,
+        "date": "February 4, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
+      },
+      {
+        "authorName": "Kathleen W.",
         "rating": 5,
-        "date": "July 19, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+        "date": "February 15, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Kimberly V.",
+        "authorName": "Angela E.",
         "rating": 5,
-        "date": "April 30, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Lisa F.",
-        "rating": 5,
-        "date": "May 20, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Pamela P.",
-        "rating": 5,
-        "date": "May 10, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Sharon S.",
-        "rating": 5,
-        "date": "April 21, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Martha T.",
-        "rating": 5,
-        "date": "July 21, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Brenda S.",
-        "rating": 4,
-        "date": "June 28, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual.",
-        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Lisa R.",
-        "rating": 5,
-        "date": "September 15, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Henry T.",
-        "rating": 5,
-        "date": "April 29, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Robert F.",
-        "rating": 5,
-        "date": "September 21, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
+        "date": "June 4, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
         "authorName": "Joseph H.",
         "rating": 5,
-        "date": "August 8, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+        "date": "June 1, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
       },
       {
-        "authorName": "Anna G.",
+        "authorName": "Anna V.",
         "rating": 5,
-        "date": "October 21, 2025",
+        "date": "March 16, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Robert B.",
+        "rating": 5,
+        "date": "July 27, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Linda F.",
+        "rating": 5,
+        "date": "August 15, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Carl M.",
+        "rating": 5,
+        "date": "October 27, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Brenda W.",
+        "rating": 3,
+        "date": "May 25, 2026",
+        "text": "Customer service was slow to respond when I asked for a replacement part.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Deborah S.",
+        "rating": 5,
+        "date": "August 3, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Sarah P.",
+        "rating": 5,
+        "date": "July 19, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Janet L.",
+        "rating": 4,
+        "date": "February 28, 2025",
+        "text": "Good quality bricks, but the stickers were a bit tricky to align."
+      },
+      {
+        "authorName": "Peter F.",
+        "rating": 5,
+        "date": "March 17, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Maria F.",
+        "rating": 5,
+        "date": "July 13, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Christopher H.",
+        "rating": 4,
+        "date": "October 27, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly.",
+        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Kimberly J.",
+        "rating": 2,
+        "date": "June 21, 2025",
+        "text": "Customer service was slow to respond when I asked for a replacement part.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Patricia R.",
+        "rating": 5,
+        "date": "May 16, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Melissa E.",
+        "rating": 5,
+        "date": "July 7, 2026",
         "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Harold H.",
+        "rating": 4,
+        "date": "May 5, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing.",
         "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
       },
       {
-        "authorName": "Sarah F.",
+        "authorName": "Paul E.",
         "rating": 5,
-        "date": "January 31, 2025",
+        "date": "January 28, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Barbara R.",
+        "rating": 5,
+        "date": "March 17, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition.",
+        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Raymond G.",
+        "rating": 5,
+        "date": "October 14, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Ronald M.",
+        "rating": 5,
+        "date": "April 19, 2025",
         "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Marie K.",
+        "rating": 5,
+        "date": "April 9, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       }
     ]
   },
@@ -862,9 +827,6 @@ export const products: Product[] = [
     "pieces": 2100,
     "image": "/images/cyber-v12.jpg",
     "gallery": [
-      "/images/cyber-v12.jpg",
-      "/images/cyber-v12.jpg",
-      "/images/cyber-v12.jpg",
       "/images/cyber-v12.jpg"
     ],
     "variantId": "51946624123165",
@@ -883,205 +845,294 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "David B.",
+        "authorName": "Ronald P.",
         "rating": 5,
-        "date": "May 7, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Jerry Z.",
-        "rating": 4,
-        "date": "May 18, 2026",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in."
-      },
-      {
-        "authorName": "Kathleen K.",
-        "rating": 2,
-        "date": "May 19, 2025",
-        "text": "The gearbox is very stiff and sometimes gets stuck."
-      },
-      {
-        "authorName": "Shirley H.",
-        "rating": 3,
-        "date": "February 28, 2026",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Dennis N.",
-        "rating": 5,
-        "date": "June 28, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Stephanie N.",
-        "rating": 5,
-        "date": "June 22, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Timothy G.",
-        "rating": 5,
-        "date": "April 10, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Daniel W.",
-        "rating": 5,
-        "date": "January 9, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Joshua L.",
-        "rating": 5,
-        "date": "February 11, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Eric L.",
-        "rating": 5,
-        "date": "October 23, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Anna R.",
-        "rating": 4,
-        "date": "July 6, 2025",
-        "text": "Overall satisfied, but the box arrived slightly dented."
-      },
-      {
-        "authorName": "Helen W.",
-        "rating": 5,
-        "date": "April 15, 2026",
+        "date": "May 3, 2026",
         "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Brian E.",
-        "rating": 5,
-        "date": "January 3, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "James N.",
-        "rating": 4,
-        "date": "April 21, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though.",
-        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Martha A.",
+        "authorName": "Michelle D.",
         "rating": 2,
-        "date": "May 27, 2025",
-        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+        "date": "January 13, 2025",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection.",
+        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Patrick C.",
+        "authorName": "George D.",
+        "rating": 2,
+        "date": "April 20, 2025",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "Brenda T.",
         "rating": 5,
-        "date": "January 7, 2025",
+        "date": "August 28, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Deborah E.",
+        "rating": 5,
+        "date": "June 11, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Peter D.",
+        "rating": 5,
+        "date": "November 8, 2025",
         "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Kathleen M.",
+        "authorName": "Janet T.",
         "rating": 5,
-        "date": "September 2, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "April 17, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Gary K.",
+        "authorName": "Cynthia B.",
+        "rating": 4,
+        "date": "November 23, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented.",
+        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Edward E.",
         "rating": 5,
-        "date": "December 20, 2025",
+        "date": "January 18, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "John A.",
+        "rating": 3,
+        "date": "March 10, 2026",
+        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
+      },
+      {
+        "authorName": "Linda L.",
+        "rating": 5,
+        "date": "May 14, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Robert T.",
+        "rating": 5,
+        "date": "May 3, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Anthony P.",
+        "rating": 5,
+        "date": "August 15, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Timothy N.",
+        "rating": 4,
+        "date": "June 3, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open.",
+        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Joshua A.",
+        "rating": 5,
+        "date": "July 20, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Christine W.",
+        "rating": 5,
+        "date": "August 9, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Rebecca S.",
+        "rating": 5,
+        "date": "March 2, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Maria N.",
+        "rating": 5,
+        "date": "June 5, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Ruth N.",
+        "rating": 2,
+        "date": "January 10, 2026",
+        "text": "The front suspension sags a bit under the weight of the model."
+      },
+      {
+        "authorName": "Frances B.",
+        "rating": 5,
+        "date": "October 27, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Henry D.",
+        "rating": 5,
+        "date": "August 1, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Rebecca W.",
+        "rating": 5,
+        "date": "March 15, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Ryan V.",
+        "rating": 5,
+        "date": "November 22, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Douglas E.",
+        "rating": 5,
+        "date": "December 19, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Patrick N.",
+        "rating": 5,
+        "date": "June 13, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Gregory P.",
+        "rating": 4,
+        "date": "May 20, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Margaret E.",
+        "rating": 5,
+        "date": "February 23, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Marie M.",
+        "rating": 4,
+        "date": "November 20, 2025",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
+      },
+      {
+        "authorName": "Betty Z.",
+        "rating": 5,
+        "date": "August 16, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Walter P.",
+        "rating": 5,
+        "date": "June 1, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Angela T.",
+        "rating": 5,
+        "date": "September 2, 2025",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Joyce A.",
+        "authorName": "Cynthia C.",
         "rating": 5,
-        "date": "March 22, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "April 14, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
         "authorName": "Raymond G.",
         "rating": 5,
-        "date": "November 28, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Harold C.",
-        "rating": 5,
-        "date": "March 25, 2026",
+        "date": "May 6, 2026",
         "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
       },
       {
-        "authorName": "Frances T.",
-        "rating": 4,
-        "date": "January 9, 2026",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
+        "authorName": "John L.",
+        "rating": 5,
+        "date": "June 28, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Scott B.",
+        "authorName": "Gary S.",
         "rating": 5,
-        "date": "August 10, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "January 29, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Ann P.",
+        "authorName": "Joyce P.",
         "rating": 5,
-        "date": "October 13, 2025",
+        "date": "February 23, 2026",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Dennis K.",
-        "rating": 5,
-        "date": "June 15, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
+        "authorName": "Gregory Z.",
+        "rating": 4,
+        "date": "March 28, 2026",
+        "text": "Looks great, but the doors are a bit stiff to open."
       },
       {
-        "authorName": "Karen M.",
+        "authorName": "Margaret A.",
         "rating": 5,
-        "date": "December 15, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Robert W.",
-        "rating": 5,
-        "date": "November 6, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
+        "date": "January 16, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
         "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Joshua J.",
+        "authorName": "Sharon V.",
         "rating": 5,
-        "date": "February 19, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+        "date": "January 12, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Carolyn C.",
+        "authorName": "Patricia F.",
         "rating": 5,
-        "date": "April 14, 2026",
+        "date": "July 26, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Amy S.",
+        "rating": 5,
+        "date": "November 16, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Mary E.",
+        "rating": 5,
+        "date": "December 6, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Thomas T.",
+        "rating": 4,
+        "date": "September 4, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Raymond P.",
+        "rating": 5,
+        "date": "June 7, 2025",
         "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Michelle W.",
+        "authorName": "Angela N.",
         "rating": 5,
-        "date": "August 11, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Linda N.",
-        "rating": 5,
-        "date": "March 28, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Ann F.",
-        "rating": 5,
-        "date": "May 14, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "March 5, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
       }
     ]
   },
@@ -1092,9 +1143,6 @@ export const products: Product[] = [
     "pieces": 2150,
     "image": "/images/cyber-v12-gold.jpg",
     "gallery": [
-      "/images/cyber-v12-gold.jpg",
-      "/images/cyber-v12-gold.jpg",
-      "/images/cyber-v12-gold.jpg",
       "/images/cyber-v12-gold.jpg"
     ],
     "variantId": "51939840688413",
@@ -1113,218 +1161,216 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Mary M.",
+        "authorName": "Donna E.",
         "rating": 5,
-        "date": "March 5, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Thomas V.",
-        "rating": 3,
-        "date": "November 3, 2025",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection."
-      },
-      {
-        "authorName": "Brian V.",
-        "rating": 5,
-        "date": "May 19, 2026",
+        "date": "April 30, 2026",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Ruth A.",
-        "rating": 3,
-        "date": "May 27, 2025",
-        "text": "Customer service was slow to respond when I asked for a replacement part."
-      },
-      {
-        "authorName": "Rebecca K.",
+        "authorName": "Ronald D.",
         "rating": 5,
-        "date": "July 12, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Kimberly A.",
-        "rating": 5,
-        "date": "June 29, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Anna A.",
-        "rating": 3,
-        "date": "February 14, 2025",
-        "text": "The front suspension sags a bit under the weight of the model."
-      },
-      {
-        "authorName": "Carl A.",
-        "rating": 5,
-        "date": "May 23, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Gary K.",
-        "rating": 4,
-        "date": "July 13, 2026",
-        "text": "Good set, but a bit repetitive during the chassis assembly."
-      },
-      {
-        "authorName": "Catherine W.",
-        "rating": 4,
-        "date": "April 13, 2026",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "Douglas N.",
-        "rating": 5,
-        "date": "February 17, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Gregory E.",
-        "rating": 5,
-        "date": "February 19, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Richard H.",
-        "rating": 4,
-        "date": "November 15, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
-      },
-      {
-        "authorName": "John W.",
-        "rating": 5,
-        "date": "May 15, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Roger R.",
-        "rating": 5,
-        "date": "December 6, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Walter S.",
-        "rating": 5,
-        "date": "February 20, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Carolyn R.",
-        "rating": 4,
-        "date": "July 27, 2026",
-        "text": "Solid build. Wish the steering angle was a bit sharper though."
-      },
-      {
-        "authorName": "Mark C.",
-        "rating": 5,
-        "date": "February 21, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Betty T.",
-        "rating": 5,
-        "date": "June 3, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Jennifer M.",
-        "rating": 5,
-        "date": "November 26, 2025",
+        "date": "April 12, 2025",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Charles C.",
+        "authorName": "Helen R.",
+        "rating": 2,
+        "date": "March 17, 2026",
+        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Richard L.",
+        "rating": 3,
+        "date": "June 22, 2026",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "Nancy P.",
         "rating": 5,
-        "date": "March 20, 2025",
+        "date": "April 6, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Melissa E.",
+        "rating": 5,
+        "date": "December 11, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Ronald A.",
+        "rating": 2,
+        "date": "January 2, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Scott C.",
+        "rating": 5,
+        "date": "December 26, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Ruth H.",
+        "rating": 5,
+        "date": "April 10, 2025",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
         "reviewImage": "/images/reviews/rev_gulf_3.jpg"
       },
       {
-        "authorName": "Sarah G.",
+        "authorName": "Angela M.",
         "rating": 4,
-        "date": "September 14, 2025",
-        "text": "Looks great, but the doors are a bit stiff to open."
+        "date": "December 16, 2025",
+        "text": "Shipping was okay, took about a week and a half."
       },
       {
-        "authorName": "Christine C.",
+        "authorName": "Jose T.",
         "rating": 5,
-        "date": "January 28, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Frances T.",
-        "rating": 5,
-        "date": "February 1, 2026",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Stephanie S.",
-        "rating": 5,
-        "date": "December 24, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch."
-      },
-      {
-        "authorName": "Brenda W.",
-        "rating": 5,
-        "date": "February 11, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Mark G.",
-        "rating": 5,
-        "date": "September 30, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Edward J.",
-        "rating": 5,
-        "date": "July 28, 2026",
+        "date": "March 1, 2026",
         "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Sandra M.",
+        "authorName": "Linda M.",
         "rating": 5,
-        "date": "February 10, 2026",
-        "text": "Five stars! The finished model is huge and very heavy.",
+        "date": "September 10, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
         "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       },
       {
-        "authorName": "Deborah M.",
+        "authorName": "Jessica H.",
         "rating": 5,
-        "date": "March 18, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "July 12, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
       },
       {
-        "authorName": "Frank B.",
-        "rating": 5,
-        "date": "January 18, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+        "authorName": "Carol J.",
+        "rating": 4,
+        "date": "November 10, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open."
       },
       {
-        "authorName": "Mark A.",
+        "authorName": "Henry L.",
         "rating": 5,
-        "date": "March 9, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+        "date": "July 7, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Gregory R.",
+        "authorName": "George V.",
         "rating": 5,
-        "date": "February 22, 2026",
+        "date": "October 1, 2025",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Dorothy G.",
+        "authorName": "Harold W.",
         "rating": 5,
-        "date": "November 3, 2025",
+        "date": "April 20, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Donna H.",
+        "rating": 5,
+        "date": "July 3, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Pamela P.",
+        "rating": 5,
+        "date": "November 23, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Barbara H.",
+        "rating": 5,
+        "date": "March 1, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Sarah E.",
+        "rating": 5,
+        "date": "May 21, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "David A.",
+        "rating": 4,
+        "date": "February 25, 2026",
+        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Jason F.",
+        "rating": 5,
+        "date": "June 16, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Charles P.",
+        "rating": 5,
+        "date": "May 20, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition."
+      },
+      {
+        "authorName": "Daniel K.",
+        "rating": 4,
+        "date": "February 24, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Timothy K.",
+        "rating": 5,
+        "date": "May 13, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Donald A.",
+        "rating": 5,
+        "date": "April 24, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Betty D.",
+        "rating": 5,
+        "date": "August 21, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Cynthia A.",
+        "rating": 5,
+        "date": "July 29, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Jennifer D.",
+        "rating": 5,
+        "date": "August 28, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Gregory C.",
+        "rating": 5,
+        "date": "June 10, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Carolyn P.",
+        "rating": 5,
+        "date": "April 27, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Janet R.",
+        "rating": 5,
+        "date": "April 10, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       }
     ]
   },
@@ -1335,9 +1381,6 @@ export const products: Product[] = [
     "pieces": 1100,
     "image": "/images/blue-bo.jpg",
     "gallery": [
-      "/images/blue-bo.jpg",
-      "/images/blue-bo.jpg",
-      "/images/blue-bo.jpg",
       "/images/blue-bo.jpg"
     ],
     "variantId": "51946655645981",
@@ -1355,269 +1398,229 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Sarah J.",
+        "authorName": "Martha L.",
         "rating": 5,
-        "date": "April 13, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "date": "February 22, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
       },
       {
-        "authorName": "Henry B.",
+        "authorName": "Henry J.",
         "rating": 5,
-        "date": "April 13, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+        "date": "April 30, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Ann W.",
-        "rating": 5,
-        "date": "November 18, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Carol B.",
-        "rating": 5,
-        "date": "March 25, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Laura J.",
-        "rating": 5,
-        "date": "October 10, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Roger T.",
-        "rating": 5,
-        "date": "October 29, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Ryan M.",
-        "rating": 5,
-        "date": "June 1, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Raymond D.",
+        "authorName": "Patrick C.",
         "rating": 3,
-        "date": "February 15, 2026",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Peter H.",
-        "rating": 4,
-        "date": "January 19, 2026",
-        "text": "Good set, but a bit repetitive during the chassis assembly."
-      },
-      {
-        "authorName": "Ryan G.",
-        "rating": 5,
-        "date": "July 9, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Stephanie P.",
-        "rating": 5,
-        "date": "April 7, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Helen E.",
-        "rating": 4,
-        "date": "February 5, 2025",
-        "text": "Looks great, but the doors are a bit stiff to open.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Matthew B.",
-        "rating": 2,
-        "date": "February 22, 2026",
+        "date": "December 5, 2025",
         "text": "Customer service was slow to respond when I asked for a replacement part."
       },
       {
-        "authorName": "Richard R.",
-        "rating": 5,
-        "date": "January 1, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+        "authorName": "Roger E.",
+        "rating": 2,
+        "date": "May 8, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
       },
       {
-        "authorName": "Michael C.",
+        "authorName": "Donna F.",
         "rating": 5,
-        "date": "April 19, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Joseph S.",
-        "rating": 5,
-        "date": "August 2, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Jennifer N.",
-        "rating": 5,
-        "date": "June 19, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
-      },
-      {
-        "authorName": "Joseph S.",
-        "rating": 5,
-        "date": "July 11, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Martha K.",
-        "rating": 5,
-        "date": "January 21, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Maria Z.",
-        "rating": 5,
-        "date": "May 18, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Jennifer F.",
-        "rating": 4,
-        "date": "October 13, 2025",
-        "text": "Looks great, but the doors are a bit stiff to open.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Janet Z.",
-        "rating": 5,
-        "date": "February 27, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Susan L.",
-        "rating": 5,
-        "date": "April 27, 2026",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Maria C.",
-        "rating": 5,
-        "date": "May 6, 2025",
-        "text": "Five stars! The finished model is huge and very heavy.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Joyce K.",
-        "rating": 5,
-        "date": "June 27, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Karen P.",
-        "rating": 5,
-        "date": "July 29, 2025",
+        "date": "July 23, 2025",
         "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Joshua L.",
+        "authorName": "Richard B.",
         "rating": 5,
-        "date": "July 30, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+        "date": "March 25, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Kimberly R.",
-        "rating": 2,
-        "date": "August 30, 2025",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
-      },
-      {
-        "authorName": "Gregory B.",
-        "rating": 4,
-        "date": "July 29, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
+        "authorName": "Ronald B.",
+        "rating": 5,
+        "date": "July 31, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
         "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
       },
       {
-        "authorName": "Harold C.",
-        "rating": 5,
-        "date": "May 19, 2026",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Anna S.",
-        "rating": 5,
-        "date": "February 13, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Daniel S.",
-        "rating": 5,
-        "date": "April 12, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Ruth G.",
+        "authorName": "Dorothy B.",
         "rating": 4,
-        "date": "August 18, 2025",
-        "text": "Shipping was okay, took about a week and a half."
+        "date": "July 17, 2025",
+        "text": "Shipping was okay, took about a week and a half.",
+        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Betty F.",
+        "authorName": "Ruth R.",
         "rating": 5,
-        "date": "December 22, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Brenda S.",
-        "rating": 2,
-        "date": "March 9, 2026",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
-      },
-      {
-        "authorName": "Steven K.",
-        "rating": 5,
-        "date": "July 12, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Roger W.",
-        "rating": 5,
-        "date": "May 18, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "date": "March 5, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
         "reviewImage": "/images/reviews/rev_gulf_3.jpg"
       },
       {
-        "authorName": "Raymond T.",
+        "authorName": "Frank L.",
         "rating": 5,
-        "date": "July 14, 2025",
+        "date": "October 22, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Brian E.",
+        "rating": 2,
+        "date": "February 2, 2025",
+        "text": "The gearbox is very stiff and sometimes gets stuck."
+      },
+      {
+        "authorName": "Joseph P.",
+        "rating": 5,
+        "date": "February 22, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Carolyn L.",
+        "rating": 5,
+        "date": "November 9, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Dorothy J.",
+        "rating": 5,
+        "date": "May 21, 2026",
         "text": "Instructions were clear and the pieces fit together snugly."
       },
       {
-        "authorName": "Henry E.",
-        "rating": 4,
-        "date": "July 16, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Joseph Z.",
+        "authorName": "Nancy T.",
         "rating": 5,
-        "date": "March 6, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "July 20, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
         "authorName": "Carl E.",
         "rating": 5,
-        "date": "February 24, 2026",
+        "date": "February 26, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Catherine C.",
+        "rating": 4,
+        "date": "January 15, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "Martha A.",
+        "rating": 5,
+        "date": "April 5, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Carolyn R.",
+        "rating": 5,
+        "date": "September 30, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Amy S.",
+        "rating": 4,
+        "date": "March 20, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Mark Z.",
+        "rating": 5,
+        "date": "April 6, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Jennifer H.",
+        "rating": 5,
+        "date": "September 9, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Dennis A.",
+        "rating": 5,
+        "date": "July 5, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Ronald W.",
+        "rating": 5,
+        "date": "April 20, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Lisa J.",
+        "rating": 5,
+        "date": "October 13, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Karen D.",
+        "rating": 5,
+        "date": "April 9, 2025",
         "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "John F.",
+        "rating": 4,
+        "date": "December 12, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly.",
+        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Ryan E.",
+        "rating": 5,
+        "date": "February 24, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Timothy M.",
+        "rating": 5,
+        "date": "February 4, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Sharon F.",
+        "rating": 5,
+        "date": "June 29, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Richard C.",
+        "rating": 5,
+        "date": "January 6, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Karen T.",
+        "rating": 5,
+        "date": "June 8, 2026",
+        "text": "Beautiful design. The aero features are a really cool addition.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Matthew E.",
+        "rating": 4,
+        "date": "March 30, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Kevin M.",
+        "rating": 5,
+        "date": "December 20, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Linda R.",
+        "rating": 5,
+        "date": "March 15, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       }
     ]
   },
@@ -1628,9 +1631,6 @@ export const products: Product[] = [
     "pieces": 1720,
     "image": "/images/green-bull.jpg",
     "gallery": [
-      "/images/green-bull.jpg",
-      "/images/green-bull.jpg",
-      "/images/green-bull.jpg",
       "/images/green-bull.jpg"
     ],
     "variantId": "51946674782493",
@@ -1649,259 +1649,232 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Arthur Z.",
-        "rating": 4,
-        "date": "March 11, 2026",
-        "text": "Good set, but a bit repetitive during the chassis assembly.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Karen N.",
+        "authorName": "Daniel B.",
         "rating": 5,
-        "date": "February 22, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
+        "date": "June 20, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
         "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Cynthia A.",
+        "authorName": "Steven D.",
         "rating": 5,
-        "date": "June 10, 2025",
+        "date": "July 16, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Maria S.",
+        "rating": 2,
+        "date": "February 24, 2025",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "Linda K.",
+        "rating": 4,
+        "date": "March 4, 2026",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "George C.",
+        "rating": 4,
+        "date": "July 16, 2026",
+        "text": "Shipping was okay, took about a week and a half.",
+        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Debra M.",
+        "rating": 5,
+        "date": "January 4, 2025",
         "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Margaret H.",
-        "rating": 5,
-        "date": "September 5, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Ryan R.",
-        "rating": 4,
-        "date": "August 5, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Gary T.",
-        "rating": 4,
-        "date": "July 27, 2025",
-        "text": "The finished car is nice, but I had a hard time distinguishing the black and dark grey pieces in the manual."
-      },
-      {
-        "authorName": "Brenda B.",
-        "rating": 5,
-        "date": "July 12, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "David P.",
-        "rating": 5,
-        "date": "July 7, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Gregory T.",
-        "rating": 5,
-        "date": "August 31, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Kenneth D.",
-        "rating": 5,
-        "date": "July 31, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
-      },
-      {
-        "authorName": "Kathleen E.",
-        "rating": 5,
-        "date": "January 29, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "Dorothy R.",
-        "rating": 5,
-        "date": "January 10, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
-      },
-      {
-        "authorName": "Angela H.",
-        "rating": 5,
-        "date": "June 8, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Dorothy G.",
-        "rating": 5,
-        "date": "July 28, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Joseph L.",
-        "rating": 5,
-        "date": "February 28, 2025",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Elizabeth N.",
+        "authorName": "Donald A.",
         "rating": 3,
-        "date": "December 27, 2025",
-        "text": "The RC motor works but it's very loud and squeaky."
+        "date": "July 24, 2026",
+        "text": "I was missing two small technic pins. Had to use spares from my own collection."
       },
       {
-        "authorName": "Laura N.",
+        "authorName": "Amy D.",
         "rating": 5,
-        "date": "November 1, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
-      },
-      {
-        "authorName": "Mark A.",
-        "rating": 5,
-        "date": "January 29, 2026",
+        "date": "May 15, 2026",
         "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Charles B.",
+        "authorName": "Frances L.",
         "rating": 5,
-        "date": "January 13, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Henry E.",
-        "rating": 4,
-        "date": "October 14, 2025",
-        "text": "Shipping was okay, took about a week and a half.",
-        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Brian P.",
-        "rating": 5,
-        "date": "December 1, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Peter G.",
-        "rating": 2,
-        "date": "January 6, 2026",
-        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Daniel Z.",
-        "rating": 5,
-        "date": "May 13, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Arthur N.",
-        "rating": 5,
-        "date": "October 2, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Jennifer G.",
-        "rating": 5,
-        "date": "January 13, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Gregory Z.",
-        "rating": 5,
-        "date": "June 5, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Timothy E.",
-        "rating": 5,
-        "date": "February 10, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Angela L.",
-        "rating": 3,
-        "date": "October 17, 2025",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
+        "date": "December 21, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
         "authorName": "Cynthia F.",
-        "rating": 4,
-        "date": "November 3, 2025",
-        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
-      },
-      {
-        "authorName": "Roger M.",
         "rating": 5,
-        "date": "June 7, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "date": "June 26, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
         "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       },
       {
-        "authorName": "Michael Z.",
+        "authorName": "Diane B.",
+        "rating": 4,
+        "date": "February 12, 2025",
+        "text": "Nice build overall. Some of the pins were a bit tight to push in."
+      },
+      {
+        "authorName": "Deborah R.",
         "rating": 5,
-        "date": "January 1, 2026",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "date": "March 22, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Sharon M.",
+        "rating": 5,
+        "date": "December 6, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
         "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
       },
       {
-        "authorName": "George W.",
+        "authorName": "Raymond V.",
         "rating": 5,
-        "date": "July 24, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "date": "November 28, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Edward F.",
+        "rating": 3,
+        "date": "March 16, 2026",
+        "text": "The RC motor works but it's very loud and squeaky."
+      },
+      {
+        "authorName": "Catherine A.",
+        "rating": 5,
+        "date": "November 5, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
+      },
+      {
+        "authorName": "Debra E.",
+        "rating": 5,
+        "date": "August 31, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Larry G.",
+        "rating": 5,
+        "date": "February 6, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
         "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
       },
       {
-        "authorName": "Martha W.",
+        "authorName": "Nancy B.",
         "rating": 5,
-        "date": "June 15, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "date": "January 30, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Frances B.",
+        "rating": 5,
+        "date": "July 20, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Walter B.",
+        "rating": 5,
+        "date": "April 15, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Stephen G.",
+        "rating": 5,
+        "date": "October 13, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
         "reviewImage": "/images/reviews/rev_gulf_1.jpg"
       },
       {
-        "authorName": "Jennifer P.",
+        "authorName": "Henry S.",
         "rating": 5,
-        "date": "March 23, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+        "date": "January 21, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
       },
       {
-        "authorName": "Shirley J.",
+        "authorName": "Laura G.",
         "rating": 5,
-        "date": "January 4, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "June 26, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
       },
       {
-        "authorName": "Cynthia B.",
+        "authorName": "Carl V.",
         "rating": 5,
-        "date": "May 4, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "date": "March 4, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Andrew F.",
+        "rating": 5,
+        "date": "January 16, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
         "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Kevin S.",
+        "authorName": "Paul R.",
         "rating": 5,
-        "date": "June 15, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "date": "June 9, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Raymond R.",
+        "rating": 5,
+        "date": "April 25, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "William H.",
+        "rating": 4,
+        "date": "April 28, 2026",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
+      },
+      {
+        "authorName": "Peter T.",
+        "rating": 4,
+        "date": "January 22, 2026",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
+      },
+      {
+        "authorName": "Martha M.",
+        "rating": 5,
+        "date": "February 26, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Amy S.",
+        "rating": 5,
+        "date": "February 15, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Thomas J.",
+        "rating": 5,
+        "date": "May 9, 2026",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Janet J.",
+        "rating": 5,
+        "date": "April 30, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
         "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
       },
       {
-        "authorName": "Carl E.",
+        "authorName": "Virginia F.",
         "rating": 5,
-        "date": "September 17, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind."
-      },
-      {
-        "authorName": "Ryan P.",
-        "rating": 5,
-        "date": "January 25, 2026",
-        "text": "Five stars! The finished model is huge and very heavy.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
+        "date": "January 10, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly."
       }
     ]
   },
@@ -1912,9 +1885,6 @@ export const products: Product[] = [
     "pieces": 1850,
     "image": "/images/black-warrior.jpg",
     "gallery": [
-      "/images/black-warrior.jpg",
-      "/images/black-warrior.jpg",
-      "/images/black-warrior.jpg",
       "/images/black-warrior.jpg"
     ],
     "variantId": "51946665443613",
@@ -1932,244 +1902,216 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Michelle P.",
-        "rating": 5,
-        "date": "March 12, 2026",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Scott C.",
-        "rating": 2,
-        "date": "November 3, 2025",
-        "text": "I was missing two small technic pins. Had to use spares from my own collection."
-      },
-      {
-        "authorName": "Gary E.",
-        "rating": 5,
-        "date": "December 3, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Stephen K.",
-        "rating": 5,
-        "date": "April 6, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Arthur N.",
+        "authorName": "Carolyn G.",
         "rating": 4,
-        "date": "June 4, 2025",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+        "date": "June 15, 2025",
+        "text": "Solid build. Wish the steering angle was a bit sharper though."
       },
       {
-        "authorName": "Frances C.",
-        "rating": 5,
-        "date": "September 12, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
+        "authorName": "Anthony A.",
+        "rating": 4,
+        "date": "December 7, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
       },
       {
-        "authorName": "Elizabeth F.",
+        "authorName": "Raymond A.",
         "rating": 5,
-        "date": "April 11, 2026",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Nancy J.",
-        "rating": 5,
-        "date": "June 22, 2026",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "date": "December 9, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
         "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Lisa J.",
+        "authorName": "William P.",
         "rating": 5,
-        "date": "April 5, 2026",
-        "text": "Beautiful design. The aero features are a really cool addition.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
+        "date": "July 23, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Lisa L.",
-        "rating": 4,
-        "date": "February 9, 2026",
-        "text": "Looks great, but the doors are a bit stiff to open."
-      },
-      {
-        "authorName": "Deborah V.",
-        "rating": 4,
-        "date": "April 4, 2026",
-        "text": "Overall satisfied, but the box arrived slightly dented.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Martha F.",
+        "authorName": "Jason N.",
         "rating": 5,
-        "date": "January 15, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "June 23, 2026",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Kevin Z.",
+        "authorName": "Ann S.",
         "rating": 5,
-        "date": "May 27, 2026",
+        "date": "June 12, 2026",
         "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Michael V.",
+        "authorName": "Laura R.",
         "rating": 5,
-        "date": "January 16, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+        "date": "June 19, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Walter D.",
+        "authorName": "Nancy R.",
         "rating": 5,
-        "date": "March 4, 2025",
+        "date": "July 25, 2025",
         "text": "The color is so vibrant. Everything clicked together perfectly."
       },
       {
-        "authorName": "Carolyn C.",
+        "authorName": "George V.",
         "rating": 5,
-        "date": "January 6, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
+        "date": "October 16, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Michael T.",
+        "authorName": "Cynthia W.",
         "rating": 5,
-        "date": "March 29, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Catherine N.",
-        "rating": 4,
-        "date": "March 16, 2026",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "George G.",
-        "rating": 5,
-        "date": "March 22, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Brian G.",
-        "rating": 5,
-        "date": "November 6, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Ruth C.",
-        "rating": 2,
-        "date": "June 28, 2026",
-        "text": "Customer service was slow to respond when I asked for a replacement part."
-      },
-      {
-        "authorName": "Jason T.",
-        "rating": 5,
-        "date": "July 13, 2026",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Ryan W.",
-        "rating": 5,
-        "date": "February 11, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Amanda D.",
-        "rating": 3,
-        "date": "January 14, 2026",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
-      },
-      {
-        "authorName": "Joyce N.",
-        "rating": 5,
-        "date": "July 22, 2026",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Timothy C.",
-        "rating": 5,
-        "date": "January 24, 2026",
+        "date": "August 19, 2025",
         "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "Kathleen Z.",
+        "authorName": "Walter L.",
         "rating": 5,
-        "date": "April 17, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "March 10, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
       },
       {
-        "authorName": "George F.",
-        "rating": 5,
-        "date": "April 12, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
-      },
-      {
-        "authorName": "Charles T.",
-        "rating": 5,
-        "date": "February 8, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
-      },
-      {
-        "authorName": "Raymond H.",
-        "rating": 5,
-        "date": "November 19, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Karen J.",
+        "authorName": "Richard A.",
         "rating": 4,
-        "date": "October 1, 2025",
+        "date": "December 25, 2025",
         "text": "Nice build overall. Some of the pins were a bit tight to push in."
       },
       {
-        "authorName": "Janet M.",
+        "authorName": "Amanda T.",
         "rating": 5,
-        "date": "August 25, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
-        "reviewImage": "/images/reviews/rev_bolide_1.jpg"
+        "date": "December 2, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Andrew G.",
+        "authorName": "Pamela D.",
         "rating": 5,
-        "date": "November 15, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+        "date": "October 17, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Christopher K.",
+        "rating": 5,
+        "date": "May 6, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+      },
+      {
+        "authorName": "Amanda J.",
+        "rating": 5,
+        "date": "April 9, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Steven D.",
+        "rating": 5,
+        "date": "November 3, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Richard F.",
+        "rating": 5,
+        "date": "February 12, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
+      },
+      {
+        "authorName": "Dorothy Z.",
+        "rating": 4,
+        "date": "December 16, 2025",
+        "text": "Shipping was okay, took about a week and a half."
+      },
+      {
+        "authorName": "Elizabeth Z.",
+        "rating": 5,
+        "date": "April 10, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
+        "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
       },
       {
         "authorName": "Christopher J.",
         "rating": 5,
-        "date": "April 13, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/low_rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Amy E.",
-        "rating": 5,
-        "date": "August 12, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Arthur V.",
-        "rating": 5,
-        "date": "December 2, 2025",
+        "date": "January 12, 2025",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Rebecca J.",
+        "authorName": "Eric R.",
         "rating": 5,
-        "date": "September 14, 2025",
+        "date": "January 14, 2026",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
+      },
+      {
+        "authorName": "Douglas M.",
+        "rating": 4,
+        "date": "July 5, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
+      },
+      {
+        "authorName": "James R.",
+        "rating": 5,
+        "date": "June 8, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Paul S.",
+        "rating": 3,
+        "date": "March 17, 2025",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "James T.",
+        "rating": 5,
+        "date": "October 30, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+      },
+      {
+        "authorName": "Joseph S.",
+        "rating": 5,
+        "date": "June 19, 2026",
         "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Karen F.",
+        "rating": 5,
+        "date": "July 26, 2025",
+        "text": "Highly detailed! The gearbox actually works which blew my mind."
+      },
+      {
+        "authorName": "Barbara V.",
+        "rating": 3,
+        "date": "September 17, 2025",
+        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
+      },
+      {
+        "authorName": "Jeffrey V.",
+        "rating": 5,
+        "date": "January 26, 2026",
+        "text": "I'm a seasoned builder and this challenged me in a good way."
+      },
+      {
+        "authorName": "Patricia K.",
+        "rating": 2,
+        "date": "April 9, 2025",
+        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
+      },
+      {
+        "authorName": "Gary D.",
+        "rating": 5,
+        "date": "February 26, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
+      },
+      {
+        "authorName": "Joshua S.",
+        "rating": 5,
+        "date": "May 27, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Arthur J.",
+        "rating": 5,
+        "date": "May 8, 2025",
+        "text": "Amazing value for the price. The suspension is fully functional.",
+        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       }
     ]
   },
@@ -2180,9 +2122,6 @@ export const products: Product[] = [
     "pieces": 1650,
     "image": "/images/pink-bull.jpg",
     "gallery": [
-      "/images/pink-bull.jpg",
-      "/images/pink-bull.jpg",
-      "/images/pink-bull.jpg",
       "/images/pink-bull.jpg"
     ],
     "variantId": "51946701717789",
@@ -2200,253 +2139,196 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Susan L.",
-        "rating": 5,
-        "date": "March 5, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand."
-      },
-      {
-        "authorName": "Catherine G.",
-        "rating": 5,
-        "date": "April 26, 2026",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Angela D.",
-        "rating": 5,
-        "date": "January 11, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Nancy R.",
-        "rating": 5,
-        "date": "November 12, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
-      },
-      {
-        "authorName": "Barbara C.",
-        "rating": 5,
-        "date": "June 11, 2026",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Elizabeth E.",
-        "rating": 5,
-        "date": "August 3, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly.",
-        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Susan S.",
-        "rating": 5,
-        "date": "August 19, 2025",
-        "text": "Five stars! The finished model is huge and very heavy."
-      },
-      {
-        "authorName": "Margaret A.",
+        "authorName": "Lisa F.",
         "rating": 4,
-        "date": "July 1, 2025",
-        "text": "Nice build overall. Some of the pins were a bit tight to push in.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+        "date": "December 15, 2025",
+        "text": "Looks great, but the doors are a bit stiff to open."
       },
       {
-        "authorName": "Kenneth W.",
+        "authorName": "Ann J.",
         "rating": 5,
-        "date": "April 14, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+        "date": "July 3, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Edward J.",
+        "authorName": "Rebecca Z.",
         "rating": 4,
-        "date": "September 16, 2025",
-        "text": "Solid build. Wish the steering angle was a bit sharper though."
+        "date": "February 7, 2025",
+        "text": "It's a nice model, but a few steps in the manual were a bit confusing."
       },
       {
-        "authorName": "Ryan B.",
-        "rating": 3,
-        "date": "February 18, 2026",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating.",
+        "authorName": "Harold P.",
+        "rating": 5,
+        "date": "April 13, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
         "reviewImage": "/images/reviews/low_rev_lambo_2.jpg"
       },
       {
-        "authorName": "Debra D.",
+        "authorName": "Christopher G.",
         "rating": 5,
-        "date": "August 7, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
+        "date": "September 11, 2025",
+        "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Thomas T.",
+        "authorName": "Ruth D.",
+        "rating": 5,
+        "date": "January 2, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Brenda L.",
+        "rating": 5,
+        "date": "April 1, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
+      },
+      {
+        "authorName": "Carl E.",
         "rating": 4,
-        "date": "February 9, 2025",
-        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+        "date": "June 12, 2025",
+        "text": "Overall satisfied, but the box arrived slightly dented.",
+        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
       },
       {
-        "authorName": "Diane J.",
+        "authorName": "Rebecca C.",
         "rating": 5,
-        "date": "June 23, 2025",
-        "text": "Five stars! The finished model is huge and very heavy.",
+        "date": "June 7, 2026",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
         "reviewImage": "/images/reviews/rev_lambo_2.jpg"
       },
       {
-        "authorName": "Angela R.",
+        "authorName": "Paul B.",
         "rating": 5,
-        "date": "October 26, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Shirley F.",
-        "rating": 5,
-        "date": "September 11, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Ryan G.",
-        "rating": 5,
-        "date": "May 15, 2026",
+        "date": "March 27, 2025",
         "text": "Amazing value for the price. The suspension is fully functional."
       },
       {
-        "authorName": "George F.",
+        "authorName": "Gary J.",
         "rating": 5,
-        "date": "February 8, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "June 29, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
+        "reviewImage": "/images/reviews/blur_rev_bolide_1.jpg"
       },
       {
-        "authorName": "John M.",
+        "authorName": "Christopher A.",
+        "rating": 5,
+        "date": "December 15, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Joyce V.",
+        "rating": 4,
+        "date": "January 13, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
+      },
+      {
+        "authorName": "Richard N.",
+        "rating": 5,
+        "date": "May 22, 2025",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
+        "reviewImage": "/images/reviews/low_rev_bolide_1.jpg"
+      },
+      {
+        "authorName": "Douglas K.",
+        "rating": 5,
+        "date": "November 18, 2025",
+        "text": "The color is so vibrant. Everything clicked together perfectly."
+      },
+      {
+        "authorName": "Peter P.",
         "rating": 2,
-        "date": "August 22, 2025",
-        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
+        "date": "December 4, 2025",
+        "text": "The RC motor works but it's very loud and squeaky."
       },
       {
-        "authorName": "Anthony N.",
-        "rating": 5,
-        "date": "June 24, 2026",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Kevin V.",
-        "rating": 5,
-        "date": "June 21, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
-      },
-      {
-        "authorName": "Donna H.",
-        "rating": 5,
-        "date": "March 13, 2025",
-        "text": "Five stars! The finished model is huge and very heavy.",
-        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
-      },
-      {
-        "authorName": "Jennifer C.",
+        "authorName": "Douglas Z.",
         "rating": 5,
         "date": "July 17, 2025",
         "text": "Looks stunning on my shelf. I'll be buying more from this site."
       },
       {
-        "authorName": "Mary Z.",
-        "rating": 4,
-        "date": "September 16, 2025",
-        "text": "Shipping was okay, took about a week and a half."
-      },
-      {
-        "authorName": "Laura R.",
+        "authorName": "Henry E.",
         "rating": 5,
-        "date": "July 15, 2025",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "August 21, 2025",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
       },
       {
-        "authorName": "Diane K.",
+        "authorName": "Carolyn K.",
         "rating": 5,
-        "date": "September 28, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+        "date": "January 20, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Mark S.",
+        "authorName": "Joshua N.",
         "rating": 5,
-        "date": "February 13, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Robert V.",
-        "rating": 5,
-        "date": "July 21, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "Ann L.",
-        "rating": 5,
-        "date": "May 16, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Amy D.",
-        "rating": 5,
-        "date": "October 22, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "James F.",
-        "rating": 4,
-        "date": "July 19, 2026",
-        "text": "Looks great, but the doors are a bit stiff to open.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
-      },
-      {
-        "authorName": "Diane N.",
-        "rating": 5,
-        "date": "October 1, 2025",
+        "date": "July 31, 2026",
         "text": "Perfect for display. The moving engine pistons are a really nice touch."
       },
       {
-        "authorName": "Daniel Z.",
+        "authorName": "Frances C.",
         "rating": 5,
-        "date": "January 29, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional."
+        "date": "November 18, 2025",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
       },
       {
-        "authorName": "Sarah G.",
+        "authorName": "Timothy M.",
         "rating": 5,
-        "date": "August 7, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price."
+        "date": "June 13, 2026",
+        "text": "Looks stunning on my shelf. I'll be buying more from this site."
       },
       {
-        "authorName": "Ann H.",
+        "authorName": "Sarah S.",
         "rating": 5,
-        "date": "February 25, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+        "date": "May 8, 2026",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Janet B.",
+        "authorName": "Douglas F.",
+        "rating": 5,
+        "date": "June 27, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Debra J.",
+        "rating": 5,
+        "date": "March 6, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models.",
+        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Eric V.",
+        "rating": 5,
+        "date": "May 2, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
+        "reviewImage": "/images/reviews/low_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Mark V.",
         "rating": 3,
-        "date": "April 12, 2025",
+        "date": "July 4, 2025",
+        "text": "Some pieces were missing from bag 3. They sent replacements but it delayed my build."
+      },
+      {
+        "authorName": "Lisa J.",
+        "rating": 3,
+        "date": "February 5, 2026",
         "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
       },
       {
-        "authorName": "Kathleen C.",
+        "authorName": "Helen G.",
         "rating": 5,
-        "date": "April 12, 2026",
-        "text": "I'm a seasoned builder and this challenged me in a good way."
+        "date": "November 18, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
       },
       {
-        "authorName": "Cynthia P.",
+        "authorName": "Henry T.",
         "rating": 5,
-        "date": "July 4, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
-      },
-      {
-        "authorName": "Henry Z.",
-        "rating": 5,
-        "date": "August 17, 2025",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+        "date": "March 31, 2026",
+        "text": "Five stars! The finished model is huge and very heavy.",
+        "reviewImage": "/images/reviews/rev_gulf_1.jpg"
       }
     ]
   },
@@ -2457,9 +2339,6 @@ export const products: Product[] = [
     "pieces": 8,
     "image": "/images/display-box.jpg",
     "gallery": [
-      "/images/display-box.jpg",
-      "/images/display-box.jpg",
-      "/images/display-box.jpg",
       "/images/display-box.jpg"
     ],
     "variantId": "51946706305309",
@@ -2477,206 +2356,216 @@ export const products: Product[] = [
     "manualUrl": "/manuals/assembly-guide.txt",
     "reviews": [
       {
-        "authorName": "Richard B.",
+        "authorName": "Jessica C.",
         "rating": 5,
-        "date": "October 11, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/low_rev_gulf_3.jpg"
+        "date": "April 25, 2026",
+        "text": "Great quality bricks. The RC motors work perfectly and are very fast.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
       },
       {
-        "authorName": "Marie G.",
-        "rating": 2,
-        "date": "December 24, 2025",
-        "text": "Instructions had a misprint on page 42, took me an hour to figure it out."
-      },
-      {
-        "authorName": "Gregory K.",
-        "rating": 3,
-        "date": "May 5, 2026",
-        "text": "Shipping took almost 3 weeks! The model is okay but the delay was frustrating."
-      },
-      {
-        "authorName": "Margaret S.",
+        "authorName": "Jeffrey G.",
         "rating": 5,
-        "date": "October 30, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "September 3, 2025",
+        "text": "My son loved building this over the weekend. Great alternative to the name brand."
       },
       {
-        "authorName": "Carol M.",
-        "rating": 4,
-        "date": "February 5, 2026",
-        "text": "Shipping was okay, took about a week and a half."
-      },
-      {
-        "authorName": "Margaret M.",
+        "authorName": "Barbara F.",
         "rating": 5,
-        "date": "February 4, 2025",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "April 2, 2026",
+        "text": "The color is so vibrant. Everything clicked together perfectly.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_3.jpg"
       },
       {
-        "authorName": "Betty H.",
+        "authorName": "Richard K.",
         "rating": 5,
-        "date": "October 20, 2025",
+        "date": "January 9, 2026",
         "text": "Best set I've ever built. The RC features alone make it worth the price."
       },
       {
-        "authorName": "Steven B.",
-        "rating": 4,
-        "date": "July 7, 2025",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Melissa J.",
+        "authorName": "Carol F.",
         "rating": 5,
-        "date": "December 15, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
+        "date": "July 4, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
+        "reviewImage": "/images/reviews/blur_rev_porsche_1.jpg"
       },
       {
-        "authorName": "Elizabeth N.",
+        "authorName": "Shirley V.",
         "rating": 5,
-        "date": "April 3, 2026",
-        "text": "My son loved building this over the weekend. Great alternative to the name brand.",
-        "reviewImage": "/images/reviews/rev_gulf_2.jpg"
-      },
-      {
-        "authorName": "David W.",
-        "rating": 5,
-        "date": "September 29, 2025",
-        "text": "Instructions were clear and the pieces fit together snugly."
-      },
-      {
-        "authorName": "John E.",
-        "rating": 4,
-        "date": "March 1, 2026",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Karen V.",
-        "rating": 4,
-        "date": "May 25, 2025",
-        "text": "Good quality bricks, but the stickers were a bit tricky to align."
-      },
-      {
-        "authorName": "Amanda G.",
-        "rating": 5,
-        "date": "November 9, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site.",
-        "reviewImage": "/images/reviews/rev_lambo_1.jpg"
-      },
-      {
-        "authorName": "Margaret W.",
-        "rating": 5,
-        "date": "March 25, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Daniel P.",
-        "rating": 5,
-        "date": "October 15, 2025",
-        "text": "Looks stunning on my shelf. I'll be buying more from this site."
-      },
-      {
-        "authorName": "Charles F.",
-        "rating": 5,
-        "date": "April 1, 2025",
-        "text": "Very fast shipping. The box was in perfect condition and the build is amazing.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Cynthia A.",
-        "rating": 5,
-        "date": "January 18, 2026",
+        "date": "July 19, 2025",
         "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Linda Z.",
+        "authorName": "Paul Z.",
         "rating": 5,
-        "date": "March 31, 2025",
-        "text": "Best set I've ever built. The RC features alone make it worth the price.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
+        "date": "March 14, 2025",
+        "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Joshua F.",
-        "rating": 5,
-        "date": "January 13, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
+        "authorName": "Roger K.",
+        "rating": 4,
+        "date": "February 12, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly."
       },
       {
-        "authorName": "Ruth D.",
+        "authorName": "Jessica S.",
         "rating": 5,
-        "date": "June 7, 2025",
-        "text": "The color is so vibrant. Everything clicked together perfectly."
-      },
-      {
-        "authorName": "Robert P.",
-        "rating": 5,
-        "date": "December 13, 2025",
-        "text": "Highly detailed! The gearbox actually works which blew my mind.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Amanda E.",
-        "rating": 5,
-        "date": "July 17, 2026",
-        "text": "Perfect for display. The moving engine pistons are a really nice touch.",
-        "reviewImage": "/images/reviews/rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "Elizabeth R.",
-        "rating": 5,
-        "date": "August 3, 2025",
-        "text": "Absolutely incredible build. Took me a few days, but totally worth it.",
-        "reviewImage": "/images/reviews/blur_rev_lambo_2.jpg"
-      },
-      {
-        "authorName": "John D.",
-        "rating": 5,
-        "date": "December 18, 2025",
+        "date": "February 4, 2026",
         "text": "Absolutely incredible build. Took me a few days, but totally worth it."
       },
       {
-        "authorName": "Sharon T.",
+        "authorName": "Kathleen D.",
         "rating": 5,
-        "date": "June 29, 2025",
-        "text": "Beautiful design. The aero features are a really cool addition."
+        "date": "February 18, 2025",
+        "text": "Five stars! The finished model is huge and very heavy."
       },
       {
-        "authorName": "Karen S.",
+        "authorName": "Carolyn T.",
+        "rating": 4,
+        "date": "October 26, 2025",
+        "text": "Shipping was okay, took about a week and a half."
+      },
+      {
+        "authorName": "Virginia C.",
+        "rating": 5,
+        "date": "January 2, 2026",
+        "text": "Instructions were clear and the pieces fit together snugly."
+      },
+      {
+        "authorName": "Frank E.",
+        "rating": 5,
+        "date": "October 29, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Ryan R.",
+        "rating": 2,
+        "date": "January 8, 2026",
+        "text": "Customer service was slow to respond when I asked for a replacement part."
+      },
+      {
+        "authorName": "Christine B.",
+        "rating": 5,
+        "date": "March 14, 2025",
+        "text": "I'm a seasoned builder and this challenged me in a good way.",
+        "reviewImage": "/images/reviews/blur_rev_lambo_1.jpg"
+      },
+      {
+        "authorName": "Carol R.",
+        "rating": 5,
+        "date": "January 10, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Kevin C.",
+        "rating": 5,
+        "date": "June 28, 2025",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Arthur D.",
+        "rating": 5,
+        "date": "October 14, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Arthur S.",
+        "rating": 4,
+        "date": "July 14, 2025",
+        "text": "Good set, but a bit repetitive during the chassis assembly."
+      },
+      {
+        "authorName": "Joshua M.",
+        "rating": 5,
+        "date": "June 20, 2025",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+      },
+      {
+        "authorName": "Ronald S.",
+        "rating": 4,
+        "date": "July 6, 2026",
+        "text": "Good quality bricks, but the stickers were a bit tricky to align.",
+        "reviewImage": "/images/reviews/rev_gulf_3.jpg"
+      },
+      {
+        "authorName": "Larry D.",
         "rating": 3,
-        "date": "July 20, 2026",
-        "text": "The gearbox is very stiff and sometimes gets stuck.",
-        "reviewImage": "/images/reviews/rev_porsche_1.jpg"
+        "date": "May 29, 2025",
+        "text": "Box was completely crushed upon arrival. Luckily the parts inside were fine."
       },
       {
-        "authorName": "Rebecca L.",
+        "authorName": "James N.",
         "rating": 5,
-        "date": "April 15, 2025",
-        "text": "Amazing value for the price. The suspension is fully functional.",
-        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
-      },
-      {
-        "authorName": "Jason S.",
-        "rating": 5,
-        "date": "February 9, 2026",
+        "date": "April 9, 2025",
         "text": "Beautiful design. The aero features are a really cool addition."
       },
       {
-        "authorName": "Jessica W.",
+        "authorName": "Henry A.",
+        "rating": 3,
+        "date": "March 15, 2025",
+        "text": "Not a fan of how the rear spoiler attaches, it feels a bit flimsy."
+      },
+      {
+        "authorName": "Sarah R.",
         "rating": 5,
-        "date": "December 25, 2025",
+        "date": "July 7, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Richard L.",
+        "rating": 5,
+        "date": "February 3, 2026",
+        "text": "Very fast shipping. The box was in perfect condition and the build is amazing."
+      },
+      {
+        "authorName": "Brenda Z.",
+        "rating": 5,
+        "date": "July 7, 2026",
+        "text": "Highly detailed! The gearbox actually works which blew my mind.",
+        "reviewImage": "/images/reviews/low_rev_gulf_1.jpg"
+      },
+      {
+        "authorName": "Richard B.",
+        "rating": 4,
+        "date": "April 3, 2025",
+        "text": "Decent kit. The motor is fun but drains the battery fairly quickly.",
+        "reviewImage": "/images/reviews/blur_rev_gulf_2.jpg"
+      },
+      {
+        "authorName": "Dennis B.",
+        "rating": 5,
+        "date": "August 26, 2025",
+        "text": "Perfect for display. The moving engine pistons are a really nice touch."
+      },
+      {
+        "authorName": "Angela W.",
+        "rating": 5,
+        "date": "April 5, 2026",
+        "text": "Amazing value for the price. The suspension is fully functional."
+      },
+      {
+        "authorName": "Cynthia J.",
+        "rating": 5,
+        "date": "July 15, 2025",
+        "text": "Absolutely incredible build. Took me a few days, but totally worth it."
+      },
+      {
+        "authorName": "Ann W.",
+        "rating": 5,
+        "date": "February 19, 2025",
         "text": "I'm a seasoned builder and this challenged me in a good way."
       },
       {
-        "authorName": "Jason V.",
+        "authorName": "Michael N.",
         "rating": 5,
-        "date": "July 18, 2026",
-        "text": "Great quality bricks. The RC motors work perfectly and are very fast."
+        "date": "April 30, 2026",
+        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
       },
       {
-        "authorName": "Kimberly C.",
+        "authorName": "Kathleen S.",
         "rating": 5,
-        "date": "June 22, 2025",
-        "text": "I was skeptical but the quality is 10/10. Will definitely order the other models."
+        "date": "April 28, 2025",
+        "text": "Instructions were clear and the pieces fit together snugly.",
+        "reviewImage": "/images/reviews/low_rev_porsche_1.jpg"
       }
     ]
   }
