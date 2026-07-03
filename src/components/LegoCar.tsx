@@ -1,9 +1,10 @@
 'use client';
 
-import { useRef, useMemo } from 'react';
+import { useRef, useMemo, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
+import { useRouter } from 'next/navigation';
 
 interface LegoCarProps {
   modelUrl: string;
@@ -22,6 +23,9 @@ export default function LegoCar({
   scale = 8,
   isRotating = true
 }: LegoCarProps) {
+  const router = useRouter();
+  const [hovered, setHovered] = useState(false);
+  
   // Load the specific GLB file
   const { scene } = useGLTF(modelUrl);
   const groupRef = useRef<THREE.Group>(null!);
@@ -62,8 +66,23 @@ export default function LegoCar({
   });
 
   return (
-    <group ref={groupRef}>
-      <primitive object={scene} scale={[scale, scale, scale]} />
+    <group 
+      ref={groupRef}
+      onClick={(e) => {
+        e.stopPropagation();
+        router.push('/catalog');
+      }}
+      onPointerOver={(e) => {
+        e.stopPropagation();
+        setHovered(true);
+        document.body.style.cursor = 'pointer';
+      }}
+      onPointerOut={() => {
+        setHovered(false);
+        document.body.style.cursor = 'auto';
+      }}
+    >
+      <primitive object={scene} scale={hovered ? [scale * 1.05, scale * 1.05, scale * 1.05] : [scale, scale, scale]} />
     </group>
   );
 }
