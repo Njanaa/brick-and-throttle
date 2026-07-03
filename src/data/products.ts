@@ -35,7 +35,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/porsche-rsr.jpg"
     ],
-    "variantId": "51946708861213",
+    "variantId": "10249633464605",
     "badge": "BESTSELLER",
     "description": "Replicate the pinnacle of endurance racing. This premium kit comes fully loaded with the high-performance RC (Remote Control) motorization package directly in the box. Features functional steering, independent suspension, and a detailed six-cylinder boxer engine linked directly to twin high-torque L-motors.",
     "scale": "1:10",
@@ -283,7 +283,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/gulf-racing.jpg"
     ],
-    "variantId": "51946614423837",
+    "variantId": "10249605546269",
     "badge": "NEW",
     "description": "Celebrate motorsport heritage with the iconic Gulf Oil light blue and orange racing livery. This premium set includes the complete RC remote control motor kit. Features openable doors, custom printed racing elements, low-profile sport tires, and an adjustable rear spoiler.",
     "scale": "1:12",
@@ -525,7 +525,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/turbo-s.jpg"
     ],
-    "variantId": "51946704568605",
+    "variantId": "10249631138077",
     "badge": "SPECIAL",
     "description": "The ultimate modern street supercar. This sleek black and gold edition of the 911 Turbo S is fully motor-driven with the included high-speed RC power pack. Features complex gear changes, active aerodynamics including a deployable rear wing, and custom metallic rims.",
     "scale": "1:8",
@@ -797,7 +797,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/cyber-v12.jpg"
     ],
-    "variantId": "51946624123165",
+    "variantId": "10249610068253",
     "badge": "FUTURISTIC",
     "description": "A vision of future street performance. This futuristic Cyber V12 hypercar comes complete with the high-speed RC control kit. Features a metallic silver body accented by glowing neon cyan trim, pneumatically opening vertical scissor doors, and full mechanical suspension.",
     "scale": "1:8",
@@ -1353,7 +1353,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/blue-bo.jpg"
     ],
-    "variantId": "51946655645981",
+    "variantId": "10249618686237",
     "description": "Unleash track performance with the legendary Blue Bolide hypercar kit, featuring the fully integrated RC motors upgrade pack in the box. Modeled in racing blue and midnight black, this aerodynamic speed machine showcases a W16 engine mock-up and extreme rear wings.",
     "scale": "1:12",
     "dimensions": "35cm L x 15cm W x 10cm H",
@@ -1582,7 +1582,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/green-bull.jpg"
     ],
-    "variantId": "51946674782493",
+    "variantId": "10249623339293",
     "badge": "POPULAR",
     "description": "The masterpiece of Italian performance. This Green Bull supercar includes the high-speed RC power pack directly in the box. Built in lime green with contrasting gold wheels, it features operational scissor doors and working steering wheel linkages.",
     "scale": "1:10",
@@ -1800,7 +1800,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/black-warrior.jpg"
     ],
-    "variantId": "51946665443613",
+    "variantId": "10249621504285",
     "description": "The dark knight of hypercars. Styled in custom matte black with neon red edge lights, this V12 supercar features a complex sequential gearbox, working steering column, and comes fully motorized with the included RC smart hub kit.",
     "scale": "1:10",
     "dimensions": "50cm L x 22cm W x 12cm H",
@@ -2071,7 +2071,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/pink-bull.jpg"
     ],
-    "variantId": "51946701717789",
+    "variantId": "10249629368605",
     "description": "Make a statement with the Pink Bull edition supercar. Re-designed in hot gloss pink with neon detailing, this model brings unique aesthetics combined with the included RC motor and receiver system.",
     "scale": "1:10",
     "dimensions": "48cm L x 21cm W x 13cm H",
@@ -2312,7 +2312,7 @@ export const products: Product[] = [
     "gallery": [
       "/images/display-box.jpg"
     ],
-    "variantId": "51946706305309",
+    "variantId": "10249632350493",
     "description": "Protect and showcase your hard work. This crystal-clear acrylic display case is dustproof, scratch-resistant, and custom-sized to fit all 1:10 and 1:12 scale supercars in the garage. Heavy-duty black base included.",
     "scale": "N/A",
     "dimensions": "60cm L x 30cm W x 20cm H",
