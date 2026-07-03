@@ -2,7 +2,7 @@
 
 import { useRef, useMemo, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { useGLTF } from '@react-three/drei';
+import { useGLTF, Resize } from '@react-three/drei';
 import * as THREE from 'three';
 import { useRouter } from 'next/navigation';
 
@@ -88,9 +88,11 @@ export default function LegoCar({
         <primitive object={scene} scale={hovered ? [scale * 1.05, scale * 1.05, scale * 1.05] : [scale, scale, scale]} />
       </group>
       
-      {/* Rotating Round Podium */}
+      {/* Sci-Fi Modular Flooring */}
       <group position={[0, -1.0, 0]}>
-        <primitive object={floorScene} scale={[scale * 0.2, scale * 0.2, scale * 0.2]} />
+        <Resize scale={scale * 2}>
+          <primitive object={floorScene} />
+        </Resize>
       </group>
     </group>
   );
