@@ -87,9 +87,8 @@ export default function LegoCar({
       <group position={[0, 1.5, 0]}>
         <primitive object={scene} scale={hovered ? [scale * 1.05, scale * 1.05, scale * 1.05] : [scale, scale, scale]} />
       </group>
-      
-      {/* Sci-Fi Modular Flooring */}
-      <group position={[0, -1.0, 0]}>
+      {/* Sci-Fi Modular Flooring - Moved to the left */}
+      <group position={[-8.0, -1.0, 0]}>
         <Resize scale={scale * 2}>
           <primitive object={floorScene} />
         </Resize>
